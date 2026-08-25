@@ -10,7 +10,7 @@ players = pd.read_csv("players.csv")
 
 player_lookup = dict(
     zip(
-        players['player_name'],
+        players['player_name'].str.strip(),
         players['player_id']
     )
 )
@@ -39,6 +39,10 @@ dismissal_table['wicket_kind'] = dismissal['wicket_kind']
 
 dismissal_table['fielder_id'] = (
     dismissal['fielders']
+    .str.replace(r"[\(\)']", '', regex=True)
+    .str.split(',')
+    .str[0]
+    .str.strip()
     .map(player_lookup)
 )
 

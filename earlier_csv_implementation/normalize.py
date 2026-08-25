@@ -33,7 +33,13 @@ for col in player_columns:
     if col in df.columns:
         series = df[col].dropna()
         if col == 'fielders':
-            series = series.str.split(',').explode()
+            series = (
+                series
+                .str.replace(r"[\(\)']", '', regex=True)
+                .str.split(',')
+                .str.strip()
+                .explode()
+            )
         players_series.append(series)
 if players_series:
     all_players = pd.concat(players_series).astype(str).str.strip().dropna().unique()

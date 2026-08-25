@@ -15,14 +15,14 @@ players = pd.read_csv("players.csv")
 
 team_lookup = dict(
     zip(
-        teams['team_name'],
+        teams['team_name'].str.strip(),
         teams['team_id']
     )
 )
 
 player_lookup = dict(
     zip(
-        players['player_name'],
+        players['player_name'].str.strip(),
         players['player_id']
     )
 )

@@ -1,5 +1,0 @@
-{
-  "summary":  "Query module for teams: loads teams CSV via query_helper and displays in Streamlit.",
-  "updatedAt":  "2026-06-12T09:56:31.155419600Z",
-  "userFacing":  true
-}

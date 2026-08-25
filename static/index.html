@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL Query Resolver</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="app">
+        <aside class="sidebar">
+            <div class="brand">
+                <div class="brand-logo">&#127951;</div>
+                <div>
+                    <h1>IPL Query Resolver</h1>
+                    <p>18 years of cricket data at your fingertips</p>
+                </div>
+            </div>
+            <input id="querySearch" class="search" type="text" placeholder="Search queries...">
+            <ul id="queryList" class="query-list"></ul>
+        </aside>
+
+        <main class="content">
+            <div class="panel">
+                <div id="queryTitle" class="query-title">Select a query from the left</div>
+                <div id="queryDesc" class="query-desc"></div>
+                <form id="inputForm" class="input-form"></form>
+            </div>
+
+            <div id="resultPanel" class="panel result-panel hidden">
+                <div class="result-header">
+                    <h2 id="resultTitle"></h2>
+                    <button id="copyBtn" class="btn small" title="Copy result as CSV">Copy CSV</button>
+                </div>
+                <div id="resultBody"></div>
+            </div>
+
+            <div id="errorPanel" class="panel error-panel hidden"></div>
+        </main>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

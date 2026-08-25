@@ -36,10 +36,10 @@ def get_umpires() -> pd.DataFrame:
         return pd.DataFrame(columns=['umpire_id', 'umpire_name'])
 
 def get_match_dates() -> pd.DataFrame:
-    """Load match_date.csv containing match_id, day, month, year columns."""
-    return _load_csv('match_date.csv')
+    """Load match.csv containing match_id, season, date, venue_id, match_type columns."""
+    return _load_csv('match.csv')
 
 def get_match_info() -> pd.DataFrame:
-    """Load match_info.csv with detailed match information."""
-    return _load_csv('match_info.csv')
+    """Load match_result.csv with match result information."""
+    return _load_csv('match_result.csv')
 

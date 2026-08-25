@@ -9,7 +9,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 335982,2,7,5,11,caught,84.0
 335982,2,8,2,12,caught,3.0
 335982,2,8,6,10,caught,63.0
-335982,2,11,1,13,run out,
+335982,2,11,1,13,run out,83.0
 335982,2,13,1,15,bowled,
 335982,2,15,1,16,caught,2.0
 335983,1,2,4,17,caught,26.0
@@ -51,7 +51,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 335986,1,17,4,56,caught,4.0
 335986,1,17,6,61,caught,1.0
 335986,1,18,3,60,caught,63.0
-335986,1,18,4,131,run out,
+335986,1,18,4,131,run out,5.0
 335986,2,1,2,2,caught,57.0
 335986,2,2,1,3,lbw,
 335986,2,4,2,63,caught,58.0
@@ -64,7 +64,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 335987,1,16,5,27,lbw,
 335987,1,17,2,29,bowled,
 335987,1,17,4,67,caught,70.0
-335987,1,18,6,66,run out,
+335987,1,18,6,66,run out,35.0
 335987,2,1,1,33,caught,26.0
 335987,2,2,3,31,caught and bowled,
 335987,2,4,5,70,caught,68.0
@@ -74,7 +74,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 335988,1,7,6,54,caught,42.0
 335988,1,9,2,56,caught,89.0
 335988,1,12,1,71,lbw,
-335988,1,16,1,60,run out,
+335988,1,16,1,60,run out,88.0
 335988,1,18,4,57,caught,117.0
 335988,1,19,2,59,caught,40.0
 335988,2,3,3,40,caught,53.0
@@ -101,9 +101,9 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 335990,2,17,1,33,caught,56.0
 335990,2,17,2,75,caught,100.0
 335990,2,18,2,35,bowled,
-335990,2,18,4,37,run out,
+335990,2,18,4,37,run out,55.0
 335991,1,1,4,29,caught,81.0
-335991,1,8,1,24,run out,
+335991,1,8,1,24,run out,72.0
 335991,1,10,6,27,caught,72.0
 335991,1,13,5,77,caught,50.0
 335991,1,16,4,65,caught,86.0
@@ -111,7 +111,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 335991,1,18,2,26,caught,81.0
 335991,1,18,6,68,lbw,
 335991,1,19,2,78,caught,43.0
-335991,1,19,6,79,run out,
+335991,1,19,6,79,run out,50.0
 335991,2,2,3,44,caught and bowled,
 335991,2,2,4,43,run out,67.0
 335991,2,8,4,72,bowled,
@@ -127,8 +127,8 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 335992,1,7,2,52,caught,75.0
 335992,1,9,4,8,caught,36.0
 335992,1,11,4,11,caught,36.0
-335992,1,13,6,16,run out,
-335992,1,19,2,14,run out,
+335992,1,13,6,16,run out,103.0
+335992,1,19,2,14,run out,36.0
 335992,2,0,4,36,caught,11.0
 335992,2,3,2,31,caught,11.0
 335992,2,15,6,75,caught,123.0
@@ -140,7 +140,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 335993,1,14,4,5,caught,118.0
 335993,1,17,2,83,caught,120.0
 335993,1,18,2,84,caught and bowled,
-335993,1,19,5,64,run out,
+335993,1,19,5,64,run out,20.0
 335993,2,8,2,17,caught,85.0
 335994,1,2,2,43,caught,55.0
 335994,1,3,5,86,caught,131.0
@@ -156,16 +156,16 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 335995,1,11,6,89,bowled,
 335995,1,16,3,90,bowled,
 335995,1,17,5,88,caught,27.0
-335995,1,19,6,91,run out,
+335995,1,19,6,91,run out,65.0
 335995,2,0,6,24,lbw,
 335995,2,1,6,26,caught,89.0
 335995,2,7,5,65,caught and bowled,
-335995,2,13,6,28,run out,
+335995,2,13,6,28,run out,41.0
 335995,2,16,4,93,caught,89.0
 335995,2,17,6,29,caught,89.0
 335996,1,3,6,18,bowled,
 335996,1,6,3,17,caught,9.0
-335996,1,11,6,21,run out,
+335996,1,11,6,21,run out,7.0
 335996,1,19,5,20,caught,82.0
 335996,1,19,6,19,caught,6.0
 335996,2,3,1,94,bowled,
@@ -175,14 +175,14 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 335996,2,16,2,11,caught,19.0
 335996,2,16,4,6,lbw,
 335996,2,17,2,8,bowled,
-335996,2,18,5,15,run out,
-335996,2,18,6,14,run out,
+335996,2,18,5,15,run out,21.0
+335996,2,18,6,14,run out,118.0
 335996,2,19,4,95,caught,19.0
 335997,1,0,3,1,caught,44.0
 335997,1,0,5,2,lbw,
 335997,1,5,3,96,caught,46.0
 335997,1,11,6,4,caught,74.0
-335997,1,13,1,3,run out,
+335997,1,13,1,3,run out,86.0
 335997,1,13,3,5,caught,47.0
 335997,1,15,3,83,caught,74.0
 335997,1,19,3,84,caught,44.0
@@ -203,7 +203,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 335999,1,6,6,98,caught,24.0
 335999,1,8,6,55,caught,27.0
 335999,1,11,5,71,caught,27.0
-335999,1,12,3,54,run out,
+335999,1,12,3,54,run out,27.0
 335999,1,14,1,60,caught,78.0
 335999,1,16,1,99,bowled,
 335999,1,19,1,100,caught,101.0
@@ -216,16 +216,16 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 336000,1,11,6,32,lbw,
 336000,1,17,2,35,bowled,
 336000,1,19,2,31,bowled,
-336000,1,19,4,38,run out,
+336000,1,19,4,38,run out,106.0
 336000,2,1,4,104,bowled,
 336000,2,4,5,83,caught,36.0
 336000,2,5,6,105,run out,39.0
 336000,2,13,5,1,caught,33.0
-336000,2,14,1,64,run out,
+336000,2,14,1,64,run out,35.0
 336000,2,17,1,4,bowled,
 336000,2,17,4,63,bowled,
 336000,2,18,2,96,caught,32.0
-336000,2,18,3,106,run out,
+336000,2,18,3,106,run out,35.0
 336000,2,19,1,107,caught,30.0
 336001,1,3,2,108,bowled,
 336001,1,8,1,17,caught,92.0
@@ -239,7 +239,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 336003,1,8,6,27,stumped,63.0
 336003,1,11,3,101,stumped,63.0
 336003,1,12,1,65,caught,1.0
-336003,1,13,3,24,run out,
+336003,1,13,3,24,run out,96.0
 336003,1,18,3,26,bowled,
 336003,2,2,5,1,caught,29.0
 336003,2,3,1,5,bowled,
@@ -253,7 +253,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 336034,1,13,2,8,caught,60.0
 336034,1,14,2,112,lbw,
 336034,1,18,3,11,bowled,
-336034,1,19,4,14,run out,
+336034,1,19,4,14,run out,60.0
 336034,1,19,6,6,caught,59.0
 336034,2,3,5,53,caught,7.0
 336034,2,5,1,98,caught,123.0
@@ -342,7 +342,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 336010,1,2,1,127,lbw,
 336010,1,3,3,105,caught,82.0
 336010,1,7,3,1,run out,10.0
-336010,1,8,6,4,run out,
+336010,1,8,6,4,run out,95.0
 336010,1,11,2,128,caught,11.0
 336010,1,11,5,64,bowled,
 336010,1,15,4,84,caught and bowled,
@@ -357,7 +357,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 336011,1,15,4,57,run out,38.0
 336011,1,16,2,60,caught,36.0
 336011,1,18,3,130,lbw,
-336011,1,19,1,62,run out,
+336011,1,19,1,62,run out,36.0
 336011,2,12,4,31,caught,98.0
 336011,2,15,3,75,caught,131.0
 336013,1,0,4,109,caught,65.0
@@ -392,7 +392,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 336015,1,15,5,134,bowled,
 336015,1,19,3,91,caught,136.0
 336015,2,3,1,31,run out,111.0
-336015,2,4,6,33,run out,
+336015,2,4,6,33,run out,41.0
 336015,2,10,4,75,caught,92.0
 336015,2,12,2,35,bowled,
 336015,2,15,3,135,bowled,
@@ -405,12 +405,12 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 336016,1,14,6,6,bowled,
 336016,1,17,2,14,bowled,
 336016,1,18,2,82,bowled,
-336016,1,19,5,11,run out,
+336016,1,19,5,11,run out,68.0
 336016,2,6,2,25,caught,95.0
 336017,1,5,6,127,caught,91.0
 336017,1,6,5,1,bowled,
 336017,1,13,1,104,caught,117.0
-336017,1,15,4,128,run out,
+336017,1,15,4,128,run out,133.0
 336017,1,17,6,64,caught,40.0
 336017,1,19,1,4,caught,88.0
 336017,2,0,2,41,caught,63.0
@@ -418,7 +418,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 336017,2,4,2,111,caught,128.0
 336017,2,4,3,88,lbw,
 336017,2,7,3,42,bowled,
-336017,2,11,1,133,run out,
+336017,2,11,1,133,run out,64.0
 336017,2,15,6,91,run out,107.0
 336017,2,17,2,134,caught,85.0
 336017,2,17,3,115,caught,4.0
@@ -444,7 +444,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 336020,2,19,2,131,caught,133.0
 336020,2,19,3,62,stumped,89.0
 336021,1,2,5,104,caught,139.0
-336021,1,2,6,127,run out,
+336021,1,2,6,127,run out,46.0
 336021,1,4,2,4,caught,113.0
 336021,1,6,4,5,caught,46.0
 336021,1,7,5,63,caught,139.0
@@ -495,11 +495,11 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 336026,1,6,1,9,caught,89.0
 336026,1,10,6,6,bowled,
 336026,1,15,1,146,caught,133.0
-336026,1,15,6,10,run out,
-336026,1,17,4,12,run out,
+336026,1,15,6,10,run out,91.0
+336026,1,17,4,12,run out,41.0
 336026,1,18,5,14,bowled,
 336026,2,6,6,41,caught,94.0
-336026,2,8,6,40,run out,
+336026,2,8,6,40,run out,10.0
 336026,2,13,4,133,stumped,146.0
 336026,2,14,2,111,caught,146.0
 336026,2,15,3,89,caught,10.0
@@ -509,7 +509,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 336027,1,14,4,1,caught,33.0
 336027,1,17,3,96,bowled,
 336027,1,17,6,64,caught,102.0
-336027,1,18,3,83,run out,
+336027,1,18,3,83,run out,35.0
 336027,1,19,3,106,caught,33.0
 336027,2,1,6,102,caught,63.0
 336027,2,5,2,103,caught,104.0
@@ -520,14 +520,14 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 336028,1,16,5,27,caught,147.0
 336028,1,17,4,65,caught and bowled,
 336028,2,2,4,44,lbw,
-336028,2,8,3,147,run out,
+336028,2,8,3,147,run out,27.0
 336028,2,13,1,48,caught,93.0
 336028,2,16,6,139,run out,29.0
 336028,2,17,1,49,caught,68.0
 336028,2,17,6,46,caught,25.0
 336028,2,18,5,47,caught,79.0
 336028,2,19,2,148,run out,93.0
-336028,2,19,4,74,run out,
+336028,2,19,4,74,run out,93.0
 336028,2,19,6,150,run out,27.0
 336029,1,1,4,9,caught,108.0
 336029,1,5,3,146,caught,17.0
@@ -544,7 +544,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 336029,2,15,3,110,caught,82.0
 336029,2,15,6,109,caught,9.0
 336029,2,17,4,119,caught,95.0
-336029,2,18,2,151,run out,
+336029,2,18,2,151,run out,6.0
 336031,1,11,1,98,bowled,
 336031,1,14,5,53,bowled,
 336031,1,17,4,57,bowled,
@@ -566,12 +566,12 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 336032,2,10,4,42,caught,148.0
 336032,2,10,5,133,bowled,
 336032,2,14,6,88,run out,44.0
-336033,1,11,1,102,run out,
+336033,1,11,1,102,run out,20.0
 336033,1,13,6,75,caught,20.0
 336033,1,16,2,31,caught,120.0
 336033,1,18,2,33,caught,152.0
-336033,1,19,6,30,run out,
-336033,2,1,4,108,run out,
+336033,1,19,6,30,run out,23.0
+336033,2,1,4,108,run out,103.0
 336033,2,8,3,21,caught,33.0
 336033,2,14,6,17,stumped,70.0
 336033,2,17,4,20,caught,33.0
@@ -616,13 +616,13 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 336036,2,3,1,70,run out,97.0
 336036,2,5,1,31,caught,74.0
 336036,2,7,1,102,caught,113.0
-336036,2,11,3,33,run out,
+336036,2,11,3,33,run out,114.0
 336036,2,11,6,32,caught,139.0
 336037,1,2,2,98,caught,151.0
 336037,1,3,3,53,caught,152.0
 336037,1,10,1,58,bowled,
 336037,1,18,3,130,caught,152.0
-336037,1,18,4,54,run out,
+336037,1,18,4,54,run out,119.0
 336037,1,18,5,59,bowled,
 336037,1,19,4,71,caught,21.0
 336037,1,19,6,62,caught,110.0
@@ -637,11 +637,11 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 336012,1,13,1,6,bowled,
 336012,1,13,4,12,lbw,
 336012,1,17,5,82,caught,46.0
-336012,1,17,6,14,run out,
+336012,1,17,6,14,run out,113.0
 336012,2,11,3,44,caught,12.0
 336019,1,13,4,25,caught,37.0
 336019,1,19,2,101,caught,153.0
-336019,1,19,6,27,run out,
+336019,1,19,6,27,run out,31.0
 336019,2,1,3,33,bowled,
 336019,2,4,5,153,bowled,
 336019,2,10,6,136,bowled,
@@ -657,7 +657,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 336038,1,17,4,35,caught,91.0
 336038,1,17,6,38,caught,41.0
 336038,1,19,3,36,caught and bowled,
-336038,1,19,4,31,run out,
+336038,1,19,4,31,run out,133.0
 336038,2,1,2,41,caught,103.0
 336038,2,3,6,40,caught,30.0
 336038,2,5,2,42,caught,35.0
@@ -667,12 +667,12 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 336038,2,12,5,133,caught,103.0
 336038,2,13,1,134,bowled,
 336038,2,15,2,92,caught,36.0
-336038,2,16,1,116,run out,
+336038,2,16,1,116,run out,31.0
 336039,1,1,3,25,caught,17.0
 336039,1,2,2,26,caught,17.0
 336039,1,4,4,27,caught,120.0
 336039,1,5,5,101,bowled,
-336039,1,8,2,29,run out,
+336039,1,8,2,29,run out,121.0
 336039,1,9,5,65,caught,17.0
 336039,1,13,4,68,bowled,
 336039,1,18,6,69,caught,21.0
@@ -715,7 +715,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 392182,2,2,6,75,caught,6.0
 392182,2,6,2,136,caught,123.0
 392182,2,8,3,160,bowled,
-392182,2,8,4,135,run out,
+392182,2,8,4,135,run out,8.0
 392182,2,11,1,31,caught,158.0
 392182,2,11,2,35,caught,8.0
 392182,2,13,3,38,stumped,46.0
@@ -724,7 +724,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 392183,1,5,6,24,caught,176.0
 392183,1,6,1,162,lbw,
 392183,1,8,4,26,caught,224.0
-392183,1,10,3,27,run out,
+392183,1,10,3,27,run out,89.0
 392183,1,10,5,65,caught,133.0
 392183,1,10,6,68,run out,88.0
 392183,1,11,6,29,caught,133.0
@@ -739,7 +739,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 392184,1,19,2,85,bowled,
 392184,1,19,4,107,bowled,
 392184,2,2,5,53,caught,164.0
-392184,2,4,5,55,run out,
+392184,2,4,5,55,run out,64.0
 392185,1,10,1,17,bowled,
 392185,1,10,2,18,run out,6.0
 392185,1,15,6,20,caught,165.0
@@ -753,12 +753,12 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 392185,2,10,5,8,caught,23.0
 392185,2,11,1,165,caught,151.0
 392185,2,12,4,82,caught,18.0
-392185,2,13,3,95,run out,
+392185,2,13,3,95,run out,21.0
 392185,2,15,2,6,caught,156.0
 392186,1,2,2,24,caught,163.0
 392186,1,6,2,29,caught,84.0
 392186,1,6,4,162,caught,2.0
-392186,1,14,1,26,run out,
+392186,1,14,1,26,run out,127.0
 392186,1,15,4,27,caught,171.0
 392186,1,17,2,30,caught,2.0
 392186,2,5,3,2,caught,26.0
@@ -767,13 +767,13 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 392188,1,13,1,53,caught,8.0
 392188,1,15,3,58,caught,14.0
 392188,1,18,2,57,caught,159.0
-392188,1,18,6,54,run out,
+392188,1,18,6,54,run out,167.0
 392188,2,0,1,158,bowled,
 392188,2,3,5,9,caught,57.0
 392188,2,7,2,46,caught,130.0
 392188,2,10,3,159,stumped,53.0
 392188,2,15,4,6,caught,54.0
-392188,2,16,3,165,run out,
+392188,2,16,3,165,run out,53.0
 392188,2,17,4,167,caught,53.0
 392188,2,19,4,8,caught,98.0
 392189,1,0,1,40,caught,20.0
@@ -787,9 +787,9 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 392189,2,14,1,21,caught,111.0
 392189,2,15,6,156,caught,188.0
 392189,2,18,3,23,caught,188.0
-392189,2,18,6,119,run out,
+392189,2,18,6,119,run out,41.0
 392189,2,19,3,118,run out,188.0
-392189,2,19,4,151,run out,
+392189,2,19,4,151,run out,115.0
 392190,1,1,6,168,caught,85.0
 392190,1,2,2,169,caught,163.0
 392190,1,8,1,75,caught,163.0
@@ -803,7 +803,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 392190,2,13,6,60,caught,75.0
 392190,2,18,5,171,caught,170.0
 392190,2,19,5,1,caught,36.0
-392190,2,19,6,85,run out,
+392190,2,19,6,85,run out,161.0
 392190,3,0,6,163,caught,169.0
 392191,1,1,1,46,caught,27.0
 392191,1,5,2,158,bowled,
@@ -814,14 +814,14 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 392191,1,18,4,52,caught,65.0
 392191,1,19,1,14,lbw,
 392191,1,19,2,76,bowled,
-392191,2,6,4,24,run out,
+392191,2,6,4,24,run out,82.0
 392191,2,12,3,26,caught,76.0
 392191,2,18,1,162,caught,158.0
 392192,1,6,5,53,caught,47.0
 392192,1,12,5,147,bowled,
 392192,1,14,4,57,caught,42.0
 392192,1,14,6,55,caught,48.0
-392192,1,15,4,98,run out,
+392192,1,15,4,98,run out,72.0
 392192,1,17,4,54,bowled,
 392192,1,18,4,62,caught,44.0
 392192,1,19,2,166,bowled,
@@ -844,7 +844,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 392194,2,5,4,40,caught,11.0
 392194,2,13,1,111,bowled,
 392194,2,15,4,89,caught,9.0
-392195,1,0,1,24,run out,
+392195,1,0,1,24,run out,35.0
 392195,1,4,1,162,caught,125.0
 392195,1,6,1,27,caught,36.0
 392195,1,8,2,65,caught,161.0
@@ -870,7 +870,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 392197,1,12,2,139,lbw,
 392197,1,13,5,50,caught,175.0
 392197,1,14,4,44,caught,174.0
-392197,1,15,1,48,run out,
+392197,1,15,1,48,run out,64.0
 392197,1,16,6,72,caught,163.0
 392197,1,18,5,42,caught,2.0
 392197,2,1,6,2,caught,155.0
@@ -928,7 +928,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 392201,1,17,6,147,caught,176.0
 392201,1,18,3,180,run out,89.0
 392201,1,19,5,54,bowled,
-392201,1,19,6,131,run out,
+392201,1,19,6,131,run out,176.0
 392201,2,3,3,41,caught,98.0
 392201,2,4,6,111,caught,131.0
 392201,2,6,5,40,lbw,
@@ -957,7 +957,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 392203,2,2,2,163,bowled,
 392203,2,14,5,177,caught,155.0
 392203,2,17,2,64,bowled,
-392203,2,18,6,105,run out,
+392203,2,18,6,105,run out,155.0
 392203,2,19,3,2,caught,195.0
 392204,1,0,5,158,caught,65.0
 392204,1,4,4,165,caught,68.0
@@ -970,7 +970,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 392204,1,19,1,123,bowled,
 392204,2,9,5,27,caught,9.0
 392204,2,10,6,24,caught,8.0
-392204,2,12,4,28,run out,
+392204,2,12,4,28,run out,178.0
 392204,2,17,1,65,caught,9.0
 392204,2,18,2,26,bowled,
 392204,2,19,4,29,caught,8.0
@@ -981,7 +981,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 392205,1,16,5,57,caught,38.0
 392205,1,19,2,147,caught,38.0
 392205,2,0,2,75,caught,180.0
-392205,2,0,3,102,run out,
+392205,2,0,3,102,run out,98.0
 392205,2,1,6,184,caught,98.0
 392205,2,9,1,35,caught,147.0
 392205,2,9,5,183,lbw,
@@ -996,7 +996,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 392206,1,17,3,20,caught,40.0
 392206,1,18,4,151,caught,111.0
 392206,1,19,4,187,caught,40.0
-392206,1,19,6,120,run out,
+392206,1,19,6,120,run out,111.0
 392206,2,3,1,40,caught,21.0
 392206,2,3,2,111,bowled,
 392206,2,6,5,133,bowled,
@@ -1051,7 +1051,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 392212,1,9,4,53,bowled,
 392212,1,12,6,147,bowled,
 392212,1,17,1,57,caught,72.0
-392212,1,19,1,54,run out,
+392212,1,19,1,54,run out,72.0
 392212,2,1,4,44,caught,189.0
 392212,2,1,5,139,bowled,
 392212,2,8,5,47,caught,147.0
@@ -1071,7 +1071,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 392213,1,19,2,190,caught,136.0
 392213,1,19,6,82,bowled,
 392213,2,5,4,75,bowled,
-392213,2,8,4,183,run out,
+392213,2,8,4,183,run out,8.0
 392213,2,13,5,31,caught,7.0
 392214,1,0,1,23,caught,79.0
 392214,1,9,1,21,caught,24.0
@@ -1088,7 +1088,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 392215,1,18,5,50,bowled,
 392215,1,19,1,114,bowled,
 392215,1,19,4,86,caught,115.0
-392215,1,19,6,81,run out,
+392215,1,19,6,81,run out,188.0
 392215,2,8,2,188,stumped,47.0
 392215,2,9,1,40,caught,43.0
 392215,2,17,5,133,caught,47.0
@@ -1096,14 +1096,14 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 392216,1,6,3,98,caught,65.0
 392216,1,9,2,179,caught,65.0
 392216,1,10,4,57,caught,26.0
-392216,1,19,6,54,run out,
+392216,1,19,6,54,run out,28.0
 392216,2,4,3,66,caught,54.0
 392216,2,4,5,28,caught,54.0
 392216,2,9,4,26,bowled,
 392216,2,9,6,27,caught,53.0
 392216,2,14,2,29,caught,180.0
-392216,2,16,2,69,run out,
-392216,2,17,5,65,run out,
+392216,2,16,2,69,run out,98.0
+392216,2,17,5,65,run out,130.0
 392217,1,0,3,184,bowled,
 392217,1,8,5,102,lbw,
 392217,1,12,2,75,stumped,20.0
@@ -1119,7 +1119,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 392218,2,3,5,9,caught,81.0
 392218,2,4,5,46,caught,139.0
 392218,2,6,3,8,caught,155.0
-392218,2,9,5,6,run out,
+392218,2,9,5,6,run out,195.0
 392218,2,11,5,52,bowled,
 392218,2,13,2,178,stumped,113.0
 392218,2,17,2,82,stumped,113.0
@@ -1145,12 +1145,12 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 392220,2,3,5,183,stumped,53.0
 392220,2,7,5,184,run out,130.0
 392220,2,11,2,31,caught,147.0
-392220,2,13,1,102,run out,
+392220,2,13,1,102,run out,53.0
 392220,2,13,4,170,bowled,
 392220,2,15,2,191,caught,130.0
 392220,2,15,4,38,bowled,
 392220,2,16,3,39,bowled,
-392220,2,19,3,125,run out,
+392220,2,19,3,125,run out,179.0
 392221,1,2,3,1,caught,11.0
 392221,1,4,2,174,caught,11.0
 392221,1,13,2,4,bowled,
@@ -1196,13 +1196,13 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 392224,1,18,2,22,caught,11.0
 392224,1,18,3,151,caught,123.0
 392224,1,19,3,120,run out,14.0
-392224,1,19,4,219,run out,
+392224,1,19,4,219,run out,12.0
 392224,2,0,2,9,lbw,
 392224,2,1,4,6,caught,23.0
 392224,2,4,4,46,lbw,
 392224,2,14,2,8,caught,22.0
 392224,2,15,1,11,caught,18.0
-392224,2,16,5,178,run out,
+392224,2,16,5,178,run out,120.0
 392224,2,17,3,12,caught,219.0
 392224,2,19,1,52,caught,20.0
 392225,1,6,3,75,caught,155.0
@@ -1211,7 +1211,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 392225,1,18,3,148,caught,48.0
 392225,1,19,1,35,caught,72.0
 392225,1,19,4,184,caught,86.0
-392225,1,19,6,38,run out,
+392225,1,19,6,38,run out,50.0
 392225,2,1,3,72,caught and bowled,
 392225,2,4,6,86,caught,170.0
 392225,2,5,2,113,caught,184.0
@@ -1221,9 +1221,9 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 392225,2,18,4,48,run out,184.0
 392225,2,19,2,81,lbw,
 392225,2,19,3,194,run out,31.0
-392225,2,19,5,195,run out,
+392225,2,19,5,195,run out,38.0
 392226,1,2,4,41,caught,26.0
-392226,1,3,3,40,run out,
+392226,1,3,3,40,run out,26.0
 392226,1,7,2,111,caught,27.0
 392226,1,9,1,133,caught,27.0
 392226,1,15,4,172,caught,66.0
@@ -1239,7 +1239,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 392227,1,5,6,44,caught,21.0
 392227,1,10,5,139,caught,151.0
 392227,1,19,3,155,run out,110.0
-392227,1,19,6,50,run out,
+392227,1,19,6,50,run out,18.0
 392227,2,0,1,17,lbw,
 392227,2,3,5,21,caught and bowled,
 392227,2,10,5,23,caught,113.0
@@ -1250,10 +1250,10 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 392228,1,19,4,4,run out,53.0
 392228,2,9,2,53,caught,64.0
 392228,2,12,3,98,caught,4.0
-392228,2,16,2,179,run out,
+392228,2,16,2,179,run out,83.0
 392228,2,17,1,56,run out,196.0
 392229,1,1,6,66,caught,57.0
-392229,1,2,5,137,run out,
+392229,1,2,5,137,run out,98.0
 392229,1,4,2,28,caught,131.0
 392229,1,8,5,27,bowled,
 392229,1,16,1,69,caught,189.0
@@ -1264,7 +1264,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 392229,2,11,6,98,caught,68.0
 392229,2,13,1,56,stumped,26.0
 392229,2,13,2,54,bowled,
-392229,2,18,2,130,run out,
+392229,2,18,2,130,run out,26.0
 392229,2,19,3,57,bowled,
 392229,2,19,5,62,caught and bowled,
 392230,1,2,1,40,caught and bowled,
@@ -1284,7 +1284,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 392231,1,16,6,21,caught,64.0
 392231,2,4,4,1,bowled,
 392231,2,13,6,2,bowled,
-392231,2,15,2,4,run out,
+392231,2,15,2,4,run out,120.0
 392232,1,0,3,41,caught,52.0
 392232,1,0,5,172,caught,9.0
 392232,1,5,6,40,caught,52.0
@@ -1309,7 +1309,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 392233,2,4,6,171,caught,169.0
 392233,2,7,1,105,stumped,184.0
 392233,2,9,1,4,caught,136.0
-392233,2,11,3,201,run out,
+392233,2,11,3,201,run out,193.0
 392234,1,4,5,198,run out,27.0
 392234,1,6,5,17,bowled,
 392234,1,9,3,23,caught,29.0
@@ -1318,7 +1318,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 392234,1,14,4,119,bowled,
 392234,1,17,4,22,caught and bowled,
 392234,1,17,6,202,caught,137.0
-392234,1,19,4,157,run out,
+392234,1,19,4,157,run out,28.0
 392234,2,1,5,66,caught,17.0
 392234,2,6,5,28,bowled,
 392234,2,11,1,137,caught,21.0
@@ -1334,7 +1334,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 392235,1,14,2,48,lbw,
 392235,1,18,3,47,caught and bowled,
 392235,1,19,1,86,caught,111.0
-392235,1,19,4,195,run out,
+392235,1,19,4,195,run out,133.0
 392235,2,3,3,188,caught,203.0
 392235,2,11,1,40,caught,203.0
 392235,2,14,2,133,caught,47.0
@@ -1349,7 +1349,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 392236,2,10,6,179,caught,178.0
 392236,2,14,1,98,caught,97.0
 392236,2,15,1,56,bowled,
-392236,2,17,5,54,run out,
+392236,2,17,5,54,run out,11.0
 392236,2,18,1,57,caught,8.0
 392237,1,0,5,40,caught,62.0
 392237,1,0,6,188,caught,98.0
@@ -1357,7 +1357,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 392237,1,17,1,111,caught,53.0
 392237,1,18,6,89,bowled,
 392237,1,19,3,90,caught,54.0
-392237,1,19,5,133,run out,
+392237,1,19,5,133,run out,179.0
 392237,1,19,6,134,run out,53.0
 392237,2,1,2,98,bowled,
 392237,2,7,6,173,stumped,89.0
@@ -1423,7 +1423,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 419108,1,18,6,68,caught,91.0
 419108,2,1,2,41,caught,65.0
 419108,2,1,5,133,caught,215.0
-419108,2,7,3,111,run out,
+419108,2,7,3,111,run out,65.0
 419108,2,12,2,89,caught,29.0
 419108,2,19,2,40,caught,65.0
 419109,1,2,6,146,caught,85.0
@@ -1437,7 +1437,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 419109,2,13,6,105,caught,97.0
 419109,2,18,2,1,caught,217.0
 419110,1,4,4,53,bowled,
-419110,1,4,5,55,run out,
+419110,1,4,5,55,run out,21.0
 419110,1,17,2,98,run out,110.0
 419110,1,18,1,56,run out,18.0
 419110,2,2,1,186,bowled,
@@ -1453,8 +1453,8 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 419111,1,4,5,184,bowled,
 419111,1,5,5,31,caught,111.0
 419111,1,8,1,75,caught,41.0
-419111,1,16,2,213,run out,
-419111,1,17,1,135,run out,
+419111,1,16,2,213,run out,40.0
+419111,1,17,1,135,run out,134.0
 419111,2,3,3,40,caught,75.0
 419111,2,3,4,133,caught,184.0
 419111,2,9,6,41,caught,75.0
@@ -1502,7 +1502,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 419115,1,16,4,213,bowled,
 419115,1,19,1,38,bowled,
 419115,1,19,4,191,stumped,11.0
-419115,1,19,5,125,run out,
+419115,1,19,5,125,run out,6.0
 419116,1,3,3,188,caught,18.0
 419116,1,11,2,133,caught,21.0
 419116,1,11,4,41,caught,218.0
@@ -1532,7 +1532,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 419117,2,19,1,29,caught,56.0
 419118,1,0,1,225,lbw,
 419118,1,4,6,230,caught,204.0
-419118,1,8,2,184,run out,
+419118,1,8,2,184,run out,192.0
 419118,1,12,6,31,caught,105.0
 419118,1,17,1,212,caught,1.0
 419118,1,17,3,213,caught,63.0
@@ -1559,9 +1559,9 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 419120,1,9,2,98,caught,164.0
 419120,1,13,2,56,caught,111.0
 419120,1,18,4,57,caught,111.0
-419120,1,19,3,54,run out,
+419120,1,19,3,54,run out,111.0
 419120,2,3,5,41,caught,98.0
-419120,2,10,1,188,run out,
+419120,2,10,1,188,run out,62.0
 419120,2,12,2,111,bowled,
 419120,2,14,5,172,caught,179.0
 419120,2,16,2,164,caught,62.0
@@ -1574,7 +1574,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 419121,1,9,5,29,bowled,
 419121,1,10,6,65,lbw,
 419121,1,16,2,33,caught,110.0
-419121,1,18,5,215,run out,
+419121,1,18,5,215,run out,18.0
 419121,1,18,6,27,caught,198.0
 419121,1,19,1,234,run out,21.0
 419121,2,8,4,18,bowled,
@@ -1609,7 +1609,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 419124,1,7,2,225,stumped,26.0
 419124,1,12,6,31,caught,27.0
 419124,1,19,1,230,run out,68.0
-419124,1,19,5,213,run out,
+419124,1,19,5,213,run out,68.0
 419124,2,3,6,26,caught,230.0
 419124,2,7,5,215,caught,225.0
 419124,2,10,6,27,caught,230.0
@@ -1633,24 +1633,24 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 419128,1,16,1,111,run out,217.0
 419128,2,9,1,9,bowled,
 419128,2,10,3,97,bowled,
-419128,2,10,4,6,run out,
+419128,2,10,4,6,run out,233.0
 419128,2,11,6,46,caught,89.0
-419128,2,14,5,217,run out,
+419128,2,14,5,217,run out,111.0
 419128,2,15,4,11,caught,41.0
-419128,2,16,5,82,run out,
+419128,2,16,5,82,run out,134.0
 419128,2,17,2,14,caught,111.0
 419128,2,19,5,95,bowled,
 419126,1,0,4,53,caught,31.0
 419126,1,4,4,55,caught,31.0
 419126,1,6,4,98,stumped,184.0
-419126,1,8,1,56,run out,
+419126,1,8,1,56,run out,212.0
 419126,1,12,3,179,bowled,
 419126,1,13,3,54,run out,212.0
 419126,1,17,6,61,run out,213.0
 419126,1,18,5,237,caught,212.0
 419126,1,19,4,57,caught,225.0
 419126,2,6,3,184,stumped,53.0
-419126,2,11,2,225,run out,
+419126,2,11,2,225,run out,62.0
 419127,1,2,5,163,caught,215.0
 419127,1,4,6,238,caught,67.0
 419127,1,14,3,1,caught,68.0
@@ -1667,13 +1667,13 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 419129,1,12,4,31,caught,21.0
 419129,1,17,3,184,caught,118.0
 419129,1,18,2,231,caught,120.0
-419129,1,19,2,213,run out,
+419129,1,19,2,213,run out,20.0
 419129,1,19,3,212,caught,186.0
-419129,1,19,4,38,run out,
+419129,1,19,4,38,run out,187.0
 419129,2,3,4,18,caught and bowled,
 419129,2,8,4,186,run out,31.0
 419129,2,9,4,21,bowled,
-419129,2,15,4,20,run out,
+419129,2,15,4,20,run out,231.0
 419129,2,18,1,23,caught,31.0
 419129,2,18,5,110,caught,230.0
 419130,1,3,3,42,lbw,
@@ -1708,7 +1708,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 419131,2,19,6,243,bowled,
 419132,1,1,2,162,lbw,
 419132,1,4,4,215,caught,15.0
-419132,1,10,4,65,run out,
+419132,1,10,4,65,run out,195.0
 419132,1,11,2,27,caught,50.0
 419132,1,15,5,29,caught,50.0
 419132,1,15,6,101,bowled,
@@ -1725,7 +1725,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 419133,1,2,3,97,caught,20.0
 419133,1,6,3,46,caught,119.0
 419133,1,15,1,8,caught,186.0
-419133,1,15,3,9,run out,
+419133,1,15,3,9,run out,21.0
 419133,2,6,5,18,stumped,46.0
 419133,2,10,5,186,caught,97.0
 419133,2,16,3,20,caught,6.0
@@ -1733,14 +1733,14 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 419133,2,18,5,23,caught,46.0
 419134,1,3,1,188,bowled,
 419134,1,3,3,41,caught,213.0
-419134,1,5,4,242,run out,
+419134,1,5,4,242,run out,231.0
 419134,1,8,3,236,caught,31.0
 419134,1,16,5,40,caught,31.0
 419134,1,19,6,89,caught,170.0
 419134,2,0,2,225,caught,188.0
 419134,2,0,5,230,lbw,
 419134,2,3,4,184,caught,89.0
-419134,2,4,1,212,run out,
+419134,2,4,1,212,run out,223.0
 419134,2,8,2,31,caught,188.0
 419134,2,10,3,231,caught,188.0
 419134,2,10,5,38,run out,188.0
@@ -1762,7 +1762,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 419136,1,8,6,215,bowled,
 419136,1,11,1,26,caught,9.0
 419136,1,17,4,27,caught,10.0
-419136,1,19,5,29,run out,
+419136,1,19,5,29,run out,97.0
 419136,2,4,1,9,caught,215.0
 419136,2,6,6,97,run out,229.0
 419136,2,15,3,8,caught,29.0
@@ -1783,7 +1783,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 419138,1,16,4,80,caught,189.0
 419138,1,19,6,222,caught,56.0
 419138,2,4,1,98,caught,139.0
-419138,2,5,5,55,run out,
+419138,2,5,5,55,run out,222.0
 419138,2,6,1,53,bowled,
 419138,2,10,1,57,caught and bowled,
 419138,2,11,5,56,bowled,
@@ -1840,7 +1840,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 419142,2,10,3,72,caught,157.0
 419142,2,11,6,80,caught,18.0
 419142,2,12,6,222,caught,186.0
-419142,2,13,4,210,run out,
+419142,2,13,4,210,run out,23.0
 419142,2,14,2,211,lbw,
 419142,2,16,3,139,caught,186.0
 419142,2,19,6,50,bowled,
@@ -1848,12 +1848,12 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 419143,1,6,1,26,caught,31.0
 419143,1,11,3,27,bowled,
 419143,1,11,5,65,caught,38.0
-419143,1,15,2,162,run out,
+419143,1,15,2,162,run out,212.0
 419143,1,19,2,68,caught,212.0
 419143,2,9,3,225,caught,68.0
 419144,1,10,2,163,bowled,
 419144,1,11,5,1,bowled,
-419144,1,13,1,2,run out,
+419144,1,13,1,2,run out,90.0
 419144,2,0,5,188,bowled,
 419144,2,10,3,40,run out,1.0
 419144,2,11,3,242,caught,192.0
@@ -1885,7 +1885,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 419146,2,16,3,27,caught,155.0
 419146,2,18,3,26,caught,42.0
 419147,1,4,4,18,caught,53.0
-419147,1,7,5,186,run out,
+419147,1,7,5,186,run out,62.0
 419147,1,11,4,20,bowled,
 419147,1,14,5,19,caught,251.0
 419147,1,16,6,23,caught,232.0
@@ -1902,15 +1902,15 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 419148,1,13,1,192,caught,52.0
 419148,1,16,3,2,caught,82.0
 419148,1,17,3,63,caught,82.0
-419148,1,18,6,204,run out,
+419148,1,18,6,204,run out,46.0
 419148,1,19,1,107,run out,46.0
 419148,1,19,3,85,caught,46.0
 419148,2,2,5,9,caught,163.0
 419148,2,11,4,250,bowled,
 419148,2,13,2,6,caught,83.0
 419149,1,1,1,41,caught,248.0
-419149,1,3,5,40,run out,
-419149,1,4,1,188,run out,
+419149,1,3,5,40,run out,234.0
+419149,1,4,1,188,run out,24.0
 419149,1,7,3,242,lbw,
 419149,1,9,6,176,bowled,
 419149,1,13,2,89,caught,65.0
@@ -1929,15 +1929,15 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 419150,2,1,4,225,caught,155.0
 419150,2,2,1,184,caught,139.0
 419150,2,2,4,32,run out,209.0
-419150,2,6,1,230,run out,
-419150,2,10,2,212,run out,
+419150,2,6,1,230,run out,44.0
+419150,2,10,2,212,run out,80.0
 419150,2,13,4,31,caught,50.0
 419150,2,14,2,231,caught,209.0
 419150,2,19,6,246,caught,42.0
 419151,1,0,4,53,caught,46.0
 419151,1,0,5,179,caught,52.0
 419151,1,2,3,98,bowled,
-419151,1,12,3,232,run out,
+419151,1,12,3,232,run out,95.0
 419151,1,17,3,56,stumped,46.0
 419151,1,18,1,57,caught,97.0
 419151,2,0,1,97,caught,53.0
@@ -1949,14 +1949,14 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 419151,2,18,1,46,bowled,
 419151,2,18,2,95,lbw,
 419151,2,19,3,82,bowled,
-419151,2,19,4,182,run out,
+419151,2,19,4,182,run out,57.0
 419152,1,5,3,252,caught,134.0
 419152,1,9,3,139,caught,111.0
 419152,1,13,5,80,bowled,
 419152,1,16,6,209,caught,111.0
 419152,2,3,4,188,caught,287.0
 419152,2,6,4,40,caught and bowled,
-419152,2,7,3,41,run out,
+419152,2,7,3,41,run out,222.0
 419152,2,9,3,111,lbw,
 419152,2,10,5,242,run out,222.0
 419152,2,11,6,89,bowled,
@@ -1970,7 +1970,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 419153,1,18,2,64,caught,18.0
 419153,1,19,3,192,caught,18.0
 419153,2,0,3,18,bowled,
-419154,1,2,2,225,run out,
+419154,1,2,2,225,run out,9.0
 419154,1,2,4,253,caught,46.0
 419154,1,3,2,184,caught,97.0
 419154,1,10,1,32,caught,159.0
@@ -1979,7 +1979,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 419154,2,1,3,9,bowled,
 419154,2,4,5,97,caught,31.0
 419154,2,10,4,46,stumped,184.0
-419154,2,11,5,159,run out,
+419154,2,11,5,159,run out,231.0
 419154,2,13,4,8,caught,32.0
 419155,1,1,3,18,caught,242.0
 419155,1,2,2,20,caught,172.0
@@ -2022,7 +2022,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 419158,1,14,2,255,bowled,
 419158,1,15,5,170,caught,163.0
 419158,1,17,4,213,bowled,
-419158,1,19,3,230,run out,
+419158,1,19,3,230,run out,347.0
 419158,1,19,5,39,caught,347.0
 419158,2,2,3,2,caught,32.0
 419158,2,2,5,163,bowled,
@@ -2044,7 +2044,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 419160,2,2,4,41,caught,57.0
 419160,2,3,4,133,lbw,
 419160,2,6,2,40,caught,57.0
-419160,2,11,5,172,run out,
+419160,2,11,5,172,run out,254.0
 419160,2,12,5,89,bowled,
 419160,2,15,1,134,bowled,
 419161,1,0,5,208,caught,84.0
@@ -2064,7 +2064,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 419162,2,2,4,9,caught,209.0
 419162,2,6,2,159,stumped,209.0
 419162,2,9,3,46,caught,42.0
-419162,2,9,4,6,run out,
+419162,2,9,4,6,run out,48.0
 419162,2,11,3,8,caught,209.0
 419162,2,13,4,97,caught,155.0
 419162,2,14,6,14,bowled,
@@ -2109,9 +2109,9 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 419165,2,14,2,139,caught,186.0
 419165,2,14,5,80,caught,21.0
 419165,2,16,6,155,caught,187.0
-419165,2,18,5,209,run out,
+419165,2,18,5,209,run out,186.0
 419165,2,18,6,222,caught,18.0
-419165,2,19,3,15,run out,
+419165,2,19,3,15,run out,202.0
 501198,1,0,6,186,caught,90.0
 501198,1,10,3,21,caught,223.0
 501198,1,17,2,20,caught,215.0
@@ -2147,7 +2147,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 501201,1,4,4,41,run out,139.0
 501201,1,6,6,255,caught,209.0
 501201,1,14,2,184,caught,195.0
-501201,1,14,3,29,run out,
+501201,1,14,3,29,run out,210.0
 501201,1,15,2,54,bowled,
 501201,1,15,4,191,bowled,
 501201,1,16,4,233,stumped,264.0
@@ -2158,7 +2158,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 501202,1,1,2,101,caught,237.0
 501202,1,2,4,168,caught,158.0
 501202,1,3,3,89,caught,237.0
-501202,1,5,5,265,run out,
+501202,1,5,5,265,run out,27.0
 501202,1,8,3,48,caught,27.0
 501202,1,17,1,68,caught,46.0
 501202,1,19,1,14,caught,46.0
@@ -2197,7 +2197,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 501206,1,14,5,186,stumped,53.0
 501206,1,19,6,20,bowled,
 501206,2,5,5,53,caught,279.0
-501206,2,10,1,101,run out,
+501206,2,10,1,101,run out,279.0
 501206,2,13,6,265,caught,187.0
 501206,2,14,1,48,lbw,
 501207,1,0,1,2,caught,46.0
@@ -2206,14 +2206,14 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 501207,1,4,5,17,caught,75.0
 501207,1,15,2,105,caught,84.0
 501207,1,16,1,35,caught,268.0
-501207,1,16,6,82,run out,
-501207,1,19,5,78,run out,
+501207,1,16,6,82,run out,268.0
+501207,1,19,5,78,run out,46.0
 501207,2,3,4,158,caught and bowled,
 501207,2,7,4,75,caught,62.0
 501207,2,9,5,172,caught,35.0
 501207,2,11,2,27,caught,17.0
 501207,2,14,4,46,bowled,
-501207,2,15,4,268,run out,
+501207,2,15,4,268,run out,260.0
 501208,1,2,5,42,caught,176.0
 501208,1,8,6,66,caught,80.0
 501208,1,14,4,26,caught,111.0
@@ -2232,7 +2232,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 501209,1,11,3,6,bowled,
 501209,1,11,5,267,caught and bowled,
 501209,1,16,4,32,bowled,
-501209,2,1,2,215,run out,
+501209,2,1,2,215,run out,253.0
 501210,1,8,2,264,bowled,
 501210,1,19,4,209,run out,82.0
 501210,2,13,5,65,bowled,
@@ -2264,7 +2264,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 501213,1,9,6,158,caught,255.0
 501213,1,13,3,46,caught,188.0
 501213,1,17,2,232,caught,41.0
-501213,2,6,6,188,run out,
+501213,2,6,6,188,run out,274.0
 501213,2,9,5,41,bowled,
 501213,2,12,3,29,caught,274.0
 501213,2,12,4,184,stumped,46.0
@@ -2274,7 +2274,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 501214,1,3,4,32,bowled,
 501214,1,4,4,253,stumped,215.0
 501214,1,6,5,230,run out,138.0
-501214,1,7,6,170,run out,
+501214,1,7,6,170,run out,277.0
 501214,1,10,5,52,stumped,215.0
 501214,1,13,1,86,bowled,
 501214,1,13,6,267,caught,90.0
@@ -2329,11 +2329,11 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 501219,2,15,5,31,caught,120.0
 501219,2,16,6,88,stumped,17.0
 501219,2,17,3,67,caught,236.0
-501219,2,19,5,90,run out,
+501219,2,19,5,90,run out,17.0
 501220,1,4,2,53,caught,239.0
 501220,1,9,4,168,caught,239.0
 501220,1,15,6,89,caught,278.0
-501220,1,16,5,48,run out,
+501220,1,16,5,48,run out,256.0
 501220,1,18,1,101,caught and bowled,
 501220,1,19,1,211,caught,170.0
 501220,1,19,6,68,bowled,
@@ -2361,7 +2361,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 501222,1,13,2,9,caught,163.0
 501222,1,17,2,40,caught,133.0
 501222,1,19,4,31,caught,8.0
-501222,1,19,6,217,run out,
+501222,1,19,6,217,run out,111.0
 501222,2,12,1,133,bowled,
 501223,1,11,4,41,caught,89.0
 501223,1,13,6,200,caught,189.0
@@ -2377,14 +2377,14 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 501224,1,8,2,139,caught,95.0
 501224,1,8,4,209,caught,42.0
 501224,1,9,1,222,caught,26.0
-501224,2,1,5,66,run out,
+501224,2,1,5,66,run out,222.0
 501224,2,5,4,42,bowled,
 501224,2,7,3,10,run out,195.0
 501224,2,9,4,94,caught,210.0
 501224,2,13,3,26,bowled,
 501224,2,14,4,259,stumped,264.0
 501224,2,15,3,130,caught and bowled,
-501224,2,18,5,95,run out,
+501224,2,18,5,95,run out,56.0
 501225,1,3,3,55,run out,6.0
 501225,1,4,1,65,bowled,
 501225,1,7,4,105,bowled,
@@ -2394,8 +2394,8 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 501225,1,16,6,281,caught,256.0
 501225,1,17,5,82,caught,32.0
 501225,1,19,5,236,caught,278.0
-501225,1,19,6,62,run out,
-501225,2,10,4,6,run out,
+501225,1,19,6,62,run out,193.0
+501225,2,10,4,6,run out,236.0
 501225,2,13,5,32,bowled,
 501226,1,9,2,186,caught,282.0
 501226,1,9,6,21,bowled,
@@ -2413,7 +2413,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 501226,2,19,1,283,run out,152.0
 501226,2,19,2,282,caught,187.0
 501227,1,4,2,188,bowled,
-501227,1,6,2,41,run out,
+501227,1,6,2,41,run out,245.0
 501227,1,9,4,272,bowled,
 501227,1,15,1,54,bowled,
 501227,1,18,2,25,caught,111.0
@@ -2439,7 +2439,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 501229,1,16,5,10,caught,65.0
 501229,1,16,6,26,caught,17.0
 501229,1,19,3,259,bowled,
-501229,1,19,4,134,run out,
+501229,1,19,4,134,run out,17.0
 501229,2,0,4,2,caught,26.0
 501229,2,1,2,17,caught,26.0
 501229,2,1,3,260,bowled,
@@ -2456,15 +2456,15 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 501230,1,14,5,31,caught,29.0
 501230,1,14,6,217,caught,184.0
 501230,1,18,6,285,caught,29.0
-501230,1,19,5,67,run out,
+501230,1,19,5,67,run out,200.0
 501230,2,1,6,188,bowled,
 501230,2,6,4,41,caught,151.0
 501230,2,10,3,29,caught,285.0
 501230,2,13,1,286,caught,277.0
 501230,2,14,2,25,caught,88.0
 501230,2,14,5,184,caught,67.0
-501230,2,18,2,54,run out,
-501230,2,18,3,83,run out,
+501230,2,18,2,54,run out,146.0
+501230,2,18,3,83,run out,151.0
 501230,2,19,5,200,caught,146.0
 501231,1,3,1,264,bowled,
 501231,1,4,2,139,stumped,278.0
@@ -2490,7 +2490,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 501233,1,1,1,188,bowled,
 501233,1,1,4,184,lbw,
 501233,1,6,2,54,lbw,
-501233,1,14,4,200,run out,
+501233,1,14,4,200,run out,35.0
 501233,1,17,5,41,caught,105.0
 501233,1,18,4,286,caught,82.0
 501233,1,19,6,29,run out,62.0
@@ -2505,11 +2505,11 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 501233,2,18,3,78,bowled,
 501233,2,18,5,82,caught,233.0
 501234,1,4,3,168,caught,88.0
-501234,1,5,6,101,run out,
+501234,1,5,6,101,run out,146.0
 501234,1,7,5,53,bowled,
-501234,1,9,2,48,run out,
+501234,1,9,2,48,run out,217.0
 501234,1,14,6,4,lbw,
-501234,1,19,4,89,run out,
+501234,1,19,4,89,run out,31.0
 501234,2,1,1,9,caught,4.0
 501234,2,4,2,217,caught,189.0
 501235,1,2,6,158,stumped,278.0
@@ -2518,7 +2518,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 501235,1,12,5,97,caught,52.0
 501235,1,18,1,288,caught,86.0
 501235,1,19,2,172,caught,256.0
-501235,1,19,4,237,run out,
+501235,1,19,4,237,run out,278.0
 501235,2,4,2,32,caught,46.0
 501235,2,7,1,6,caught and bowled,
 501235,2,10,1,193,lbw,
@@ -2526,7 +2526,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 501236,1,3,4,186,bowled,
 501236,1,12,3,19,caught,85.0
 501236,1,17,5,21,caught,42.0
-501236,1,19,1,110,run out,
+501236,1,19,1,110,run out,10.0
 501236,1,19,4,20,stumped,26.0
 501236,2,6,5,66,bowled,
 501236,2,10,6,42,bowled,
@@ -2594,18 +2594,18 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 501242,1,5,2,17,caught,90.0
 501242,1,11,5,289,caught,138.0
 501242,1,14,4,35,caught,31.0
-501242,1,18,6,65,run out,
+501242,1,18,6,65,run out,223.0
 501242,2,10,2,9,bowled,
 501242,2,10,3,40,caught,65.0
 501242,2,13,6,88,caught,2.0
-501242,2,18,4,217,run out,
+501242,2,18,4,217,run out,17.0
 501242,2,18,5,31,caught,65.0
-501242,2,19,4,67,run out,
+501242,2,19,4,67,run out,35.0
 501242,2,19,6,11,bowled,
 501243,1,2,5,130,caught,184.0
 501243,1,8,5,42,caught,724.0
 501243,1,11,6,26,caught,41.0
-501243,1,17,3,155,run out,
+501243,1,17,3,155,run out,83.0
 501243,1,18,2,94,caught,255.0
 501243,2,0,2,255,caught,259.0
 501243,2,3,2,184,caught,26.0
@@ -2631,7 +2631,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 501245,1,3,5,186,caught and bowled,
 501245,1,5,4,21,caught,9.0
 501245,1,10,6,19,caught,217.0
-501245,1,19,6,23,run out,
+501245,1,19,6,23,run out,90.0
 501245,2,1,1,217,bowled,
 501245,2,5,6,40,caught,279.0
 501246,1,5,2,139,bowled,
@@ -2643,7 +2643,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 501246,2,2,1,41,caught,57.0
 501246,2,2,5,184,caught,209.0
 501246,2,13,4,54,bowled,
-501246,2,16,5,25,run out,
+501246,2,16,5,25,run out,179.0
 501246,2,16,6,200,caught,125.0
 501246,2,17,5,29,bowled,
 501246,2,19,4,191,caught,56.0
@@ -2651,7 +2651,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 501247,1,5,3,2,caught,240.0
 501247,1,8,2,289,bowled,
 501247,1,9,6,65,caught,111.0
-501247,1,10,2,17,run out,
+501247,1,10,2,17,run out,33.0
 501247,1,13,3,105,caught,15.0
 501247,1,17,2,260,caught,8.0
 501247,1,18,3,82,caught,176.0
@@ -2679,7 +2679,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 501249,2,8,2,52,caught,63.0
 501249,2,9,5,267,caught,20.0
 501249,2,14,1,86,caught,21.0
-501249,2,17,3,170,run out,
+501249,2,17,3,170,run out,63.0
 501249,2,18,4,278,bowled,
 501249,2,18,6,193,caught and bowled,
 501249,2,19,1,197,caught and bowled,
@@ -2707,7 +2707,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 501251,2,2,4,139,caught,101.0
 501251,2,3,6,57,stumped,53.0
 501251,2,4,1,290,caught,53.0
-501251,2,7,3,56,run out,
+501251,2,7,3,56,run out,238.0
 501251,2,8,5,209,caught,229.0
 501251,2,9,1,179,caught,14.0
 501251,2,10,4,50,bowled,
@@ -2716,7 +2716,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 501251,2,12,5,125,lbw,
 501252,1,9,3,32,caught,111.0
 501252,1,9,5,6,caught and bowled,
-501252,1,13,3,86,run out,
+501252,1,13,3,86,run out,111.0
 501252,1,16,3,193,caught,240.0
 501252,1,17,2,52,caught,33.0
 501252,1,18,3,267,caught,33.0
@@ -2724,7 +2724,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 501253,1,0,6,19,lbw,
 501253,1,5,3,21,caught,29.0
 501253,1,10,2,186,caught,54.0
-501253,1,19,4,23,run out,
+501253,1,19,4,23,run out,200.0
 501253,2,2,5,184,caught,187.0
 501253,2,7,1,293,caught,72.0
 501253,2,9,4,188,caught,186.0
@@ -2734,7 +2734,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 501254,1,8,4,2,lbw,
 501254,1,13,1,35,lbw,
 501254,1,14,5,105,caught,101.0
-501254,1,18,1,205,run out,
+501254,1,18,1,205,run out,4.0
 501254,1,18,2,17,caught,89.0
 501254,1,19,5,260,lbw,
 501254,1,19,6,65,run out,4.0
@@ -2765,7 +2765,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 501256,2,15,3,179,caught,42.0
 501256,2,15,6,139,lbw,
 501256,2,19,4,222,caught,225.0
-501256,2,19,5,195,run out,
+501256,2,19,5,195,run out,259.0
 501257,1,3,3,53,caught,188.0
 501257,1,14,2,101,caught,191.0
 501257,1,14,3,168,bowled,
@@ -2787,7 +2787,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 501258,1,9,4,47,caught,301.0
 501258,1,11,2,22,bowled,
 501258,1,13,1,38,bowled,
-501258,1,13,5,298,run out,
+501258,1,13,5,298,run out,35.0
 501258,1,15,2,267,caught,205.0
 501258,1,18,3,299,caught,65.0
 501258,2,1,3,65,caught,298.0
@@ -2800,7 +2800,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 501259,1,11,1,296,caught and bowled,
 501259,1,14,5,27,caught,26.0
 501259,1,19,2,254,bowled,
-501259,1,19,6,268,run out,
+501259,1,19,6,268,run out,259.0
 501259,2,8,1,42,stumped,46.0
 501259,2,9,2,66,lbw,
 501259,2,15,1,26,caught,46.0
@@ -2826,7 +2826,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 501261,2,6,4,301,caught and bowled,
 501261,2,13,5,2,bowled,
 501261,2,17,6,35,caught,21.0
-501261,2,19,3,205,run out,
+501261,2,19,3,205,run out,20.0
 501262,1,1,2,158,caught,88.0
 501262,1,3,3,97,lbw,
 501262,1,8,3,296,stumped,146.0
@@ -2850,7 +2850,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 501264,2,10,6,89,caught,130.0
 501264,2,13,3,48,caught,259.0
 501264,2,15,3,211,caught,259.0
-501264,2,15,4,238,stumped,790.0
+501264,2,15,4,238,stumped,
 501264,2,15,5,189,caught,42.0
 501264,2,17,1,14,bowled,
 501264,2,18,6,303,run out,731.0
@@ -2867,7 +2867,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 501266,1,18,5,202,caught,245.0
 501266,2,0,3,111,stumped,20.0
 501266,2,9,5,8,caught,202.0
-501267,1,1,4,146,run out,
+501267,1,1,4,146,run out,179.0
 501267,1,3,2,40,bowled,
 501267,1,8,5,88,run out,50.0
 501267,1,15,6,31,caught,247.0
@@ -2893,7 +2893,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 501269,1,5,3,88,lbw,
 501269,1,12,6,31,caught,222.0
 501269,1,17,1,277,bowled,
-501269,1,18,2,90,run out,
+501269,1,18,2,90,run out,57.0
 501269,2,7,5,290,caught,138.0
 501269,2,8,2,57,run out,40.0
 501269,2,10,5,139,caught,88.0
@@ -2930,9 +2930,9 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 548306,1,9,5,21,caught,195.0
 548306,1,11,2,72,caught,222.0
 548306,1,12,4,110,caught,131.0
-548306,1,15,1,20,run out,
+548306,1,15,1,20,run out,247.0
 548306,1,16,1,23,caught,50.0
-548306,1,17,1,202,run out,
+548306,1,17,1,202,run out,50.0
 548306,1,17,6,35,bowled,
 548306,1,19,5,249,caught,57.0
 548306,2,7,5,305,caught,249.0
@@ -2943,7 +2943,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 548307,1,2,5,88,bowled,
 548307,1,3,6,31,caught,184.0
 548307,1,6,4,40,bowled,
-548307,1,6,5,96,run out,
+548307,1,6,5,96,run out,255.0
 548307,1,10,4,64,caught,200.0
 548307,1,11,2,90,stumped,184.0
 548307,1,11,6,67,run out,233.0
@@ -2957,7 +2957,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 548308,1,16,2,308,bowled,
 548308,1,17,2,300,bowled,
 548308,1,19,3,307,caught,222.0
-548308,1,19,6,237,run out,
+548308,1,19,6,237,run out,89.0
 548308,2,0,2,305,stumped,46.0
 548308,2,1,1,209,caught,84.0
 548308,2,1,6,57,caught,46.0
@@ -2979,13 +2979,13 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 548309,2,15,4,229,caught,86.0
 548309,2,15,6,238,bowled,
 548309,2,18,2,68,bowled,
-548309,2,19,3,14,run out,
+548309,2,19,3,14,run out,310.0
 548310,1,3,6,204,caught,29.0
 548310,1,5,6,199,caught,313.0
 548310,1,7,2,8,caught,200.0
 548310,1,8,1,80,lbw,
 548310,1,12,2,261,caught,200.0
-548310,1,14,2,176,run out,
+548310,1,14,2,176,run out,313.0
 548310,1,19,5,82,caught,191.0
 548310,1,19,6,312,bowled,
 548310,2,0,5,41,caught,204.0
@@ -2994,7 +2994,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 548310,2,11,4,306,caught,15.0
 548310,2,13,4,54,caught,261.0
 548310,2,16,6,200,caught,312.0
-548310,2,18,6,29,run out,
+548310,2,18,6,29,run out,312.0
 548311,1,0,5,186,bowled,
 548311,1,5,3,21,caught and bowled,
 548311,1,8,1,304,caught,259.0
@@ -3012,7 +3012,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 548311,2,16,6,95,lbw,
 548311,2,17,1,315,caught,110.0
 548312,1,1,3,86,run out,40.0
-548312,1,6,4,6,run out,
+548312,1,6,4,6,run out,138.0
 548312,1,8,4,146,bowled,
 548312,1,16,1,105,caught,2.0
 548312,1,18,4,267,bowled,
@@ -3032,8 +3032,8 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 548313,1,16,3,296,caught and bowled,
 548313,1,18,2,46,bowled,
 548313,1,19,4,307,bowled,
-548313,2,2,1,168,run out,
-548313,2,3,2,53,run out,
+548313,2,2,1,168,run out,307.0
+548313,2,3,2,53,run out,307.0
 548313,2,9,4,238,caught,46.0
 548313,2,12,5,48,caught,1.0
 548313,2,13,6,4,bowled,
@@ -3071,15 +3071,15 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 548315,2,14,2,80,caught,64.0
 548315,2,17,6,312,bowled,
 548315,2,19,6,82,caught,64.0
-548316,1,0,1,186,run out,
+548316,1,0,1,186,run out,29.0
 548316,1,3,1,304,caught,178.0
-548316,1,6,3,21,run out,
-548316,1,9,4,23,run out,
+548316,1,6,3,21,run out,200.0
+548316,1,9,4,23,run out,159.0
 548316,1,10,2,35,caught,184.0
 548316,1,17,1,20,caught,65.0
 548316,1,18,4,72,bowled,
-548316,1,19,3,202,run out,
-548316,2,3,4,184,run out,
+548316,1,19,3,202,run out,41.0
+548316,2,3,4,184,run out,304.0
 548316,2,5,6,41,caught,186.0
 548317,1,3,3,179,caught,39.0
 548317,1,6,5,57,bowled,
@@ -3110,7 +3110,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 548318,2,14,3,304,caught,8.0
 548318,2,17,6,20,caught,133.0
 548318,2,19,2,110,caught,261.0
-548319,1,2,2,158,run out,
+548319,1,2,2,158,run out,4.0
 548319,1,5,1,1,caught,101.0
 548319,1,5,4,308,bowled,
 548319,1,8,3,192,lbw,
@@ -3138,13 +3138,13 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 548322,1,11,3,21,caught,307.0
 548322,1,18,6,20,caught,84.0
 548322,1,19,2,35,caught,307.0
-548322,2,2,6,46,run out,
-548322,2,8,2,1,run out,
+548322,2,2,6,46,run out,72.0
+548322,2,8,2,1,run out,35.0
 548322,2,12,4,308,bowled,
 548323,1,2,5,53,caught,88.0
 548323,1,4,2,101,bowled,
 548323,1,11,6,238,caught,285.0
-548323,1,14,1,4,run out,
+548323,1,14,1,4,run out,40.0
 548323,1,16,3,213,caught,96.0
 548323,1,16,5,135,caught,215.0
 548323,1,17,5,229,caught,215.0
@@ -3171,7 +3171,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 548324,2,19,5,120,caught,86.0
 548325,1,1,5,264,bowled,
 548325,1,3,1,305,bowled,
-548325,1,7,1,209,run out,
+548325,1,7,1,209,run out,41.0
 548325,1,8,3,222,caught,52.0
 548325,1,9,3,57,caught,52.0
 548325,1,10,2,89,caught,159.0
@@ -3188,11 +3188,11 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 548326,2,11,6,267,caught,155.0
 548326,2,13,2,86,caught,259.0
 548326,2,15,2,205,caught,212.0
-548326,2,18,1,193,caught,791.0
+548326,2,18,1,193,caught,
 548327,1,6,6,158,caught,261.0
 548327,1,11,5,1,caught,261.0
 548327,1,12,6,46,caught,312.0
-548327,1,17,5,307,run out,
+548327,1,17,5,307,run out,111.0
 548327,1,18,3,308,run out,111.0
 548327,1,19,5,192,caught,8.0
 548327,2,2,3,133,caught,46.0
@@ -3202,7 +3202,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 548328,1,2,6,168,caught,215.0
 548328,1,9,3,238,caught,90.0
 548328,1,13,6,101,caught,215.0
-548328,1,14,2,4,run out,
+548328,1,14,2,4,run out,2.0
 548328,1,16,5,135,caught,88.0
 548328,1,17,1,213,caught,9.0
 548328,1,19,6,68,bowled,
@@ -3215,7 +3215,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 548321,1,16,1,259,caught,294.0
 548321,1,17,2,212,caught,184.0
 548321,1,17,5,95,caught,41.0
-548321,1,19,5,134,run out,
+548321,1,19,5,134,run out,159.0
 548321,2,0,5,184,caught,155.0
 548321,2,3,2,41,caught,259.0
 548321,2,4,3,65,caught,26.0
@@ -3258,12 +3258,12 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 548333,2,9,1,159,bowled,
 548333,2,11,6,29,caught,158.0
 548333,2,12,3,41,caught and bowled,
-548333,2,13,6,323,run out,
+548333,2,13,6,323,run out,192.0
 548333,2,17,2,52,caught,307.0
 548333,2,19,1,200,caught,1.0
-548334,1,8,1,139,run out,
+548334,1,8,1,139,run out,321.0
 548334,1,9,2,57,caught,320.0
-548334,1,15,2,89,run out,
+548334,1,15,2,89,run out,101.0
 548334,1,17,4,222,caught,238.0
 548334,1,18,3,276,caught,321.0
 548334,1,18,4,50,caught,148.0
@@ -3272,7 +3272,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 548334,2,15,2,4,caught,209.0
 548334,2,17,3,322,caught,281.0
 548335,1,5,5,26,bowled,
-548335,1,11,3,17,run out,
+548335,1,11,3,17,run out,9.0
 548335,1,14,1,10,caught,96.0
 548335,1,15,4,42,caught,96.0
 548335,1,17,4,258,caught,2.0
@@ -3295,7 +3295,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 548336,2,19,6,317,caught,82.0
 548337,1,0,2,158,bowled,
 548337,1,1,2,1,caught,294.0
-548337,2,2,5,65,run out,
+548337,2,2,5,65,run out,359.0
 548337,2,11,1,159,caught,158.0
 548339,1,5,2,238,caught,89.0
 548339,1,7,4,320,caught,125.0
@@ -3306,7 +3306,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 548339,2,13,4,222,caught,238.0
 548339,2,17,2,57,caught,322.0
 548339,2,17,4,50,caught,101.0
-548341,1,3,6,42,run out,
+548341,1,3,6,42,run out,97.0
 548341,1,5,6,17,caught,97.0
 548341,1,11,1,26,bowled,
 548341,1,17,3,10,caught,275.0
@@ -3328,7 +3328,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 548342,2,12,5,89,bowled,
 548342,2,15,1,209,caught,65.0
 548342,2,15,2,222,bowled,
-548342,2,16,2,324,run out,
+548342,2,16,2,324,run out,65.0
 548342,2,19,3,50,caught,29.0
 548342,2,19,6,195,bowled,
 548343,1,8,1,101,run out,202.0
@@ -3382,7 +3382,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 548346,2,13,6,57,caught,258.0
 548346,2,16,1,276,caught,17.0
 548347,1,1,4,304,caught,2.0
-548347,1,4,6,19,run out,
+548347,1,4,6,19,run out,67.0
 548347,1,10,1,72,caught,138.0
 548347,1,12,6,21,caught,31.0
 548347,1,17,6,35,caught,96.0
@@ -3396,7 +3396,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 548348,1,18,6,26,bowled,
 548348,1,19,1,10,caught,307.0
 548348,2,0,1,97,caught,26.0
-548348,2,11,4,329,run out,
+548348,2,11,4,329,run out,134.0
 548348,2,12,4,1,caught,10.0
 548348,2,18,5,46,caught,314.0
 548348,2,19,5,172,caught,26.0
@@ -3418,17 +3418,17 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 548350,2,4,4,101,bowled,
 548350,2,8,5,238,lbw,
 548350,2,16,2,320,caught,176.0
-548350,2,17,4,322,run out,
-548350,2,18,4,4,run out,
+548350,2,17,4,322,run out,182.0
+548350,2,18,4,4,run out,82.0
 548350,2,18,5,48,run out,8.0
 548351,1,7,4,276,caught,172.0
-548351,1,8,6,57,run out,
+548351,1,8,6,57,run out,307.0
 548351,1,11,6,139,caught,46.0
 548351,1,13,3,324,caught,1.0
 548351,1,14,5,209,bowled,
 548351,1,15,6,281,run out,307.0
 548351,1,16,1,50,caught,268.0
-548351,1,19,4,195,run out,
+548351,1,19,4,195,run out,307.0
 548351,1,19,6,131,run out,46.0
 548351,2,3,3,46,lbw,
 548351,2,6,5,158,caught,281.0
@@ -3445,7 +3445,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 548352,2,1,4,17,bowled,
 548352,2,10,4,42,run out,72.0
 548352,2,11,6,26,caught and bowled,
-548352,2,18,3,10,run out,
+548352,2,18,3,10,run out,35.0
 548352,2,19,4,326,caught,186.0
 548353,1,12,3,40,caught,172.0
 548353,1,13,4,2,lbw,
@@ -3458,7 +3458,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 548353,2,7,4,172,caught,138.0
 548353,2,8,2,307,lbw,
 548353,2,17,4,1,caught,138.0
-548353,2,18,3,268,run out,
+548353,2,18,3,268,run out,64.0
 548353,2,19,4,192,caught,64.0
 548354,1,1,2,86,caught,320.0
 548354,1,7,5,32,caught,189.0
@@ -3490,7 +3490,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 548355,2,18,3,324,run out,304.0
 548355,2,18,6,50,caught,63.0
 548355,2,19,2,195,bowled,
-548356,1,11,5,314,run out,
+548356,1,11,5,314,run out,8.0
 548356,1,19,1,10,caught and bowled,
 548356,2,10,4,163,bowled,
 548356,2,13,1,8,caught,95.0
@@ -3505,7 +3505,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 548357,1,19,1,184,caught,88.0
 548357,1,19,3,29,stumped,2.0
 548357,1,19,4,191,run out,67.0
-548357,1,19,6,297,run out,
+548357,1,19,6,297,run out,2.0
 548357,2,6,6,40,bowled,
 548357,2,15,1,9,caught,184.0
 548357,2,15,2,2,caught,41.0
@@ -3523,7 +3523,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 548359,1,7,4,320,lbw,
 548359,1,11,6,4,caught,314.0
 548359,1,15,3,238,bowled,
-548359,1,16,6,322,run out,
+548359,1,16,6,322,run out,326.0
 548359,2,1,5,42,caught,322.0
 548359,2,4,6,17,bowled,
 548359,2,10,1,314,caught,334.0
@@ -3607,13 +3607,13 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 548367,1,6,3,80,hit wicket,
 548367,1,11,3,111,caught,195.0
 548367,1,17,3,133,bowled,
-548367,1,17,5,82,run out,
+548367,1,17,5,82,run out,147.0
 548367,2,0,5,139,caught,8.0
-548367,2,1,2,98,run out,
+548367,2,1,2,98,run out,182.0
 548367,2,3,4,57,caught and bowled,
 548367,2,7,5,89,caught,312.0
 548367,2,8,5,147,caught,133.0
-548368,1,11,3,2,run out,
+548368,1,11,3,2,run out,124.0
 548368,1,12,1,40,bowled,
 548368,1,14,4,9,caught,202.0
 548368,1,16,6,31,caught,72.0
@@ -3621,7 +3621,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 548368,1,19,3,64,caught,21.0
 548368,2,10,2,19,caught,90.0
 548368,2,10,4,186,bowled,
-548368,2,13,2,21,run out,
+548368,2,13,2,21,run out,2.0
 548368,2,17,1,304,caught,88.0
 548368,2,19,2,20,bowled,
 548369,1,3,1,101,caught,184.0
@@ -3642,7 +3642,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 548370,1,8,3,40,bowled,
 548370,1,13,2,277,bowled,
 548370,1,14,1,88,caught,195.0
-548370,1,15,4,96,run out,
+548370,1,15,4,96,run out,50.0
 548370,1,18,1,90,caught,89.0
 548370,2,5,6,98,lbw,
 548370,2,10,6,139,bowled,
@@ -3751,7 +3751,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 548379,1,13,2,23,caught,57.0
 548379,1,14,2,19,caught,81.0
 548379,1,15,1,35,caught,57.0
-548379,2,4,6,139,run out,
+548379,2,4,6,139,run out,35.0
 548379,2,6,2,147,caught,35.0
 548379,2,8,1,89,caught,20.0
 548379,2,10,1,57,caught,20.0
@@ -3764,14 +3764,14 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 548380,1,13,4,21,caught and bowled,
 548380,1,16,3,20,caught,323.0
 548380,1,17,1,110,caught,184.0
-548380,1,19,6,186,run out,
+548380,1,19,6,186,run out,188.0
 548380,2,2,2,188,caught,186.0
 548380,2,3,4,41,caught,19.0
 548380,2,8,2,52,caught,21.0
 548380,2,11,4,335,caught,72.0
 548380,2,13,2,184,caught,186.0
 548380,2,14,4,65,bowled,
-548380,2,14,5,54,run out,
+548380,2,14,5,54,run out,72.0
 548380,2,15,5,338,stumped,20.0
 548380,2,16,3,233,bowled,
 548380,2,16,5,297,run out,20.0
@@ -3792,7 +3792,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 597998,1,17,5,335,caught and bowled,
 597998,1,18,6,65,caught,316.0
 597998,1,19,5,74,caught,64.0
-597998,1,19,6,294,run out,
+597998,1,19,6,294,run out,215.0
 597998,2,1,4,215,caught,263.0
 597998,2,7,2,9,caught,263.0
 597998,2,13,1,40,lbw,
@@ -3802,7 +3802,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 597999,1,6,1,261,caught,139.0
 597999,1,11,4,259,caught,358.0
 597999,1,12,4,340,lbw,
-597999,2,7,3,139,run out,
+597999,2,7,3,139,run out,347.0
 597999,2,9,5,3,stumped,240.0
 597999,2,13,4,57,bowled,
 597999,2,19,2,89,caught,261.0
@@ -3853,7 +3853,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 598002,2,19,1,20,caught,222.0
 598003,1,0,6,97,bowled,
 598003,1,4,6,179,caught,14.0
-598003,1,7,4,308,run out,
+598003,1,7,4,308,run out,238.0
 598003,1,8,6,46,bowled,
 598003,1,9,6,192,caught,53.0
 598003,1,13,3,52,caught,330.0
@@ -3875,14 +3875,14 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 598004,2,8,2,332,bowled,
 598004,2,13,4,26,caught,240.0
 598004,2,15,5,281,caught,164.0
-598004,2,16,1,134,run out,
+598004,2,16,1,134,run out,82.0
 598004,2,19,1,326,caught,8.0
 598005,1,2,3,32,caught,217.0
 598005,1,7,5,6,bowled,
 598005,1,10,1,256,lbw,
 598005,1,15,2,86,caught,215.0
 598005,1,15,4,310,stumped,215.0
-598005,1,19,2,278,run out,
+598005,1,19,2,278,run out,348.0
 598005,2,2,2,215,bowled,
 598005,2,2,3,9,caught,278.0
 598005,2,6,1,88,lbw,
@@ -3963,7 +3963,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 598011,1,8,2,139,caught,254.0
 598011,1,15,1,89,lbw,
 598011,2,0,1,255,bowled,
-598011,2,1,1,52,run out,
+598011,2,1,1,52,run out,209.0
 598011,2,2,3,46,bowled,
 598011,2,5,2,179,caught,222.0
 598011,2,9,4,27,caught,357.0
@@ -3985,7 +3985,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 598013,1,7,4,215,caught,341.0
 598013,1,13,4,40,bowled,
 598013,1,18,4,217,run out,95.0
-598013,1,19,6,9,run out,
+598013,1,19,6,9,run out,134.0
 598013,2,8,6,17,bowled,
 598013,2,10,3,10,caught,31.0
 598013,2,11,1,26,caught,88.0
@@ -4037,7 +4037,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 598016,2,17,2,96,lbw,
 598016,2,18,6,90,bowled,
 598016,2,19,2,31,caught,321.0
-598016,2,19,5,353,run out,
+598016,2,19,5,353,run out,53.0
 598017,1,5,4,188,caught and bowled,
 598017,1,6,1,41,caught,8.0
 598017,1,11,1,339,caught,82.0
@@ -4047,7 +4047,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 598017,2,3,3,163,caught,233.0
 598017,2,15,6,111,run out,191.0
 598017,2,16,2,199,caught and bowled,
-598017,2,17,6,240,run out,
+598017,2,17,6,240,run out,29.0
 598017,2,18,3,284,caught,188.0
 598017,2,18,4,8,caught,65.0
 598017,4,0,1,188,caught,163.0
@@ -4059,7 +4059,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 598018,1,9,2,167,lbw,
 598018,1,10,4,281,caught,46.0
 598018,1,14,6,328,caught,97.0
-598018,1,19,5,134,run out,
+598018,1,19,5,134,run out,48.0
 598018,2,4,2,46,caught,328.0
 598018,2,4,3,255,caught,356.0
 598018,2,8,3,179,lbw,
@@ -4072,26 +4072,26 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 598018,2,18,6,107,bowled,
 598019,1,7,2,32,caught,89.0
 598019,1,13,4,278,caught,139.0
-598019,1,15,1,256,run out,
+598019,1,15,1,256,run out,358.0
 598019,2,0,4,139,caught,39.0
 598019,2,2,5,3,caught and bowled,
 598019,2,6,1,57,caught,32.0
 598019,2,7,5,222,bowled,
 598019,2,12,4,89,caught,105.0
 598019,2,13,2,357,caught,311.0
-598019,2,13,5,50,run out,
+598019,2,13,5,50,run out,6.0
 598019,2,16,1,358,bowled,
 598019,2,17,1,209,lbw,
 598019,2,18,2,195,bowled,
 598020,1,4,3,186,lbw,
 598020,1,12,5,21,caught,236.0
 598020,1,19,3,20,caught,349.0
-598020,1,19,6,72,run out,
+598020,1,19,6,72,run out,349.0
 598020,2,1,3,188,bowled,
 598020,2,1,6,339,lbw,
 598020,2,4,6,65,lbw,
 598020,2,5,1,41,caught,19.0
-598020,2,10,2,349,run out,
+598020,2,10,2,349,run out,21.0
 598020,2,12,2,29,caught,72.0
 598020,2,13,5,83,caught,72.0
 598020,2,15,2,191,bowled,
@@ -4100,10 +4100,10 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 598021,1,2,5,238,caught,356.0
 598021,1,8,4,53,caught,85.0
 598021,1,8,6,168,caught,281.0
-598021,1,14,1,68,run out,
+598021,1,14,1,68,run out,332.0
 598021,1,16,3,4,caught,332.0
 598021,1,17,4,322,caught,326.0
-598021,1,17,5,119,run out,
+598021,1,17,5,119,run out,85.0
 598021,1,17,6,346,caught,85.0
 598021,1,18,1,330,bowled,
 598021,2,0,4,356,bowled,
@@ -4114,7 +4114,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 598022,1,5,5,40,caught,19.0
 598022,1,6,1,9,run out,23.0
 598022,1,7,4,217,caught,35.0
-598022,1,7,6,31,run out,
+598022,1,7,6,31,run out,72.0
 598022,1,12,4,96,lbw,
 598022,1,14,1,88,caught,364.0
 598022,1,15,3,90,caught and bowled,
@@ -4213,7 +4213,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 598031,1,12,5,346,caught,96.0
 598031,1,14,4,321,bowled,
 598031,1,17,2,4,caught,353.0
-598031,1,18,6,322,run out,
+598031,1,18,6,322,run out,9.0
 598031,2,1,2,40,bowled,
 598031,2,1,3,31,caught,53.0
 598031,2,10,4,9,caught,53.0
@@ -4231,7 +4231,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 598032,2,12,5,6,caught,341.0
 598033,1,3,4,139,lbw,
 598033,1,10,1,147,bowled,
-598033,1,12,5,57,run out,
+598033,1,12,5,57,run out,111.0
 598033,1,17,2,89,run out,8.0
 598033,1,17,3,209,run out,8.0
 598033,1,17,4,222,caught,350.0
@@ -4245,7 +4245,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 598033,2,13,5,284,caught,358.0
 598034,1,10,1,63,caught,217.0
 598034,1,15,5,19,caught,96.0
-598034,1,19,2,21,run out,
+598034,1,19,2,21,run out,96.0
 598034,2,2,4,40,bowled,
 598034,2,5,6,2,bowled,
 598034,2,12,2,9,caught,224.0
@@ -4263,14 +4263,14 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 598036,1,7,6,152,bowled,
 598036,1,12,1,111,caught,311.0
 598036,1,15,5,8,caught,311.0
-598036,1,18,1,164,run out,
+598036,1,18,1,164,run out,311.0
 598036,1,18,6,350,caught,352.0
 598036,2,2,5,86,caught,62.0
 598036,2,6,4,6,bowled,
 598036,2,14,2,352,caught,84.0
 598036,2,18,3,32,caught,111.0
 598036,2,19,2,105,bowled,
-598036,2,19,3,205,run out,
+598036,2,19,3,205,run out,8.0
 598037,1,2,4,139,bowled,
 598037,1,7,4,89,bowled,
 598037,1,12,2,147,caught,321.0
@@ -4292,7 +4292,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 598038,2,3,2,46,run out,21.0
 598038,2,4,5,27,caught,20.0
 598038,2,7,3,359,run out,110.0
-598038,2,9,1,48,run out,
+598038,2,9,1,48,run out,110.0
 598038,2,14,2,307,caught and bowled,
 598038,2,18,4,363,caught,21.0
 598038,2,19,3,237,caught,21.0
@@ -4315,7 +4315,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 598040,2,16,5,263,caught,151.0
 598041,1,3,5,63,caught,101.0
 598041,1,11,1,19,stumped,330.0
-598041,1,12,1,20,run out,
+598041,1,12,1,20,run out,210.0
 598041,1,18,3,110,caught,321.0
 598041,2,1,6,137,bowled,
 598041,2,5,6,238,caught,21.0
@@ -4327,7 +4327,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 598042,1,12,6,8,bowled,
 598042,1,15,1,80,caught,237.0
 598042,2,2,5,255,bowled,
-598042,2,6,6,179,run out,
+598042,2,6,6,179,run out,120.0
 598042,2,10,1,27,caught,111.0
 598042,2,10,5,307,caught,240.0
 598042,2,16,2,192,caught,163.0
@@ -4350,7 +4350,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 598044,1,12,2,236,caught and bowled,
 598044,1,14,5,349,caught,85.0
 598044,1,16,4,193,caught,17.0
-598044,1,17,5,294,run out,
+598044,1,17,5,294,run out,341.0
 598044,1,18,1,29,bowled,
 598044,1,19,1,74,bowled,
 598044,2,4,4,42,lbw,
@@ -4397,7 +4397,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 598050,1,13,3,147,caught,211.0
 598050,1,17,1,57,caught,217.0
 598050,1,17,5,222,caught,316.0
-598050,1,17,6,209,run out,
+598050,1,17,6,209,run out,151.0
 598050,1,18,3,50,run out,31.0
 598050,2,0,4,40,bowled,
 598050,2,6,1,215,stumped,89.0
@@ -4405,7 +4405,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 598050,2,9,5,9,caught,247.0
 598050,2,12,2,217,caught,57.0
 598050,2,13,6,96,caught and bowled,
-598050,2,14,1,211,run out,
+598050,2,14,1,211,run out,57.0
 598050,2,15,6,90,caught,195.0
 598050,2,17,4,316,caught,89.0
 598050,2,18,2,151,bowled,
@@ -4447,7 +4447,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 598054,1,1,6,163,bowled,
 598054,1,4,6,204,bowled,
 598054,1,13,2,164,caught and bowled,
-598054,1,19,6,8,run out,
+598054,1,19,6,8,run out,354.0
 598054,2,3,1,65,bowled,
 598054,2,5,2,41,caught,204.0
 598054,2,6,5,188,bowled,
@@ -4474,15 +4474,15 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 598056,1,7,6,328,bowled,
 598056,1,8,4,362,lbw,
 598056,1,14,5,167,caught,53.0
-598056,1,18,6,17,run out,
+598056,1,18,6,17,run out,210.0
 598056,2,0,5,238,caught,10.0
 598056,2,7,1,101,caught,281.0
 598056,2,7,2,53,bowled,
 598056,2,9,4,321,caught,10.0
-598056,2,16,5,210,run out,
+598056,2,16,5,210,run out,281.0
 598056,2,17,2,68,caught,42.0
 598056,2,18,1,14,bowled,
-598056,2,19,1,257,run out,
+598056,2,19,1,257,run out,85.0
 598056,2,19,4,334,caught,85.0
 598057,1,4,3,204,caught,151.0
 598057,1,8,4,8,bowled,
@@ -4537,15 +4537,15 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 598062,2,17,5,74,caught,20.0
 598061,1,5,4,46,bowled,
 598061,1,12,5,255,bowled,
-598061,1,19,3,97,run out,
+598061,1,19,3,97,run out,215.0
 598061,1,19,6,27,caught,285.0
 598061,2,1,4,215,lbw,
 598061,2,3,6,9,bowled,
 598061,2,4,4,40,caught,27.0
-598061,2,15,5,285,run out,
+598061,2,15,5,285,run out,287.0
 598061,2,16,2,88,caught,97.0
 598061,2,17,5,31,obstructing the field,
-598061,2,19,4,90,run out,
+598061,2,19,4,90,run out,359.0
 598063,1,3,2,306,lbw,
 598063,1,11,5,89,caught,352.0
 598063,1,12,4,208,caught,32.0
@@ -4553,7 +4553,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 598063,1,16,4,222,run out,310.0
 598063,1,17,5,209,caught,352.0
 598063,1,19,3,358,caught,105.0
-598063,1,19,6,195,run out,
+598063,1,19,6,195,run out,32.0
 598063,2,0,5,6,caught,89.0
 598063,2,3,4,311,caught,306.0
 598063,2,4,4,352,caught,131.0
@@ -4579,7 +4579,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 598065,1,16,2,362,caught,105.0
 598065,1,18,3,328,caught,310.0
 598065,1,18,6,95,bowled,
-598065,1,19,5,167,run out,
+598065,1,19,5,167,run out,256.0
 598065,1,19,6,134,run out,310.0
 598065,2,7,3,6,run out,10.0
 598065,2,8,4,86,caught,42.0
@@ -4596,7 +4596,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 598066,1,17,2,322,lbw,
 598066,1,18,6,321,caught,372.0
 598066,1,19,1,330,lbw,
-598066,1,19,5,68,run out,
+598066,1,19,5,68,run out,306.0
 598066,1,19,6,14,bowled,
 598066,2,0,3,306,caught,346.0
 598066,2,3,5,208,bowled,
@@ -4630,7 +4630,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 598067,2,18,3,29,caught,97.0
 598067,2,19,5,294,caught,192.0
 598069,1,4,3,215,caught,10.0
-598069,1,7,1,40,run out,
+598069,1,7,1,40,run out,328.0
 598069,1,10,4,217,lbw,
 598069,1,15,1,9,caught,42.0
 598069,1,16,1,285,lbw,
@@ -4638,7 +4638,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 598069,1,19,1,316,caught,281.0
 598069,2,11,3,42,lbw,
 598069,2,13,3,17,lbw,
-598069,2,14,2,10,run out,
+598069,2,14,2,10,run out,217.0
 598069,2,15,3,341,caught,213.0
 598069,2,17,5,281,bowled,
 598070,1,7,2,186,caught,147.0
@@ -4656,9 +4656,9 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 598071,1,2,3,341,caught,310.0
 598071,1,10,6,10,caught,310.0
 598071,1,15,4,42,caught,39.0
-598071,1,17,2,362,run out,
+598071,1,17,2,362,run out,343.0
 598071,1,17,6,281,caught,278.0
-598071,1,19,3,328,run out,
+598071,1,19,3,328,run out,86.0
 598071,2,1,6,6,caught,167.0
 598071,2,6,4,32,caught,362.0
 598071,2,7,4,278,bowled,
@@ -4683,7 +4683,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 598073,1,9,3,89,bowled,
 598073,1,15,1,209,bowled,
 598073,1,17,5,50,caught,19.0
-598073,1,18,4,357,run out,
+598073,1,18,4,357,run out,364.0
 598073,1,19,1,358,caught,20.0
 598073,1,19,3,195,caught,20.0
 598073,2,0,4,19,bowled,
@@ -4811,7 +4811,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 729297,2,13,3,311,caught,20.0
 729297,2,14,2,378,bowled,
 729297,2,18,3,90,caught,202.0
-729297,2,19,5,371,run out,
+729297,2,19,5,371,run out,304.0
 729299,1,0,3,40,lbw,
 729299,1,1,2,97,caught,8.0
 729299,1,11,3,337,caught,111.0
@@ -4840,7 +4840,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 729303,2,7,4,21,stumped,365.0
 729303,2,15,6,304,stumped,365.0
 729305,1,0,4,113,caught,352.0
-729305,1,0,5,17,run out,
+729305,1,0,5,17,run out,86.0
 729305,1,2,1,27,caught,307.0
 729305,1,2,2,111,bowled,
 729305,1,5,2,302,bowled,
@@ -4850,7 +4850,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 729305,1,14,3,350,caught,378.0
 729305,1,14,6,107,lbw,
 729305,2,4,3,86,caught,17.0
-729305,2,5,4,352,run out,
+729305,2,5,4,352,run out,113.0
 729305,2,6,3,340,caught,17.0
 729305,2,12,5,32,caught,111.0
 729307,1,1,4,204,run out,97.0
@@ -4877,11 +4877,11 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 729309,1,6,4,373,caught,356.0
 729309,1,8,6,209,caught,64.0
 729309,1,13,5,19,bowled,
-729309,1,18,4,365,run out,
+729309,1,18,4,365,run out,294.0
 729309,1,19,5,50,retired hurt,
 729309,2,6,5,356,caught,19.0
 729309,2,12,2,186,bowled,
-729309,2,15,2,155,caught,792.0
+729309,2,15,2,155,caught,
 729309,2,15,5,89,caught,209.0
 729311,1,2,2,42,caught,172.0
 729311,1,2,4,188,lbw,
@@ -4908,7 +4908,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 729313,2,12,6,41,caught,17.0
 729315,1,2,1,340,bowled,
 729315,1,8,3,352,bowled,
-729315,1,15,6,32,run out,
+729315,1,15,6,32,run out,97.0
 729315,1,17,2,256,caught,215.0
 729315,1,19,3,86,caught,309.0
 729315,2,3,4,215,caught,340.0
@@ -4918,8 +4918,8 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 729315,2,18,1,309,caught,307.0
 729315,2,18,4,46,bowled,
 729315,2,18,5,82,bowled,
-729315,2,19,2,68,run out,
-729315,3,0,1,309,run out,
+729315,2,19,2,68,run out,307.0
+729315,3,0,1,309,run out,352.0
 729315,3,0,6,277,run out,352.0
 729317,1,2,4,42,caught,50.0
 729317,1,4,6,255,caught,380.0
@@ -4936,7 +4936,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 733971,1,2,3,147,lbw,
 733971,1,10,4,21,caught,309.0
 733971,1,14,3,2,caught,31.0
-733971,2,2,2,40,run out,
+733971,2,2,2,40,run out,20.0
 733971,2,4,4,9,caught,172.0
 733971,2,5,1,97,caught,2.0
 733971,2,5,2,277,caught,364.0
@@ -4987,7 +4987,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 733979,2,15,1,97,stumped,352.0
 733979,2,15,1,31,caught and bowled,
 733979,2,15,2,285,lbw,
-733981,1,4,1,356,run out,
+733981,1,4,1,356,run out,21.0
 733981,1,4,3,159,bowled,
 733981,1,12,6,89,caught,364.0
 733981,1,13,6,64,caught,360.0
@@ -4998,7 +4998,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 733983,1,7,5,209,bowled,
 733983,1,8,5,365,caught,17.0
 733983,1,9,4,373,caught,8.0
-733983,1,19,4,222,run out,
+733983,1,19,4,222,run out,17.0
 733983,2,5,1,17,bowled,
 733983,2,9,5,163,bowled,
 733983,2,12,4,111,bowled,
@@ -5080,7 +5080,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 733995,2,15,3,147,caught,384.0
 733995,2,16,4,304,bowled,
 733995,2,18,5,35,bowled,
-733995,2,18,6,172,run out,
+733995,2,18,6,172,run out,14.0
 733997,1,1,3,238,caught,46.0
 733997,1,5,1,63,bowled,
 733997,1,10,3,306,caught,191.0
@@ -5088,7 +5088,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 733997,1,15,2,321,bowled,
 733997,1,16,6,357,bowled,
 733997,1,19,5,358,stumped,46.0
-733997,1,19,6,375,run out,
+733997,1,19,6,375,run out,309.0
 733997,2,6,6,46,caught,375.0
 733999,1,2,3,8,caught,90.0
 733999,1,7,4,163,caught,352.0
@@ -5101,13 +5101,13 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 733999,2,10,6,352,caught and bowled,
 733999,2,13,3,340,bowled,
 734001,1,4,6,42,bowled,
-734001,1,9,5,355,run out,
+734001,1,9,5,355,run out,57.0
 734001,1,18,5,255,caught,222.0
 734001,2,1,2,365,caught,42.0
 734001,2,15,5,384,bowled,
 734001,2,16,5,209,caught and bowled,
 734003,1,7,5,315,caught,147.0
-734003,1,10,4,86,run out,
+734003,1,10,4,86,run out,20.0
 734003,1,12,4,32,bowled,
 734003,1,14,6,340,bowled,
 734003,1,17,2,307,bowled,
@@ -5120,7 +5120,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 734003,2,14,5,202,bowled,
 734003,2,17,3,304,bowled,
 734005,1,5,3,163,bowled,
-734005,1,8,1,8,run out,
+734005,1,8,1,8,run out,343.0
 734005,1,12,3,17,caught,89.0
 734005,1,14,2,111,bowled,
 734005,2,0,4,186,lbw,
@@ -5132,7 +5132,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 734005,2,19,4,236,run out,17.0
 734007,1,8,1,255,bowled,
 734007,1,11,1,42,caught,382.0
-734007,1,18,1,188,run out,
+734007,1,18,1,188,run out,346.0
 734007,1,18,4,164,caught,321.0
 734007,1,19,2,29,caught,321.0
 734007,2,0,2,41,caught and bowled,
@@ -5181,7 +5181,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 734015,1,19,3,167,run out,31.0
 734015,1,19,6,95,bowled,
 734015,2,1,6,40,caught,184.0
-734015,2,9,5,46,run out,
+734015,2,9,5,46,run out,184.0
 734015,2,15,2,97,caught,255.0
 734017,1,14,3,384,caught,310.0
 734017,1,14,6,19,caught,310.0
@@ -5213,7 +5213,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 734021,1,17,3,8,caught,95.0
 734021,1,18,1,111,bowled,
 734021,1,19,6,379,run out,184.0
-734021,2,12,3,42,run out,
+734021,2,12,3,42,run out,27.0
 734021,2,16,1,188,caught,27.0
 734021,2,18,4,184,caught,27.0
 734023,1,1,2,147,bowled,
@@ -5235,7 +5235,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 734025,2,17,2,57,caught,368.0
 734027,1,0,5,40,caught,113.0
 734027,1,3,4,97,caught,379.0
-734027,1,6,6,31,run out,
+734027,1,6,6,31,run out,8.0
 734027,1,18,4,277,bowled,
 734027,2,1,6,163,lbw,
 734027,2,12,3,8,caught,191.0
@@ -5247,17 +5247,17 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 734029,1,8,4,21,caught,255.0
 734029,2,11,2,188,bowled,
 734029,2,17,2,184,caught,323.0
-734029,2,18,1,255,run out,
+734029,2,18,1,255,run out,21.0
 734029,2,19,2,362,caught,304.0
 734031,1,7,6,384,caught,268.0
-734031,1,11,6,19,run out,
+734031,1,11,6,19,run out,89.0
 734031,1,14,2,57,bowled,
 734031,1,14,4,222,caught,89.0
 734031,1,15,4,209,caught,186.0
 734031,1,16,3,208,caught,236.0
 734031,1,17,2,50,caught,186.0
 734031,1,18,2,390,caught,89.0
-734031,1,18,6,131,run out,
+734031,1,18,6,131,run out,88.0
 734031,1,19,4,389,run out,89.0
 734031,2,5,2,186,stumped,208.0
 734031,2,8,5,159,bowled,
@@ -5285,21 +5285,21 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 734035,2,9,3,21,stumped,113.0
 734037,1,0,2,188,bowled,
 734037,1,7,6,184,caught and bowled,
-734037,1,12,2,42,run out,
-734037,1,14,6,54,run out,
+734037,1,12,2,42,run out,97.0
+734037,1,14,6,54,run out,97.0
 734037,1,16,3,124,stumped,46.0
-734037,1,19,3,392,run out,
+734037,1,19,3,392,run out,46.0
 734037,1,19,4,362,caught,277.0
 734037,2,4,4,40,bowled,
 734037,2,7,3,97,caught,95.0
 734037,2,9,2,46,caught,392.0
-734037,2,9,4,285,run out,
+734037,2,9,4,285,run out,184.0
 734037,2,11,6,277,caught,392.0
 734037,2,13,5,31,caught,42.0
 734039,1,2,2,261,caught,41.0
 734039,1,5,2,89,caught,375.0
 734039,1,5,6,236,caught,346.0
-734039,1,9,3,88,run out,
+734039,1,9,3,88,run out,357.0
 734039,1,12,3,155,caught,375.0
 734039,1,13,4,159,lbw,
 734039,1,16,6,377,caught,198.0
@@ -5317,7 +5317,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 734041,2,4,2,19,bowled,
 734041,2,4,6,222,caught,105.0
 734041,2,9,2,57,caught,340.0
-734041,2,14,3,209,run out,
+734041,2,14,3,209,run out,340.0
 734043,1,1,2,40,caught,198.0
 734043,1,8,2,46,caught,321.0
 734043,1,8,5,97,bowled,
@@ -5331,7 +5331,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 734043,2,7,5,306,lbw,
 734043,2,11,6,63,caught,233.0
 734043,2,12,2,321,bowled,
-734043,2,13,3,375,run out,
+734043,2,13,3,375,run out,68.0
 734043,2,17,3,357,stumped,46.0
 734043,2,19,1,198,caught,97.0
 734045,1,9,4,19,bowled,
@@ -5354,7 +5354,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 734047,2,0,2,304,caught,198.0
 734047,2,4,6,147,bowled,
 734047,2,6,1,21,run out,198.0
-734047,2,11,6,2,run out,
+734047,2,11,6,2,run out,306.0
 734047,2,12,1,35,caught,358.0
 734047,2,12,5,4,caught,41.0
 734047,2,16,5,202,stumped,63.0
@@ -5389,7 +5389,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 829707,2,14,3,27,caught,360.0
 829707,2,15,4,155,bowled,
 829707,2,17,4,372,bowled,
-829707,2,18,5,134,run out,
+829707,2,18,5,134,run out,20.0
 829707,2,19,3,387,caught,21.0
 829709,1,1,3,86,caught,375.0
 829709,1,2,5,352,lbw,
@@ -5421,14 +5421,14 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 829713,1,16,1,309,caught,238.0
 829713,1,16,2,97,run out,8.0
 829713,1,19,1,31,caught,8.0
-829713,1,19,6,277,run out,
+829713,1,19,6,277,run out,89.0
 829713,2,4,5,8,caught,46.0
 829713,2,7,3,89,bowled,
 829713,2,7,6,238,bowled,
 829713,2,10,6,111,stumped,46.0
 829713,2,14,4,362,stumped,46.0
-829713,2,16,1,398,run out,
-829713,2,18,2,163,run out,
+829713,2,16,1,398,run out,191.0
+829713,2,18,2,163,run out,97.0
 829715,1,4,4,261,caught and bowled,
 829715,1,10,6,394,caught,378.0
 829715,1,16,3,27,caught,340.0
@@ -5523,7 +5523,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 829733,1,13,6,281,caught,97.0
 829733,1,17,3,330,caught,309.0
 829733,1,18,6,375,caught,309.0
-829733,1,19,4,198,run out,
+829733,1,19,4,198,run out,285.0
 829733,1,19,6,358,caught,40.0
 829733,2,2,2,46,lbw,
 829733,2,4,3,97,caught,198.0
@@ -5543,21 +5543,21 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 829737,1,18,2,222,caught,383.0
 829737,1,18,3,209,caught,383.0
 829737,1,18,5,57,caught and bowled,
-829737,1,19,6,50,run out,
+829737,1,19,6,50,run out,215.0
 829737,2,4,6,215,bowled,
 829737,2,8,1,163,bowled,
 829737,2,10,3,8,caught,209.0
 829737,2,12,1,89,caught,263.0
 829737,2,13,1,381,bowled,
 829737,2,14,2,111,caught,222.0
-829737,2,19,1,138,run out,
+829737,2,19,1,138,run out,57.0
 829739,1,1,2,261,caught,233.0
 829739,1,4,3,155,bowled,
 829739,1,8,4,394,bowled,
 829739,1,13,4,88,caught,31.0
 829739,1,14,6,27,stumped,46.0
 829739,1,17,6,236,caught,40.0
-829739,1,19,2,372,run out,
+829739,1,19,2,372,run out,97.0
 829739,1,19,6,192,caught,46.0
 829739,2,4,1,46,caught,155.0
 829739,2,4,4,97,caught,387.0
@@ -5598,7 +5598,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 829745,2,3,3,215,caught,304.0
 829745,2,3,6,381,bowled,
 829745,2,8,2,89,caught,72.0
-829745,2,11,3,111,run out,
+829745,2,11,3,111,run out,147.0
 829745,2,13,3,402,caught,364.0
 829745,2,16,1,8,caught,147.0
 829745,2,16,2,312,caught,72.0
@@ -5618,7 +5618,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 829747,2,19,4,50,caught,426.0
 829749,1,4,6,86,lbw,
 829749,1,5,4,32,caught,379.0
-829749,1,9,5,340,run out,
+829749,1,9,5,340,run out,312.0
 829749,1,11,2,395,bowled,
 829749,1,12,4,352,bowled,
 829749,1,17,1,307,caught,89.0
@@ -5673,7 +5673,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 829759,2,2,2,346,bowled,
 829759,2,3,1,101,bowled,
 829759,2,7,3,198,caught,167.0
-829759,2,8,2,186,run out,
+829759,2,8,2,186,run out,341.0
 829759,2,12,2,321,caught,461.0
 829759,2,17,1,375,bowled,
 829759,2,17,6,63,caught,14.0
@@ -5690,17 +5690,17 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 829765,2,7,1,97,caught,72.0
 829765,2,12,2,309,caught,72.0
 829765,2,15,2,31,bowled,
-829765,2,16,5,335,run out,
+829765,2,16,5,335,run out,35.0
 829765,2,17,1,405,caught,35.0
 829765,2,17,5,68,caught,20.0
 829765,2,18,5,233,bowled,
 829763,1,0,4,163,caught,395.0
 829763,1,2,2,8,caught,352.0
 829763,1,11,1,238,lbw,
-829763,1,13,5,111,run out,
-829763,1,16,3,89,run out,
+829763,1,13,5,111,run out,395.0
+829763,1,16,3,89,run out,378.0
 829763,1,18,5,401,caught,378.0
-829763,1,19,6,312,run out,
+829763,1,19,6,312,run out,86.0
 829723,1,0,1,147,caught,285.0
 829723,1,3,3,21,caught,68.0
 829723,1,5,1,2,lbw,
@@ -5733,7 +5733,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 829769,2,17,4,352,caught,399.0
 829769,2,17,5,340,caught,17.0
 829769,2,18,1,395,caught,263.0
-829769,2,19,5,378,run out,
+829769,2,19,5,378,run out,222.0
 829771,1,3,5,40,caught,238.0
 829771,1,6,5,46,caught,89.0
 829771,1,8,4,335,run out,89.0
@@ -5743,10 +5743,10 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 829771,2,7,2,8,caught,309.0
 829773,1,8,1,188,caught,147.0
 829773,1,9,6,164,stumped,20.0
-829773,1,12,6,42,run out,
+829773,1,12,6,42,run out,35.0
 829773,1,16,1,184,bowled,
 829773,1,17,2,326,caught,20.0
-829773,1,19,4,341,caught,793.0
+829773,1,19,4,341,caught,
 829773,1,19,6,167,caught,35.0
 829773,2,1,5,2,bowled,
 829773,2,5,1,147,caught,341.0
@@ -5763,7 +5763,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 829775,2,16,2,321,caught,57.0
 829775,2,18,5,198,run out,17.0
 829775,2,18,5,375,run out,195.0
-829775,2,19,6,63,run out,
+829775,2,19,6,63,run out,399.0
 829777,1,6,5,32,caught,236.0
 829777,1,18,2,340,caught,134.0
 829777,2,2,3,261,bowled,
@@ -5784,7 +5784,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 829779,1,19,6,364,run out,89.0
 829779,2,2,1,374,bowled,
 829779,2,4,6,111,caught,304.0
-829779,2,5,2,238,run out,
+829779,2,5,2,238,run out,323.0
 829779,2,13,6,8,run out,72.0
 829779,2,14,1,89,caught,147.0
 829779,2,16,4,402,caught,147.0
@@ -5795,16 +5795,16 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 829781,1,6,2,40,caught,217.0
 829781,1,10,6,46,caught,188.0
 829781,1,11,6,335,caught,217.0
-829781,1,13,5,97,run out,
+829781,1,13,5,97,run out,229.0
 829781,1,14,6,285,lbw,
 829781,1,17,3,193,bowled,
 829781,1,17,6,309,caught,164.0
 829781,2,0,3,188,bowled,
 829781,2,0,6,184,bowled,
 829781,2,4,5,42,caught,97.0
-829781,2,8,1,217,run out,
+829781,2,8,1,217,run out,40.0
 829781,2,11,4,341,stumped,46.0
-829781,2,11,6,229,run out,
+829781,2,11,6,229,run out,285.0
 829781,2,14,1,164,caught,97.0
 829781,2,17,5,167,caught,309.0
 829781,2,19,4,14,caught,233.0
@@ -5838,7 +5838,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 829761,1,14,5,68,caught,80.0
 829761,1,16,3,335,caught,192.0
 829761,1,18,6,31,caught,80.0
-829761,1,19,6,193,run out,
+829761,1,19,6,193,run out,155.0
 829761,2,9,5,88,caught,309.0
 829761,2,10,6,394,bowled,
 829761,2,13,2,236,caught,193.0
@@ -5888,7 +5888,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 829793,2,9,6,27,caught,167.0
 829793,2,10,2,155,bowled,
 829795,1,3,1,163,caught,384.0
-829795,2,3,6,17,run out,
+829795,2,3,6,17,run out,8.0
 829795,2,8,1,57,caught,238.0
 829795,2,14,2,222,caught,379.0
 829795,2,15,4,400,stumped,89.0
@@ -5971,12 +5971,12 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 829809,2,0,6,19,caught,63.0
 829809,2,1,5,2,bowled,
 829809,2,13,3,304,bowled,
-829811,1,6,6,86,run out,
+829811,1,6,6,86,run out,277.0
 829811,1,10,5,307,caught,191.0
 829811,1,12,5,352,caught,40.0
 829811,1,14,3,311,caught,309.0
 829811,1,17,6,340,caught,46.0
-829811,1,19,6,351,run out,
+829811,1,19,6,351,run out,97.0
 829811,2,0,6,40,caught,256.0
 829811,2,2,6,46,caught,307.0
 829811,2,8,1,97,caught,351.0
@@ -6000,7 +6000,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 829815,1,15,4,326,caught,82.0
 829815,1,16,3,300,caught,400.0
 829815,1,17,3,167,caught,399.0
-829815,1,19,6,14,run out,
+829815,1,19,6,14,run out,400.0
 829815,2,13,2,384,caught,42.0
 829817,1,10,4,17,caught,35.0
 829817,1,13,4,384,caught,323.0
@@ -6013,14 +6013,14 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 829817,2,10,2,21,caught and bowled,
 829817,2,10,3,20,lbw,
 829817,2,13,5,304,caught,82.0
-829817,2,14,5,72,run out,
+829817,2,14,5,72,run out,403.0
 829817,2,15,3,323,caught,263.0
 829817,2,17,2,35,caught,399.0
 829817,2,18,4,202,caught,209.0
 829817,2,18,6,74,caught,384.0
 829819,1,5,6,163,bowled,
 829819,1,7,3,8,caught and bowled,
-829819,1,18,4,111,run out,
+829819,1,18,4,111,run out,256.0
 829819,1,19,3,89,caught,86.0
 829819,2,1,6,32,caught,89.0
 829819,2,4,5,352,caught,89.0
@@ -6028,7 +6028,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 829819,2,12,1,340,caught,89.0
 829819,2,13,6,86,caught,111.0
 829819,2,14,4,311,caught and bowled,
-829819,2,14,5,256,run out,
+829819,2,14,5,256,run out,383.0
 829819,2,15,6,351,caught,383.0
 829819,2,16,5,395,caught,379.0
 829819,2,18,6,81,bowled,
@@ -6105,8 +6105,8 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 980909,1,13,4,97,caught and bowled,
 980909,1,17,2,335,bowled,
 980909,1,18,1,40,caught,17.0
-980909,1,19,5,412,run out,
-980909,2,5,5,17,run out,
+980909,1,19,5,412,run out,378.0
+980909,2,5,5,17,run out,317.0
 980909,2,10,1,400,caught,97.0
 980909,2,11,5,403,caught,412.0
 980909,2,18,3,408,caught,309.0
@@ -6118,7 +6118,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 980911,2,8,3,255,caught,85.0
 980911,2,13,1,2,caught,304.0
 980911,2,16,1,21,stumped,20.0
-980913,1,1,3,186,run out,
+980913,1,1,3,186,run out,15.0
 980913,1,6,1,101,stumped,356.0
 980913,1,8,1,321,lbw,
 980913,1,8,4,306,caught,409.0
@@ -6135,7 +6135,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 980915,1,9,4,395,caught,233.0
 980915,1,17,3,184,caught,68.0
 980915,1,18,4,217,caught,277.0
-980915,1,19,5,326,run out,
+980915,1,19,5,326,run out,277.0
 980915,2,12,3,46,lbw,
 980915,2,13,4,335,bowled,
 980917,1,1,3,57,caught,187.0
@@ -6145,7 +6145,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 980917,1,12,6,17,caught,311.0
 980917,1,15,5,50,caught,89.0
 980917,1,16,6,209,bowled,
-980917,1,19,5,378,run out,
+980917,1,19,5,378,run out,89.0
 980917,2,1,3,2,caught,400.0
 980917,2,8,3,21,caught,17.0
 980917,2,11,1,89,caught,50.0
@@ -6159,7 +6159,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 980919,1,17,5,307,caught,321.0
 980919,1,19,1,304,caught and bowled,
 980919,1,19,2,20,caught,306.0
-980919,1,19,6,29,run out,
+980919,1,19,6,29,run out,306.0
 980919,2,12,2,346,lbw,
 980919,2,14,1,101,bowled,
 980919,2,14,6,186,caught,20.0
@@ -6174,7 +6174,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 980921,2,18,2,356,caught,236.0
 980923,1,0,4,416,caught,184.0
 980923,1,3,6,17,bowled,
-980923,1,7,1,57,run out,
+980923,1,7,1,57,run out,164.0
 980923,1,10,4,408,caught,184.0
 980923,1,17,1,209,caught,164.0
 980923,1,18,5,400,bowled,
@@ -6188,7 +6188,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 980925,1,14,5,306,caught,68.0
 980925,1,16,6,375,caught,309.0
 980925,1,17,6,364,caught,46.0
-980925,1,18,3,413,run out,
+980925,1,18,3,413,run out,335.0
 980925,2,8,3,46,lbw,
 980925,2,10,5,40,caught,306.0
 980925,2,13,1,97,bowled,
@@ -6197,7 +6197,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 980927,1,10,2,8,caught,378.0
 980927,1,10,6,111,stumped,17.0
 980927,1,13,3,32,caught,17.0
-980927,1,19,1,418,run out,
+980927,1,19,1,418,run out,50.0
 980927,1,19,4,402,caught,414.0
 980927,1,19,5,256,caught,400.0
 980927,2,1,1,17,caught,111.0
@@ -6228,12 +6228,12 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 980933,1,6,6,394,caught,209.0
 980933,1,7,6,340,caught,378.0
 980933,1,16,3,352,caught,378.0
-980933,2,1,4,17,run out,
+980933,2,1,4,17,run out,394.0
 980933,2,8,3,209,bowled,
 980933,2,12,4,414,run out,15.0
 980933,2,14,3,408,lbw,
 980933,2,18,6,222,caught,351.0
-980933,2,19,3,57,run out,
+980933,2,19,3,57,run out,323.0
 980933,2,19,4,50,lbw,
 980935,1,2,1,186,caught,184.0
 980935,1,5,5,346,run out,42.0
@@ -6242,7 +6242,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 980935,1,13,3,101,lbw,
 980935,1,19,2,420,caught,164.0
 980935,2,9,5,188,caught,321.0
-980935,2,9,6,208,run out,
+980935,2,9,6,208,run out,321.0
 980935,2,13,6,42,caught,420.0
 980935,2,16,5,217,caught,346.0
 980935,2,16,6,395,run out,321.0
@@ -6258,7 +6258,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 980939,1,17,1,86,caught and bowled,
 980939,1,18,1,110,bowled,
 980939,2,0,1,46,lbw,
-980939,2,2,5,40,run out,
+980939,2,2,5,40,run out,80.0
 980939,2,6,3,277,bowled,
 980939,2,14,2,31,lbw,
 980939,2,15,5,309,lbw,
@@ -6326,7 +6326,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 980951,1,16,4,351,bowled,
 980951,1,18,4,422,bowled,
 980951,1,19,2,409,caught,316.0
-980951,1,19,6,421,run out,
+980951,1,19,6,421,run out,309.0
 980951,2,2,6,40,caught,394.0
 980951,2,4,4,68,lbw,
 980951,2,7,5,31,caught,134.0
@@ -6341,7 +6341,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 980953,1,15,5,188,caught,111.0
 980953,1,16,5,397,caught,355.0
 980953,1,17,2,184,caught,111.0
-980953,1,19,1,395,run out,
+980953,1,19,1,395,run out,363.0
 980953,2,5,2,8,caught,326.0
 980953,2,9,6,355,caught,184.0
 980953,2,11,2,32,run out,430.0
@@ -6351,7 +6351,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 980955,1,6,4,410,stumped,89.0
 980955,1,7,5,101,caught,21.0
 980955,1,7,6,306,caught,89.0
-980955,1,8,5,330,run out,
+980955,1,8,5,330,run out,311.0
 980955,1,13,1,186,caught,72.0
 980955,1,17,2,321,caught,147.0
 980955,1,18,2,375,caught,411.0
@@ -6364,7 +6364,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 980955,2,6,5,89,bowled,
 980955,2,6,6,72,bowled,
 980955,2,10,1,35,caught,63.0
-980955,2,14,5,411,run out,
+980955,2,14,5,411,run out,306.0
 980955,2,18,6,14,caught,423.0
 980955,2,19,2,311,caught,321.0
 980957,1,1,5,86,caught,414.0
@@ -6380,7 +6380,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 980959,1,16,4,8,caught,335.0
 980959,1,18,6,370,caught and bowled,
 980959,1,19,5,256,caught,97.0
-980959,1,19,6,32,run out,
+980959,1,19,6,32,run out,97.0
 980959,2,0,6,46,caught,8.0
 980959,2,4,4,337,bowled,
 980959,2,8,6,40,lbw,
@@ -6392,7 +6392,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 980961,1,10,6,21,stumped,356.0
 980961,1,17,3,89,bowled,
 980961,1,18,6,311,bowled,
-980961,1,19,6,411,run out,
+980961,1,19,6,411,run out,422.0
 980961,2,13,3,421,caught,89.0
 980961,2,14,5,356,caught,147.0
 980963,1,13,3,40,run out,
@@ -6405,14 +6405,14 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 980963,2,15,4,306,lbw,
 980963,2,17,3,321,caught,210.0
 980963,2,19,2,375,run out,
-980963,2,19,3,330,run out,
+980963,2,19,3,330,run out,210.0
 980963,2,19,5,425,lbw,
 980965,1,2,4,421,bowled,
 980965,1,5,6,352,caught,202.0
 980965,1,9,4,340,caught,281.0
 980965,1,14,4,422,caught,86.0
 980965,1,16,5,409,caught,281.0
-980965,1,16,6,155,run out,
+980965,1,16,6,155,run out,86.0
 980965,1,17,5,426,run out,80.0
 980965,2,8,2,427,stumped,352.0
 980965,2,13,2,80,caught,422.0
@@ -6428,7 +6428,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 980967,2,9,2,164,caught,89.0
 980967,2,13,6,27,caught,115.0
 980967,2,17,2,395,caught,89.0
-980969,1,2,2,427,run out,
+980969,1,2,2,427,run out,32.0
 980969,1,14,1,80,stumped,355.0
 980969,1,15,4,20,caught,367.0
 980969,1,17,6,281,caught,32.0
@@ -6438,7 +6438,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 980969,2,11,6,111,caught,281.0
 980969,2,15,3,32,lbw,
 980971,1,5,4,186,caught,409.0
-980971,1,6,6,428,run out,
+980971,1,6,6,428,run out,15.0
 980971,1,13,5,410,caught,352.0
 980971,1,17,6,306,bowled,
 980971,1,18,1,63,caught,351.0
@@ -6474,7 +6474,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 980977,1,8,4,32,bowled,
 980977,1,17,5,111,caught,423.0
 980977,1,19,5,418,caught,186.0
-980977,1,19,6,370,run out,
+980977,1,19,6,370,run out,321.0
 980977,2,5,3,428,caught,256.0
 980977,2,10,5,63,run out,355.0
 980977,2,10,6,321,stumped,355.0
@@ -6488,12 +6488,12 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 980979,1,19,4,184,bowled,
 980979,1,19,6,300,caught,80.0
 980979,2,0,3,86,caught,184.0
-980979,2,3,6,427,run out,
+980979,2,3,6,427,run out,395.0
 980979,2,11,6,198,caught,74.0
 980979,2,13,2,202,caught,184.0
 980979,2,14,6,80,caught,42.0
 980979,2,19,3,281,caught,164.0
-980979,2,19,5,20,run out,
+980979,2,19,5,20,run out,430.0
 980979,2,19,6,431,caught,184.0
 980981,1,1,1,8,caught,50.0
 980981,1,3,4,163,caught,57.0
@@ -6543,7 +6543,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 980989,1,4,3,427,caught,309.0
 980989,1,9,4,80,caught,46.0
 980989,1,10,3,198,stumped,46.0
-980989,1,13,5,29,run out,
+980989,1,13,5,29,run out,68.0
 980989,1,16,2,281,caught,97.0
 980989,2,0,2,46,stumped,20.0
 980989,2,0,3,40,lbw,
@@ -6560,16 +6560,16 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 980993,1,17,5,222,caught,356.0
 980993,2,1,3,261,bowled,
 980993,2,4,4,340,caught,376.0
-980993,2,7,5,352,run out,
+980993,2,7,5,352,run out,50.0
 980993,2,9,2,356,caught,408.0
 980993,2,12,5,155,caught,408.0
 980993,2,12,6,421,bowled,
 980993,2,15,3,134,bowled,
-980993,2,16,4,351,run out,
+980993,2,16,4,351,run out,209.0
 980993,2,17,6,387,run out,82.0
 980993,2,19,1,15,bowled,
 980995,1,2,2,46,caught and bowled,
-980995,1,10,3,40,run out,
+980995,1,10,3,40,run out,32.0
 980995,1,13,4,97,caught,111.0
 980995,1,14,1,31,stumped,355.0
 980995,1,15,2,309,caught,138.0
@@ -6592,7 +6592,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 980999,2,8,2,429,caught,111.0
 980999,2,8,5,417,caught,111.0
 980999,2,10,5,330,caught,163.0
-980999,2,12,2,364,run out,
+980999,2,12,2,364,run out,32.0
 981001,1,3,1,40,run out,187.0
 981001,1,4,2,97,caught,21.0
 981001,1,6,2,46,caught,89.0
@@ -6604,14 +6604,14 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 981001,2,0,1,147,caught,46.0
 981001,2,1,2,2,lbw,
 981001,2,3,5,89,bowled,
-981001,2,9,5,255,run out,
+981001,2,9,5,255,run out,345.0
 981003,1,5,6,42,run out,409.0
 981003,1,6,4,395,run out,134.0
 981003,1,9,3,27,bowled,
 981003,1,13,3,164,caught,323.0
 981003,1,15,2,188,caught,134.0
 981003,1,17,3,217,caught,409.0
-981003,1,19,6,300,run out,
+981003,1,19,6,300,run out,340.0
 981003,2,1,5,356,caught,184.0
 981003,2,11,4,421,run out,300.0
 981003,2,16,1,155,caught,188.0
@@ -6651,7 +6651,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 981009,2,11,3,42,caught,412.0
 981009,2,12,1,184,caught,46.0
 981009,2,14,3,27,caught,210.0
-981009,2,15,1,395,run out,
+981009,2,15,1,395,run out,277.0
 981009,2,15,4,397,caught,309.0
 981009,2,17,6,164,bowled,
 981009,2,19,1,300,caught,210.0
@@ -6662,7 +6662,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 981011,1,14,3,323,caught,111.0
 981011,1,14,6,409,caught,32.0
 981011,1,16,1,356,caught,435.0
-981011,1,19,6,426,run out,
+981011,1,19,6,426,run out,383.0
 981011,2,1,1,163,bowled,
 981011,2,2,4,111,caught,426.0
 981011,2,10,1,355,bowled,
@@ -6676,7 +6676,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 981013,1,18,3,434,caught,8.0
 981013,1,18,4,72,bowled,
 981013,1,19,3,14,bowled,
-981013,1,19,6,81,run out,
+981013,1,19,6,81,run out,370.0
 981013,2,1,2,8,bowled,
 981013,2,3,2,163,bowled,
 981013,2,3,3,355,caught,147.0
@@ -6724,7 +6724,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 981019,2,13,5,111,caught,164.0
 981019,2,15,3,355,bowled,
 981019,2,16,3,32,caught,164.0
-981019,2,18,1,256,run out,
+981019,2,18,1,256,run out,395.0
 981019,2,19,3,435,run out,184.0
 1082591,1,1,4,188,caught,238.0
 1082591,1,10,3,42,caught,370.0
@@ -6747,7 +6747,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1082592,1,13,2,414,caught,20.0
 1082592,1,15,3,432,caught,90.0
 1082592,1,18,2,222,caught,261.0
-1082592,1,19,6,378,run out,
+1082592,1,19,6,378,run out,20.0
 1082592,2,3,1,261,caught,57.0
 1082592,2,10,1,86,caught,432.0
 1082592,2,15,2,438,caught,378.0
@@ -6912,7 +6912,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1082607,1,16,5,259,caught,238.0
 1082607,1,17,1,438,bowled,
 1082607,1,17,2,407,caught,111.0
-1082607,1,19,6,88,run out,
+1082607,1,19,6,88,run out,8.0
 1082607,2,1,5,238,caught,20.0
 1082607,2,5,3,8,caught,86.0
 1082607,2,10,2,111,stumped,20.0
@@ -6924,7 +6924,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1082607,2,19,3,450,bowled,
 1082608,1,6,1,422,caught,46.0
 1082608,1,7,5,352,caught,46.0
-1082608,1,13,2,394,run out,
+1082608,1,13,2,394,run out,449.0
 1082608,1,14,6,340,bowled,
 1082608,1,17,2,192,bowled,
 1082608,1,18,1,421,caught,40.0
@@ -6958,14 +6958,14 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1082610,2,9,4,255,stumped,236.0
 1082610,2,10,6,89,caught,8.0
 1082610,2,14,4,2,caught,450.0
-1082610,2,17,4,35,run out,
+1082610,2,17,4,35,run out,323.0
 1082610,2,19,4,411,caught,383.0
 1082611,1,1,5,188,caught,134.0
 1082611,1,16,1,397,caught,394.0
 1082611,1,18,1,42,caught,192.0
 1082611,1,18,2,27,bowled,
 1082611,2,1,5,422,caught,395.0
-1082611,2,9,2,340,run out,
+1082611,2,9,2,340,run out,445.0
 1082611,2,9,5,421,caught,188.0
 1082611,2,13,1,352,caught,164.0
 1082611,2,19,5,192,caught,435.0
@@ -6979,7 +6979,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1082613,1,11,3,40,caught,21.0
 1082613,1,18,2,46,caught,2.0
 1082613,1,19,3,97,bowled,
-1082613,1,19,5,309,run out,
+1082613,1,19,5,309,run out,2.0
 1082613,2,3,3,255,caught,97.0
 1082613,2,6,2,2,caught,97.0
 1082613,2,7,2,89,caught,40.0
@@ -6993,7 +6993,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1082614,1,12,4,414,caught,421.0
 1082614,1,17,1,222,caught,352.0
 1082614,1,18,6,50,run out,454.0
-1082614,1,19,3,400,run out,
+1082614,1,19,3,400,run out,340.0
 1082614,2,0,4,208,run out,400.0
 1082614,2,1,2,352,caught,57.0
 1082614,2,3,3,394,caught,17.0
@@ -7055,13 +7055,13 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1082618,2,16,1,222,caught,307.0
 1082618,2,19,1,400,caught,438.0
 1082618,2,19,4,57,caught and bowled,
-1082618,2,19,5,403,run out,
+1082618,2,19,5,403,run out,347.0
 1082620,1,7,5,443,bowled,
 1082620,1,13,3,86,stumped,46.0
 1082620,1,17,2,20,stumped,46.0
 1082620,1,17,5,88,stumped,46.0
 1082620,1,19,6,259,caught,97.0
-1082620,2,2,4,316,run out,
+1082620,2,2,4,316,run out,407.0
 1082620,2,16,5,46,caught,443.0
 1082620,2,17,4,40,caught,407.0
 1082621,1,3,5,8,caught,255.0
@@ -7073,7 +7073,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1082621,1,14,3,451,caught,411.0
 1082621,1,15,5,238,caught,35.0
 1082621,1,19,4,271,caught,2.0
-1082621,1,19,6,383,run out,
+1082621,1,19,6,383,run out,2.0
 1082621,2,2,3,411,lbw,
 1082621,2,4,1,2,caught,111.0
 1082621,2,12,1,255,caught,111.0
@@ -7081,7 +7081,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1082622,1,13,6,352,lbw,
 1082622,1,15,1,421,lbw,
 1082622,1,15,5,394,lbw,
-1082622,1,17,1,373,run out,
+1082622,1,17,1,373,run out,459.0
 1082622,1,19,5,351,caught,442.0
 1082622,2,1,2,316,bowled,
 1082622,2,12,2,46,run out,340.0
@@ -7103,7 +7103,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1082624,1,13,5,307,caught,450.0
 1082624,2,1,6,418,bowled,
 1082624,2,4,4,111,caught,88.0
-1082624,2,7,4,236,run out,
+1082624,2,7,4,236,run out,448.0
 1082624,2,8,4,370,caught,307.0
 1082624,2,9,5,256,caught,456.0
 1082624,2,12,4,323,caught,259.0
@@ -7143,7 +7143,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1082626,1,17,1,294,caught and bowled,
 1082627,1,12,4,42,run out,455.0
 1082627,1,16,2,188,caught,40.0
-1082627,1,19,6,397,run out,
+1082627,1,19,6,397,run out,372.0
 1082627,2,1,2,316,caught,188.0
 1082627,2,2,3,40,caught,446.0
 1082627,2,10,6,97,caught and bowled,
@@ -7166,7 +7166,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1082628,2,13,3,414,retired hurt,
 1082628,2,16,3,167,caught,450.0
 1082629,1,5,6,411,caught,456.0
-1082629,1,7,6,21,run out,
+1082629,1,7,6,21,run out,86.0
 1082629,1,9,5,255,caught and bowled,
 1082629,1,9,6,147,bowled,
 1082629,1,11,5,2,caught,86.0
@@ -7193,7 +7193,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1082631,1,9,1,31,lbw,
 1082631,1,14,1,97,caught,86.0
 1082631,1,16,2,449,caught,456.0
-1082631,1,17,4,442,run out,
+1082631,1,17,4,442,run out,307.0
 1082631,1,19,3,372,caught,456.0
 1082631,2,1,4,86,caught,459.0
 1082631,2,4,6,307,bowled,
@@ -7233,7 +7233,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1082634,1,14,3,438,bowled,
 1082634,1,15,4,307,caught,229.0
 1082634,1,15,6,259,caught,446.0
-1082634,1,18,6,88,run out,
+1082634,1,18,6,88,run out,188.0
 1082634,1,19,3,20,caught,184.0
 1082634,1,19,4,407,caught,188.0
 1082634,2,4,1,42,bowled,
@@ -7295,9 +7295,9 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1082639,2,9,3,40,caught,101.0
 1082639,2,9,5,46,caught,375.0
 1082639,2,17,1,97,caught,375.0
-1082639,2,17,2,337,run out,
+1082639,2,17,2,337,run out,375.0
 1082639,2,18,1,31,caught,306.0
-1082640,1,3,1,147,run out,
+1082640,1,3,1,147,run out,134.0
 1082640,1,5,5,21,bowled,
 1082640,1,6,3,411,caught,15.0
 1082640,1,16,1,89,caught,373.0
@@ -7372,7 +7372,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1082645,2,5,3,443,bowled,
 1082646,1,4,5,440,bowled,
 1082646,1,13,1,163,caught,15.0
-1082646,1,14,1,418,run out,
+1082646,1,14,1,418,run out,394.0
 1082646,1,16,3,8,caught,294.0
 1082646,1,17,4,236,run out,405.0
 1082646,1,18,5,370,caught,373.0
@@ -7429,14 +7429,14 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1082650,1,10,1,57,caught,407.0
 1082650,1,10,6,222,caught,88.0
 1082650,1,13,2,400,lbw,
-1082650,1,14,1,167,run out,
+1082650,1,14,1,167,run out,259.0
 1082650,1,19,6,414,caught,86.0
 1082650,2,2,2,443,lbw,
 1082650,2,11,5,86,caught,222.0
 1082650,2,16,2,20,caught,17.0
 1082650,2,19,2,88,caught,222.0
 1082650,2,19,3,307,caught,209.0
-1082650,2,19,6,456,run out,
+1082650,2,19,6,456,run out,399.0
 1136561,1,2,1,462,lbw,
 1136561,1,3,5,57,caught,209.0
 1136561,1,12,3,309,caught,50.0
@@ -8511,7 +8511,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1178406,2,7,4,356,lbw,
 1178406,2,10,3,411,stumped,17.0
 1178406,2,15,3,309,caught,492.0
-1178406,2,17,5,414,caught,794.0
+1178406,2,17,5,414,caught,
 1178407,1,5,4,163,caught,352.0
 1178407,1,8,4,261,caught,477.0
 1178407,1,17,1,355,caught,477.0
@@ -9876,7 +9876,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1254104,2,5,4,309,caught,304.0
 1254104,2,9,2,411,caught,21.0
 1254104,2,13,1,222,lbw,
-1254104,2,14,4,414,run out,
+1254104,2,14,4,414,run out,20.0
 1254104,2,19,2,450,caught,466.0
 1254104,2,19,4,447,caught,21.0
 1254087,1,1,4,8,lbw,
@@ -9911,7 +9911,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1254105,1,12,6,236,lbw,
 1254105,1,15,1,392,caught,478.0
 1254105,1,18,2,523,caught,421.0
-1254105,1,19,4,446,run out,
+1254105,1,19,4,446,run out,307.0
 1254105,1,19,6,368,run out,421.0
 1254105,2,2,5,478,caught,397.0
 1254105,2,10,5,42,caught,523.0
@@ -9919,7 +9919,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1254096,1,12,1,309,caught,89.0
 1254096,1,14,5,356,caught,316.0
 1254096,1,16,2,411,caught,335.0
-1254096,1,19,2,222,run out,
+1254096,1,19,2,222,run out,217.0
 1254096,1,19,3,414,caught,551.0
 1254096,2,2,6,472,bowled,
 1254096,2,11,4,551,bowled,
@@ -9958,7 +9958,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1254107,2,7,6,97,bowled,
 1254107,2,12,2,236,bowled,
 1254107,2,12,6,523,caught,163.0
-1254107,2,16,1,63,run out,
+1254107,2,16,1,63,run out,525.0
 1254107,2,18,1,446,caught and bowled,
 1254098,1,0,6,472,run out,209.0
 1254098,1,5,1,551,caught,20.0
@@ -9970,7 +9970,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1254098,2,11,3,304,caught,448.0
 1254098,2,14,2,209,bowled,
 1254098,2,16,4,484,caught,551.0
-1254098,2,17,1,21,run out,
+1254098,2,17,1,21,run out,443.0
 1254098,2,17,3,20,bowled,
 1254098,2,19,1,498,caught,524.0
 1254098,2,19,5,35,lbw,
@@ -10005,7 +10005,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1254092,1,14,3,543,lbw,
 1254092,1,15,3,375,caught,448.0
 1254092,1,19,1,202,caught,432.0
-1254092,1,19,2,421,run out,
+1254092,1,19,2,421,run out,340.0
 1254092,1,19,6,500,run out,89.0
 1254092,2,4,3,551,bowled,
 1254092,2,5,5,443,caught,307.0
@@ -10163,7 +10163,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1254106,2,7,6,491,bowled,
 1254106,2,8,6,351,lbw,
 1254106,2,11,2,347,caught,277.0
-1254106,2,15,3,546,run out,
+1254106,2,15,3,546,run out,89.0
 1254106,2,16,1,391,bowled,
 1254088,1,5,3,57,caught,452.0
 1254088,1,8,3,400,caught,439.0
@@ -10198,7 +10198,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1254114,2,0,4,304,bowled,
 1254114,2,13,3,46,caught,394.0
 1254114,2,13,6,407,caught,394.0
-1254114,2,14,4,209,run out,
+1254114,2,14,4,209,run out,394.0
 1254114,2,18,1,522,caught,375.0
 1254114,2,19,1,484,caught,454.0
 1254115,1,5,1,517,bowled,
@@ -10207,7 +10207,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1254115,1,14,2,111,bowled,
 1254115,1,16,4,306,caught,448.0
 1254115,1,18,6,536,caught,473.0
-1254115,1,19,4,259,run out,
+1254115,1,19,4,259,run out,448.0
 1254115,2,5,2,472,caught,111.0
 1254115,2,6,6,443,lbw,
 1254115,2,10,6,551,caught,549.0
@@ -10218,7 +10218,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1254116,1,11,3,410,bowled,
 1254116,1,14,1,42,caught,277.0
 1254116,1,15,2,421,caught,443.0
-1254116,1,18,3,490,run out,
+1254116,1,18,3,490,run out,551.0
 1254116,2,12,2,551,caught,307.0
 1254116,2,15,6,432,caught,490.0
 1254116,2,16,4,472,caught,421.0
@@ -10241,7 +10241,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1304047,1,0,3,522,caught,432.0
 1304047,1,4,1,562,caught,394.0
 1304047,1,7,6,46,stumped,459.0
-1304047,1,8,4,209,run out,
+1304047,1,8,4,209,run out,394.0
 1304047,1,10,5,491,caught,316.0
 1304047,2,6,2,551,caught,20.0
 1304047,2,9,6,432,caught,209.0
@@ -10326,7 +10326,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1304054,1,14,2,511,bowled,
 1304054,1,14,4,447,caught,432.0
 1304054,1,18,1,454,caught,378.0
-1304054,1,18,2,529,run out,
+1304054,1,18,2,529,run out,432.0
 1304054,2,1,6,86,caught,567.0
 1304054,2,4,3,551,caught,511.0
 1304054,2,6,4,394,caught,454.0
@@ -10336,7 +10336,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1304055,1,14,2,352,caught,563.0
 1304055,1,18,2,490,caught,563.0
 1304055,1,18,5,408,bowled,
-1304055,1,18,6,202,run out,
+1304055,1,18,6,202,run out,411.0
 1304055,1,19,3,492,caught,411.0
 1304055,1,19,6,505,caught,553.0
 1304055,2,1,5,57,caught,505.0
@@ -10356,14 +10356,14 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1304056,2,1,1,556,caught,570.0
 1304056,2,4,1,478,caught,445.0
 1304056,2,4,5,238,caught,272.0
-1304056,2,11,4,543,run out,
+1304056,2,11,4,543,run out,445.0
 1304056,2,14,1,421,caught,570.0
 1304056,2,14,5,375,caught,272.0
 1304056,2,15,6,407,lbw,
 1304056,2,17,2,564,lbw,
 1304056,2,17,3,509,caught,272.0
 1304057,1,0,2,261,caught,46.0
-1304057,1,1,2,565,run out,
+1304057,1,1,2,565,run out,20.0
 1304057,1,9,6,42,caught,35.0
 1304057,1,10,4,508,caught,209.0
 1304057,1,14,5,574,caught,46.0
@@ -10386,7 +10386,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1304058,1,15,1,395,caught,443.0
 1304058,1,18,1,355,lbw,
 1304058,1,18,4,414,bowled,
-1304058,1,19,6,568,run out,
+1304058,1,19,6,568,run out,496.0
 1304058,2,3,3,397,caught,453.0
 1304058,2,5,1,488,caught,97.0
 1304058,2,10,1,552,caught,355.0
@@ -10401,7 +10401,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1304059,1,11,4,352,caught and bowled,
 1304059,2,6,6,304,caught,461.0
 1304059,2,7,6,561,caught,352.0
-1304059,2,8,4,8,run out,
+1304059,2,8,4,8,run out,352.0
 1304059,2,8,5,572,bowled,
 1304059,2,12,3,512,caught,492.0
 1304059,2,17,5,536,bowled,
@@ -10428,7 +10428,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1304062,1,13,2,567,caught,472.0
 1304062,1,15,3,508,caught,321.0
 1304062,1,15,5,541,lbw,
-1304062,1,16,2,454,run out,
+1304062,1,16,2,454,run out,272.0
 1304062,1,17,5,575,bowled,
 1304062,2,3,2,272,caught,493.0
 1304062,2,14,4,579,caught,261.0
@@ -10486,13 +10486,13 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1304067,1,7,6,272,lbw,
 1304067,1,13,3,321,caught,488.0
 1304067,1,18,5,570,caught,443.0
-1304067,1,19,4,391,run out,
+1304067,1,19,4,391,run out,496.0
 1304067,1,19,6,446,bowled,
 1304067,2,8,5,488,caught,579.0
 1304067,2,13,1,443,retired hurt,
 1304067,2,16,1,397,caught,391.0
 1304068,1,3,4,522,lbw,
-1304068,1,6,4,484,run out,
+1304068,1,6,4,484,run out,582.0
 1304068,1,18,5,46,caught,8.0
 1304068,1,18,6,35,caught,561.0
 1304068,2,2,5,304,caught,435.0
@@ -10512,8 +10512,8 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1304069,2,3,4,57,caught,575.0
 1304069,2,4,1,411,caught,574.0
 1304069,2,10,6,578,caught,529.0
-1304069,2,12,5,563,run out,
-1304069,2,16,1,222,run out,
+1304069,2,12,5,563,run out,261.0
+1304069,2,16,1,222,run out,574.0
 1304069,2,18,4,309,caught,567.0
 1304069,2,19,3,347,caught,261.0
 1304069,2,19,4,376,caught,42.0
@@ -10552,8 +10552,8 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1304072,2,14,2,563,bowled,
 1304072,2,15,3,309,caught,466.0
 1304072,2,17,4,545,caught,569.0
-1304072,2,19,1,347,run out,
-1304072,2,19,3,419,run out,
+1304072,2,19,1,347,run out,356.0
+1304072,2,19,3,419,run out,356.0
 1304072,2,19,5,222,caught,410.0
 1304073,1,1,1,561,lbw,
 1304073,1,2,3,304,caught,375.0
@@ -10576,7 +10576,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1304074,1,19,2,567,caught and bowled,
 1304074,1,19,4,447,bowled,
 1304074,1,19,5,575,bowled,
-1304074,1,19,6,529,run out,
+1304074,1,19,6,529,run out,496.0
 1304074,2,3,1,397,caught,42.0
 1304074,2,8,2,443,caught,541.0
 1304074,2,10,3,488,caught,541.0
@@ -10584,7 +10584,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1304075,1,5,2,484,bowled,
 1304075,1,14,3,209,caught,445.0
 1304075,1,16,2,522,caught,570.0
-1304075,1,19,6,491,run out,
+1304075,1,19,6,491,run out,321.0
 1304075,2,0,6,472,caught,46.0
 1304075,2,1,3,445,caught,20.0
 1304075,2,3,5,570,caught,484.0
@@ -10611,7 +10611,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1304077,1,0,6,8,caught,395.0
 1304077,1,5,2,306,caught,392.0
 1304077,1,7,2,582,caught,414.0
-1304077,1,15,2,536,run out,
+1304077,1,15,2,536,run out,355.0
 1304077,1,19,5,304,caught,410.0
 1304077,2,2,5,356,caught,306.0
 1304077,2,4,6,97,caught,312.0
@@ -10653,7 +10653,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1304080,2,9,6,478,caught,461.0
 1304080,2,11,4,421,caught,517.0
 1304080,2,12,6,375,bowled,
-1304080,2,15,3,407,run out,
+1304080,2,15,3,407,run out,352.0
 1304080,2,18,3,543,caught,352.0
 1304080,2,19,6,564,caught,352.0
 1304081,1,1,1,472,caught,422.0
@@ -10696,12 +10696,12 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1304083,2,11,2,309,caught,355.0
 1304083,2,17,5,563,caught,525.0
 1304083,2,19,1,222,caught,395.0
-1304083,2,19,3,347,run out,
+1304083,2,19,3,347,run out,414.0
 1304083,2,19,4,537,caught,525.0
 1304084,1,5,5,261,caught,491.0
 1304084,1,17,2,565,caught,491.0
 1304084,1,19,1,508,caught,576.0
-1304084,1,19,6,493,run out,
+1304084,1,19,6,493,run out,506.0
 1304084,2,1,5,46,caught,357.0
 1304084,2,5,3,506,bowled,
 1304084,2,6,6,491,bowled,
@@ -10721,7 +10721,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1304085,2,6,3,306,caught,517.0
 1304085,2,9,6,539,bowled,
 1304085,2,11,4,582,caught,505.0
-1304085,2,12,4,89,run out,
+1304085,2,12,4,89,run out,485.0
 1304085,2,15,4,536,caught,505.0
 1304085,2,16,4,550,caught and bowled,
 1304085,2,17,4,474,caught,585.0
@@ -10751,7 +10751,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1304087,2,9,3,188,caught,316.0
 1304087,2,10,6,543,lbw,
 1304087,2,11,1,421,caught,591.0
-1304087,2,14,6,375,run out,
+1304087,2,14,6,375,run out,551.0
 1304088,1,2,5,355,caught,574.0
 1304088,1,12,4,356,caught,574.0
 1304088,1,13,3,395,run out,493.0
@@ -10826,13 +10826,13 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1304094,2,2,2,493,caught,115.0
 1304094,2,11,6,565,lbw,
 1304095,1,7,2,304,caught,35.0
-1304095,1,8,6,306,run out,
+1304095,1,8,6,306,run out,46.0
 1304095,1,9,5,8,bowled,
 1304095,1,15,1,539,caught,576.0
 1304095,1,18,1,482,caught,522.0
 1304095,1,18,2,550,caught,522.0
 1304095,1,18,6,536,bowled,
-1304095,1,19,5,312,run out,
+1304095,1,19,5,312,run out,562.0
 1304095,2,6,4,522,caught,582.0
 1304095,2,7,2,46,caught,582.0
 1304095,2,9,4,209,bowled,
@@ -10862,7 +10862,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1304097,2,12,6,63,caught,537.0
 1304097,2,15,6,579,hit wicket,
 1304097,2,17,4,400,run out,411.0
-1304097,2,19,3,391,run out,
+1304097,2,19,3,391,run out,411.0
 1304098,1,5,1,42,caught,408.0
 1304098,1,10,2,565,bowled,
 1304098,1,14,2,261,caught,408.0
@@ -10888,7 +10888,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1304099,2,12,4,596,caught,356.0
 1304099,2,14,1,316,caught,414.0
 1304099,2,14,2,378,caught,500.0
-1304099,2,14,3,592,run out,
+1304099,2,14,3,592,run out,568.0
 1304100,1,0,1,8,caught,397.0
 1304100,1,12,2,539,caught,443.0
 1304100,1,18,2,306,caught,552.0
@@ -10934,8 +10934,8 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1304102,2,14,1,411,caught,464.0
 1304102,2,14,4,537,caught,459.0
 1304102,2,14,6,419,caught,527.0
-1304102,2,16,6,598,run out,
-1304102,2,17,2,222,run out,
+1304102,2,16,6,598,run out,86.0
+1304102,2,17,2,222,run out,394.0
 1304102,2,17,3,376,run out,464.0
 1304103,1,2,4,63,caught,500.0
 1304103,1,4,2,272,caught,356.0
@@ -10946,7 +10946,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1304103,2,5,5,600,caught,321.0
 1304103,2,7,3,414,stumped,63.0
 1304103,2,10,5,568,stumped,63.0
-1304103,2,11,2,410,run out,
+1304103,2,11,2,410,run out,63.0
 1304103,2,11,6,392,lbw,
 1304103,2,12,6,593,caught,446.0
 1304103,2,13,1,395,caught,348.0
@@ -10982,7 +10982,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1304106,1,17,3,511,caught,89.0
 1304106,1,19,2,508,caught,89.0
 1304106,1,19,4,357,caught,306.0
-1304106,1,19,6,447,run out,
+1304106,1,19,6,447,run out,306.0
 1304106,2,3,2,8,caught,447.0
 1304106,2,4,2,304,caught,574.0
 1304106,2,4,5,482,caught,42.0
@@ -11019,7 +11019,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1304109,1,11,2,521,caught and bowled,
 1304109,1,13,4,517,caught,414.0
 1304109,1,17,1,505,caught,410.0
-1304109,1,17,4,377,run out,
+1304109,1,17,4,377,run out,355.0
 1304109,2,2,1,356,caught,377.0
 1304109,2,2,2,568,lbw,
 1304109,2,5,3,355,caught,521.0
@@ -11112,10 +11112,10 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1312197,1,9,5,352,caught,504.0
 1312197,1,14,1,517,bowled,
 1312197,1,18,3,490,caught,391.0
-1312197,1,19,6,408,run out,
-1312197,1,19,6,505,run out,
+1312197,1,19,6,408,run out,63.0
+1312197,1,19,6,505,run out,63.0
 1312197,2,0,2,63,caught,352.0
-1312197,2,7,4,472,run out,
+1312197,2,7,4,472,run out,517.0
 1312197,2,9,3,272,caught,408.0
 1312198,1,0,5,304,caught,356.0
 1312198,1,8,3,8,caught,593.0
@@ -11145,7 +11145,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1312200,1,14,6,490,caught and bowled,
 1312200,1,15,5,202,caught,321.0
 1312200,1,17,3,461,caught,391.0
-1312200,1,19,4,605,run out,
+1312200,1,19,4,605,run out,391.0
 1312200,1,19,6,505,bowled,
 1312200,2,1,4,63,bowled,
 1312200,2,4,3,272,caught,505.0
@@ -11248,7 +11248,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1359482,2,10,6,352,caught,618.0
 1359482,2,14,1,505,caught,541.0
 1359482,2,14,6,517,bowled,
-1359482,2,19,3,490,run out,
+1359482,2,19,3,490,run out,541.0
 1359483,1,3,2,551,bowled,
 1359483,1,3,3,238,bowled,
 1359483,1,6,1,432,caught,89.0
@@ -11273,7 +11273,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1359484,1,17,2,443,caught,134.0
 1359484,1,18,3,456,caught,395.0
 1359484,1,18,6,611,caught,395.0
-1359484,1,19,1,577,run out,
+1359484,1,19,1,577,run out,395.0
 1359484,2,4,3,608,caught,261.0
 1359484,2,5,6,395,caught and bowled,
 1359484,2,12,2,414,caught,548.0
@@ -11346,7 +11346,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1359490,1,18,4,455,run out,613.0
 1359490,1,18,6,615,caught,612.0
 1359490,1,19,4,516,bowled,
-1359490,2,7,3,411,run out,
+1359490,2,7,3,411,run out,609.0
 1359490,2,15,5,563,caught,97.0
 1359490,2,15,6,309,caught,455.0
 1359490,2,16,5,57,caught,615.0
@@ -11357,7 +11357,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1359491,1,16,2,408,bowled,
 1359491,1,18,6,616,caught,491.0
 1359491,1,19,5,392,caught,562.0
-1359491,1,19,6,431,run out,
+1359491,1,19,6,431,run out,20.0
 1359491,2,2,2,522,caught,521.0
 1359491,2,9,3,86,lbw,
 1359491,2,11,4,491,lbw,
@@ -11370,7 +11370,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1359492,1,12,2,574,caught,63.0
 1359492,1,16,5,565,caught,472.0
 1359492,1,18,1,498,caught,472.0
-1359492,1,19,4,541,run out,
+1359492,1,19,4,541,run out,63.0
 1359492,1,19,6,357,run out,63.0
 1359492,2,4,4,63,caught,618.0
 1359492,2,11,2,579,caught,514.0
@@ -11430,12 +11430,12 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1359496,2,16,3,309,caught,607.0
 1359496,2,17,2,613,caught,607.0
 1359497,1,0,3,63,caught and bowled,
-1359497,1,4,6,579,run out,
+1359497,1,4,6,579,run out,408.0
 1359497,1,10,3,400,caught,521.0
 1359497,1,15,2,472,caught,408.0
 1359497,1,18,6,570,caught,517.0
 1359497,1,19,4,321,caught,490.0
-1359497,1,19,5,446,run out,
+1359497,1,19,5,446,run out,408.0
 1359497,2,1,3,521,caught,472.0
 1359497,2,2,5,408,bowled,
 1359497,2,8,3,517,caught,364.0
@@ -11461,7 +11461,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1359499,1,11,1,411,caught,552.0
 1359499,1,11,5,309,caught,552.0
 1359499,1,16,3,563,caught,261.0
-1359499,1,19,6,553,run out,
+1359499,1,19,6,553,run out,520.0
 1359499,2,1,4,610,caught,309.0
 1359499,2,3,4,443,caught,411.0
 1359499,2,8,4,552,caught,587.0
@@ -11470,7 +11470,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1359499,2,14,5,261,caught,553.0
 1359499,2,16,4,538,caught,553.0
 1359499,2,17,5,456,run out,553.0
-1359499,2,19,2,523,run out,
+1359499,2,19,2,523,run out,411.0
 1359499,2,19,5,300,caught,57.0
 1359500,1,10,4,355,caught,408.0
 1359500,1,11,4,568,bowled,
@@ -11478,9 +11478,9 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1359500,1,13,5,608,bowled,
 1359500,1,19,3,410,caught,352.0
 1359500,1,19,5,496,run out,352.0
-1359500,1,19,6,621,run out,
+1359500,1,19,6,621,run out,352.0
 1359500,2,11,3,521,caught,500.0
-1359500,2,12,4,352,run out,
+1359500,2,12,4,352,run out,134.0
 1359500,2,13,3,408,caught,525.0
 1359500,2,15,1,490,caught,355.0
 1359500,2,19,3,517,caught,496.0
@@ -11508,7 +11508,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1359502,1,14,4,439,caught,586.0
 1359502,1,14,5,596,lbw,
 1359502,1,15,4,233,caught and bowled,
-1359502,1,19,6,527,run out,
+1359502,1,19,6,527,run out,620.0
 1359502,2,4,3,478,bowled,
 1359502,2,7,2,254,caught,401.0
 1359502,2,8,1,624,caught and bowled,
@@ -11536,8 +11536,8 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1359504,2,16,5,496,caught,400.0
 1359504,2,19,2,355,caught,426.0
 1359504,2,19,3,410,caught,321.0
-1359504,2,19,4,568,run out,
-1359504,2,19,5,395,run out,
+1359504,2,19,4,568,run out,445.0
+1359504,2,19,5,395,run out,63.0
 1359505,1,2,3,618,caught,68.0
 1359505,1,6,4,514,lbw,
 1359505,1,9,2,508,stumped,411.0
@@ -11545,7 +11545,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1359505,1,17,4,288,bowled,
 1359505,1,18,6,498,caught and bowled,
 1359505,1,19,4,574,bowled,
-1359505,1,19,6,511,run out,
+1359505,1,19,6,511,run out,411.0
 1359505,2,1,1,411,caught,618.0
 1359505,2,9,3,57,caught and bowled,
 1359505,2,15,3,612,caught,498.0
@@ -11557,8 +11557,8 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1359506,1,13,2,304,run out,521.0
 1359506,1,14,6,306,caught,392.0
 1359506,1,16,3,482,caught,517.0
-1359506,1,16,5,582,run out,
-1359506,1,19,1,550,run out,
+1359506,1,16,5,582,run out,521.0
+1359506,1,19,1,550,run out,352.0
 1359506,1,19,2,89,caught,408.0
 1359506,1,19,3,625,caught,490.0
 1359506,2,0,4,408,bowled,
@@ -11585,8 +11585,8 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1359508,1,7,4,402,caught,300.0
 1359508,1,7,6,586,caught,488.0
 1359508,1,17,5,375,bowled,
-1359508,1,18,2,97,run out,
-1359508,1,19,2,516,run out,
+1359508,1,18,2,97,run out,475.0
+1359508,1,19,2,516,run out,475.0
 1359508,1,19,4,559,run out,475.0
 1359508,2,5,1,610,bowled,
 1359508,2,11,3,261,caught,586.0
@@ -11606,7 +11606,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1359509,2,10,2,612,bowled,
 1359509,2,10,4,553,caught,570.0
 1359509,2,12,6,309,caught and bowled,
-1359509,2,17,1,68,run out,
+1359509,2,17,1,68,run out,63.0
 1359509,2,17,4,613,caught,348.0
 1359509,2,19,4,627,caught,760.0
 1359510,1,9,2,531,caught,572.0
@@ -11619,7 +11619,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1359510,2,5,5,306,caught,401.0
 1359510,2,11,3,482,caught,335.0
 1359510,2,12,1,8,caught,551.0
-1359510,2,14,5,582,run out,
+1359510,2,14,5,582,run out,596.0
 1359510,2,16,5,550,caught,596.0
 1359510,2,17,3,89,caught,464.0
 1359511,1,8,2,408,caught,491.0
@@ -11707,7 +11707,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1359517,2,6,6,496,caught,482.0
 1359517,2,10,4,410,caught,582.0
 1359517,2,11,1,466,run out,
-1359517,2,14,4,525,run out,
+1359517,2,14,4,525,run out,89.0
 1359517,2,18,4,630,caught,89.0
 1359517,2,19,5,134,caught,89.0
 1359518,1,0,1,624,caught,321.0
@@ -11746,7 +11746,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1359521,1,15,3,316,caught,261.0
 1359521,1,17,3,407,caught,523.0
 1359521,1,19,2,464,caught,523.0
-1359521,1,19,3,592,run out,
+1359521,1,19,3,592,run out,520.0
 1359521,2,2,5,261,caught,607.0
 1359521,2,3,5,488,caught,335.0
 1359521,2,5,3,443,caught,575.0
@@ -11756,7 +11756,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1359521,2,18,1,538,caught,607.0
 1359521,2,19,3,523,caught,596.0
 1359522,1,1,4,408,caught,364.0
-1359522,1,5,1,521,run out,
+1359522,1,5,1,521,run out,364.0
 1359522,1,6,5,352,caught,400.0
 1359522,1,7,6,202,bowled,
 1359522,1,9,2,505,lbw,
@@ -11813,7 +11813,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1359527,2,7,2,439,caught,541.0
 1359527,2,13,4,551,caught,508.0
 1359527,2,15,2,432,caught,508.0
-1359527,2,19,5,335,run out,
+1359527,2,19,5,335,run out,574.0
 1359528,1,0,5,8,caught,411.0
 1359528,1,2,2,561,caught,612.0
 1359528,1,12,3,306,caught,613.0
@@ -11877,7 +11877,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1359533,1,14,4,498,caught,586.0
 1359533,1,16,1,511,caught,254.0
 1359533,1,18,2,514,bowled,
-1359533,1,19,5,541,run out,
+1359533,1,19,5,541,run out,509.0
 1359533,2,6,2,624,bowled,
 1359533,2,7,2,254,lbw,
 1359533,2,8,1,381,caught,606.0
@@ -11897,7 +11897,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1359534,2,4,2,517,caught,474.0
 1359534,2,5,3,632,lbw,
 1359534,2,6,6,616,caught,482.0
-1359534,2,7,6,202,run out,
+1359534,2,7,6,202,run out,561.0
 1359534,2,9,5,490,caught,617.0
 1359534,2,10,1,431,bowled,
 1359534,2,10,3,633,caught,8.0
@@ -11918,7 +11918,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1359536,1,17,3,391,caught,538.0
 1359536,1,19,1,472,caught,523.0
 1359536,1,19,2,446,caught,475.0
-1359536,1,19,3,631,run out,
+1359536,1,19,3,631,run out,475.0
 1359536,1,19,5,348,caught,538.0
 1359536,2,0,5,548,caught,446.0
 1359536,2,1,4,488,caught,63.0
@@ -11946,7 +11946,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1359538,2,15,4,574,caught,509.0
 1359538,2,16,3,541,caught,375.0
 1359538,2,18,2,498,bowled,
-1359538,2,18,3,511,run out,
+1359538,2,18,3,511,run out,624.0
 1359538,2,19,6,508,caught,375.0
 1359539,1,4,1,488,caught,482.0
 1359539,1,4,3,443,caught,312.0
@@ -11992,7 +11992,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1359542,2,13,4,607,caught,525.0
 1359542,2,15,4,335,bowled,
 1359542,2,17,4,407,caught,604.0
-1359542,2,17,6,316,run out,
+1359542,2,17,6,316,run out,356.0
 1359543,1,13,5,636,caught,580.0
 1359543,1,16,4,261,caught,411.0
 1359543,1,17,4,557,caught,598.0
@@ -12023,7 +12023,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1370350,2,13,1,472,caught,562.0
 1370350,2,14,3,391,bowled,
 1370350,2,17,3,445,caught,522.0
-1370350,2,17,4,637,run out,796.0
+1370350,2,17,4,637,run out,
 1370350,2,18,3,446,caught,562.0
 1370350,2,19,6,348,caught,444.0
 1370351,1,3,2,57,caught,568.0
@@ -12039,10 +12039,10 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1370351,2,8,2,414,caught,553.0
 1370351,2,9,4,568,bowled,
 1370351,2,9,5,496,caught,411.0
-1370351,2,11,5,410,run out,
+1370351,2,11,5,410,run out,411.0
 1370351,2,12,3,466,run out,57.0
 1370351,2,14,3,525,caught,435.0
-1370351,2,14,5,395,run out,
+1370351,2,14,5,395,run out,57.0
 1370351,2,16,3,593,bowled,
 1370352,1,6,3,63,stumped,411.0
 1370352,1,16,5,472,caught,553.0
@@ -12084,7 +12084,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1422120,1,15,4,601,caught,590.0
 1422120,1,17,1,375,run out,
 1422120,1,18,3,640,caught,574.0
-1422120,1,19,6,455,run out,
+1422120,1,19,6,455,run out,590.0
 1422120,2,3,1,42,bowled,
 1422120,2,3,5,493,run out,85.0
 1422120,2,9,2,514,caught,188.0
@@ -12147,7 +12147,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1422125,1,12,3,522,caught,63.0
 1422125,1,18,2,491,caught,445.0
 1422125,1,19,3,645,caught,321.0
-1422125,1,19,6,35,run out,
+1422125,1,19,6,35,run out,63.0
 1422125,2,2,5,472,lbw,
 1422125,2,4,3,63,caught,534.0
 1422125,2,7,3,445,caught,20.0
@@ -12189,7 +12189,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1422129,1,13,1,356,caught,574.0
 1422129,1,15,1,496,bowled,
 1422129,1,18,4,568,caught,493.0
-1422129,1,18,5,525,caught,797.0
+1422129,1,18,5,525,caught,
 1422129,1,19,4,593,run out,312.0
 1422129,2,11,4,493,caught,410.0
 1422129,2,13,3,514,caught,630.0
@@ -12203,7 +12203,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1422130,1,14,4,552,caught,446.0
 1422130,1,19,2,536,caught,391.0
 1422130,1,19,3,456,caught,446.0
-1422130,1,19,6,523,run out,
+1422130,1,19,6,523,run out,63.0
 1422130,2,4,1,63,caught,405.0
 1422130,2,9,1,472,caught,523.0
 1422130,2,16,1,579,caught,488.0
@@ -12299,7 +12299,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1422138,2,11,5,478,bowled,
 1422138,2,14,6,615,caught,553.0
 1422138,2,15,6,421,caught,400.0
-1422138,2,18,4,375,run out,
+1422138,2,18,4,375,run out,411.0
 1422138,2,19,3,543,caught,411.0
 1422138,2,19,4,655,caught,563.0
 1422138,2,19,6,542,caught,57.0
@@ -12354,7 +12354,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1426262,2,13,6,445,bowled,
 1426262,2,15,3,472,stumped,352.0
 1426262,2,17,3,541,lbw,
-1426262,2,19,5,391,run out,
+1426262,2,19,5,391,run out,408.0
 1426263,1,2,3,8,caught,411.0
 1426263,1,3,4,657,caught,553.0
 1426263,1,11,3,539,caught,411.0
@@ -12383,7 +12383,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1426265,1,9,3,498,caught,616.0
 1426265,1,12,1,590,caught,616.0
 1426265,1,16,1,574,caught,505.0
-1426265,1,17,5,508,run out,
+1426265,1,17,5,508,run out,659.0
 1426265,1,19,6,652,caught,660.0
 1426265,2,8,2,659,bowled,
 1426265,2,11,4,521,caught,312.0
@@ -12434,7 +12434,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1426269,2,12,1,202,caught,651.0
 1426269,2,12,2,490,caught,394.0
 1426269,2,16,5,564,lbw,
-1426269,2,17,3,461,run out,
+1426269,2,17,3,461,run out,394.0
 1426270,1,1,5,472,caught,478.0
 1426270,1,3,5,63,bowled,
 1426270,1,4,1,579,run out,640.0
@@ -12465,7 +12465,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1426271,2,12,1,590,caught,563.0
 1426271,2,17,1,652,caught,452.0
 1426271,2,18,4,511,caught,452.0
-1426271,2,19,1,454,run out,
+1426271,2,19,1,454,run out,411.0
 1426272,1,1,1,638,bowled,
 1426272,1,4,2,522,caught,355.0
 1426272,1,8,1,86,bowled,
@@ -12480,7 +12480,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1426273,1,9,1,475,bowled,
 1426273,1,16,6,653,caught,188.0
 1426273,1,19,1,523,caught,516.0
-1426273,1,19,4,405,run out,
+1426273,1,19,4,405,run out,601.0
 1426273,2,0,5,478,caught,523.0
 1426273,2,1,6,188,caught,405.0
 1426273,2,6,6,658,caught,475.0
@@ -12506,7 +12506,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1426274,2,17,2,582,caught,651.0
 1426274,2,18,6,89,caught,624.0
 1426274,2,19,5,167,caught and bowled,
-1426274,2,19,6,448,run out,
+1426274,2,19,6,448,run out,580.0
 1426275,1,5,3,514,caught,63.0
 1426275,1,6,6,381,lbw,
 1426275,1,7,5,498,lbw,
@@ -12516,7 +12516,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1426275,1,15,2,590,caught and bowled,
 1426275,1,18,6,511,caught,541.0
 1426275,1,19,2,312,caught,541.0
-1426275,1,19,6,288,run out,
+1426275,1,19,6,288,run out,63.0
 1426275,2,3,4,63,caught,652.0
 1426275,2,9,3,472,caught,454.0
 1426275,2,11,5,321,bowled,
@@ -12537,7 +12537,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1426277,1,0,6,86,caught,355.0
 1426277,1,5,2,589,caught,395.0
 1426277,1,11,5,35,caught,355.0
-1426277,1,19,4,491,run out,
+1426277,1,19,4,491,run out,356.0
 1426277,2,0,3,356,bowled,
 1426277,2,4,4,355,caught,522.0
 1426277,2,10,6,517,bowled,
@@ -12588,7 +12588,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1426281,2,12,5,613,caught,421.0
 1426281,2,17,4,553,lbw,
 1426281,2,18,3,452,caught,639.0
-1426281,2,19,1,563,run out,
+1426281,2,19,1,563,run out,640.0
 1426281,2,19,6,68,caught,639.0
 1426282,1,0,3,356,bowled,
 1426282,1,1,6,410,bowled,
@@ -12639,14 +12639,14 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1426286,2,13,1,395,caught,376.0
 1426286,2,14,5,410,caught,563.0
 1426286,2,17,1,510,bowled,
-1426286,2,18,1,568,run out,
+1426286,2,18,1,568,run out,642.0
 1426287,1,8,2,86,caught,381.0
 1426287,1,8,3,491,lbw,
 1426287,1,9,5,35,lbw,
 1426287,1,15,3,645,caught,312.0
 1426287,1,17,5,522,bowled,
 1426287,1,18,4,484,bowled,
-1426287,1,19,6,20,run out,
+1426287,1,19,6,20,run out,574.0
 1426287,2,3,1,514,caught,522.0
 1426287,2,9,2,493,caught,20.0
 1426287,2,11,6,381,bowled,
@@ -12666,7 +12666,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1426289,1,4,2,316,bowled,
 1426289,1,6,1,464,caught and bowled,
 1426289,1,16,2,97,caught,578.0
-1426289,1,16,6,335,run out,
+1426289,1,16,6,335,run out,773.0
 1426289,1,17,4,580,caught,643.0
 1426289,1,17,6,379,bowled,
 1426289,1,19,5,551,bowled,
@@ -12688,7 +12688,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1426290,1,17,3,446,bowled,
 1426290,1,17,6,391,caught,625.0
 1426290,1,19,1,666,caught,425.0
-1426290,1,19,2,364,run out,
+1426290,1,19,2,364,run out,89.0
 1426290,1,19,3,445,caught,474.0
 1426290,2,5,5,304,caught,541.0
 1426290,2,6,5,657,caught,541.0
@@ -12748,7 +12748,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1426294,1,13,5,421,caught,461.0
 1426294,1,18,4,668,caught,202.0
 1426294,1,19,3,601,lbw,
-1426294,1,19,6,495,run out,
+1426294,1,19,6,495,run out,352.0
 1426294,2,0,2,521,caught,375.0
 1426294,2,5,5,408,bowled,
 1426294,2,10,6,505,bowled,
@@ -12780,7 +12780,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1426296,2,16,6,529,caught,167.0
 1426297,1,17,2,579,caught,491.0
 1426297,1,17,6,472,caught,35.0
-1426297,1,19,6,541,run out,
+1426297,1,19,6,541,run out,638.0
 1426297,2,0,6,638,run out,321.0
 1426297,2,1,1,86,caught,391.0
 1426297,2,2,5,522,caught,446.0
@@ -12801,7 +12801,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1426298,2,10,5,309,caught,580.0
 1426298,2,11,4,400,caught,575.0
 1426298,2,12,1,553,caught,394.0
-1426298,2,13,6,613,run out,
+1426298,2,13,6,613,run out,624.0
 1426298,2,15,1,642,caught,464.0
 1426298,2,15,3,563,caught,624.0
 1426299,1,6,2,521,caught,522.0
@@ -12821,8 +12821,8 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1426300,1,17,4,482,caught,615.0
 1426300,1,17,6,89,caught,455.0
 1426300,1,18,3,425,caught,655.0
-1426300,1,19,5,167,run out,
-1426300,1,19,6,474,run out,
+1426300,1,19,5,167,run out,639.0
+1426300,1,19,6,474,run out,615.0
 1426300,2,0,4,188,caught,657.0
 1426300,2,2,1,615,caught,448.0
 1426300,2,2,2,658,run out,588.0
@@ -12854,7 +12854,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1426303,1,14,3,564,caught and bowled,
 1426303,1,17,3,669,caught,381.0
 1426303,1,19,2,505,lbw,
-1426303,1,19,6,461,run out,
+1426303,1,19,6,461,run out,493.0
 1426303,2,0,4,514,caught,383.0
 1426303,2,4,3,381,caught,521.0
 1426303,2,4,5,590,lbw,
@@ -12880,13 +12880,13 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1426306,2,0,1,522,caught,588.0
 1426306,2,2,2,589,caught,8.0
 1426306,2,9,1,86,caught,304.0
-1426306,2,12,6,638,run out,
+1426306,2,12,6,638,run out,425.0
 1426306,2,13,4,491,caught,448.0
 1426306,2,14,6,506,caught,304.0
 1426306,2,19,2,20,caught,425.0
 1426307,1,9,1,622,caught,635.0
 1426307,1,14,2,514,caught,475.0
-1426307,1,15,6,590,run out,
+1426307,1,15,6,590,run out,653.0
 1426307,1,17,2,381,caught,523.0
 1426307,1,18,1,652,caught,635.0
 1426307,2,0,1,418,bowled,
@@ -12900,7 +12900,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1426309,1,4,5,653,caught,607.0
 1426309,1,4,6,536,bowled,
 1426309,1,10,6,475,caught,464.0
-1426309,1,13,2,443,run out,
+1426309,1,13,2,443,run out,607.0
 1426309,1,13,3,635,bowled,
 1426309,1,14,4,523,caught,394.0
 1426309,1,15,6,300,lbw,
@@ -12918,7 +12918,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1426310,2,5,3,671,bowled,
 1426310,2,9,2,521,caught,89.0
 1426310,2,10,1,352,stumped,89.0
-1426310,2,13,1,616,run out,
+1426310,2,13,1,616,run out,8.0
 1426310,2,17,2,505,bowled,
 1426310,2,17,6,490,caught,304.0
 1426311,1,0,6,488,caught,671.0
@@ -12929,7 +12929,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1426311,1,13,6,523,bowled,
 1426311,1,18,1,475,bowled,
 1426311,1,19,3,536,caught,616.0
-1426311,1,19,6,347,run out,
+1426311,1,19,6,347,run out,352.0
 1426311,2,3,6,671,caught,443.0
 1426311,2,7,5,521,caught,523.0
 1426311,2,8,3,352,caught,552.0
@@ -12986,14 +12986,14 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1473440,2,9,4,491,caught,563.0
 1473440,2,11,4,395,caught,677.0
 1473440,2,14,1,498,bowled,
-1473440,2,18,4,35,run out,
+1473440,2,18,4,35,run out,675.0
 1473441,1,4,4,552,caught,379.0
 1473441,1,11,4,254,caught,601.0
 1473441,1,13,4,421,caught,304.0
 1473441,1,14,5,496,bowled,
 1473441,1,16,2,568,caught,601.0
-1473441,1,16,4,407,run out,
-1473441,1,18,4,536,caught,798.0
+1473441,1,16,4,407,run out,615.0
+1473441,1,18,4,536,caught,
 1473441,1,18,6,525,bowled,
 1473441,2,0,3,658,caught,568.0
 1473441,2,0,5,615,caught,496.0
@@ -13003,7 +13003,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1473441,2,12,3,601,bowled,
 1473441,2,16,1,678,caught,770.0
 1473441,2,17,1,379,caught,421.0
-1473441,2,18,3,455,run out,
+1473441,2,18,3,455,run out,421.0
 1473442,1,3,1,514,caught,614.0
 1473442,1,6,4,679,caught,579.0
 1473442,1,10,3,641,caught,614.0
@@ -13023,7 +13023,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1473443,1,18,1,616,bowled,
 1473443,1,18,6,490,caught,651.0
 1473443,1,19,5,477,bowled,
-1473443,2,6,1,484,run out,
+1473443,2,6,1,484,run out,505.0
 1473443,2,10,1,86,caught,534.0
 1473444,1,2,1,488,caught,496.0
 1473444,1,2,2,411,caught,421.0
@@ -13161,7 +13161,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1473454,1,10,4,375,bowled,
 1473454,1,16,1,645,caught,35.0
 1473454,1,19,2,355,caught,20.0
-1473454,1,19,3,652,run out,
+1473454,1,19,3,652,run out,35.0
 1473454,2,1,5,638,caught and bowled,
 1473454,2,2,3,522,caught,658.0
 1473454,2,5,3,562,caught,375.0
@@ -13242,7 +13242,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1473460,2,15,6,490,caught,662.0
 1473460,2,16,5,534,caught,446.0
 1473460,2,19,2,595,caught,579.0
-1473461,1,3,5,624,run out,
+1473461,1,3,5,624,run out,355.0
 1473461,1,5,4,517,caught,375.0
 1473461,1,6,6,8,caught,379.0
 1473461,1,9,3,508,caught,652.0
@@ -13299,8 +13299,8 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1473466,2,13,3,601,caught,642.0
 1473466,2,15,3,355,caught and bowled,
 1473466,2,17,5,678,stumped,675.0
-1473466,2,18,4,652,run out,
-1473466,2,18,5,455,run out,
+1473466,2,18,4,652,run out,675.0
+1473466,2,18,5,455,run out,566.0
 1473466,2,18,6,364,run out,506.0
 1473467,1,0,6,552,caught,443.0
 1473467,1,3,6,496,lbw,
@@ -13323,7 +13323,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1473468,1,10,1,683,caught,356.0
 1473468,1,10,6,538,bowled,
 1473468,1,15,1,590,lbw,
-1473468,1,15,3,686,run out,
+1473468,1,15,3,686,run out,551.0
 1473468,2,0,6,316,bowled,
 1473468,2,1,2,356,caught,683.0
 1473468,2,7,4,86,lbw,
@@ -13335,7 +13335,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1473468,2,14,6,575,caught,685.0
 1473468,2,15,1,335,bowled,
 1473469,1,2,3,658,caught,521.0
-1473469,1,3,1,340,run out,
+1473469,1,3,1,340,run out,550.0
 1473469,1,12,4,355,caught,490.0
 1473469,1,13,5,615,caught,505.0
 1473469,1,16,6,375,caught,616.0
@@ -13343,7 +13343,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1473469,2,8,1,505,bowled,
 1473469,2,13,2,521,caught,379.0
 1473469,2,17,4,432,lbw,
-1473469,2,19,6,616,run out,
+1473469,2,19,6,616,run out,355.0
 1473469,3,0,4,505,run out,355.0
 1473469,3,0,5,521,run out,658.0
 1473470,1,7,3,488,caught,566.0
@@ -13395,7 +13395,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1473474,1,4,2,679,caught,553.0
 1473474,1,6,1,514,caught,553.0
 1473474,1,7,4,394,caught,414.0
-1473474,1,8,6,613,run out,
+1473474,1,8,6,613,run out,553.0
 1473474,1,13,2,685,bowled,
 1473474,1,13,5,410,bowled,
 1473474,2,0,6,624,caught,685.0
@@ -13441,7 +13441,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1473479,1,15,1,8,caught,432.0
 1473479,1,16,1,517,caught,432.0
 1473479,1,16,5,539,caught,616.0
-1473479,1,19,6,553,run out,
+1473479,1,19,6,553,run out,616.0
 1473479,2,4,2,688,bowled,
 1473479,2,5,5,521,caught,571.0
 1473479,2,9,1,505,caught,574.0
@@ -13450,7 +13450,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1473479,2,18,3,616,caught,574.0
 1473479,2,18,4,477,caught,539.0
 1473479,2,19,1,648,caught,624.0
-1473479,2,19,3,550,run out,
+1473479,2,19,3,550,run out,553.0
 1473480,1,0,1,684,caught,488.0
 1473480,1,4,3,498,caught,674.0
 1473480,1,5,3,689,caught,411.0
@@ -13493,7 +13493,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1473483,1,13,4,375,bowled,
 1473483,1,16,2,355,caught,693.0
 1473483,1,16,5,652,bowled,
-1473483,1,19,2,678,run out,
+1473483,1,19,2,678,run out,8.0
 1473483,1,19,5,601,caught,584.0
 1473483,2,2,2,693,caught,340.0
 1473483,2,2,4,517,bowled,
@@ -13552,7 +13552,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1473487,2,11,5,598,caught,444.0
 1473487,2,16,1,477,caught,376.0
 1473488,1,6,5,579,caught,475.0
-1473488,1,12,6,472,run out,
+1473488,1,12,6,472,run out,475.0
 1473488,1,18,4,408,caught,488.0
 1473488,1,19,2,456,caught,653.0
 1473488,1,19,5,391,caught,674.0
@@ -13584,7 +13584,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1473490,2,7,5,550,bowled,
 1473490,2,15,5,490,caught,316.0
 1473490,2,17,4,505,caught,575.0
-1473490,2,19,6,477,run out,
+1473490,2,19,6,477,run out,464.0
 1473491,1,0,5,679,caught,771.0
 1473491,1,4,3,685,caught,321.0
 1473491,1,12,2,394,caught,771.0
@@ -13602,7 +13602,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1473492,1,4,1,615,caught,411.0
 1473492,1,5,5,375,caught,405.0
 1473492,1,7,1,355,caught,411.0
-1473492,1,12,1,678,run out,
+1473492,1,12,1,678,run out,674.0
 1473492,1,19,4,652,caught,570.0
 1473493,1,0,2,675,caught,579.0
 1473493,1,3,3,57,caught,485.0
@@ -13611,7 +13611,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1473493,1,12,3,400,caught,472.0
 1473493,1,13,5,563,caught,472.0
 1473493,1,16,2,642,caught,472.0
-1473493,1,19,4,690,run out,
+1473493,1,19,4,690,run out,408.0
 1473493,2,1,2,579,caught,675.0
 1473493,2,11,3,408,caught,675.0
 1473493,2,14,5,472,bowled,
@@ -13654,7 +13654,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1473499,1,15,4,552,bowled,
 1473499,1,17,4,568,caught,653.0
 1473499,1,19,3,496,run out,411.0
-1473499,1,19,5,407,run out,
+1473499,1,19,5,407,run out,411.0
 1473499,1,19,5,523,bowled,
 1473499,2,1,4,622,caught,692.0
 1473499,2,7,3,488,caught,407.0
@@ -13694,8 +13694,8 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1473502,2,7,6,472,caught,523.0
 1473502,2,9,3,408,bowled,
 1473502,2,16,1,512,caught,525.0
-1473502,2,16,6,391,caught,799.0
-1473502,2,17,6,614,caught,780.0
+1473502,2,16,6,391,caught,
+1473502,2,17,6,614,caught,
 1473502,2,18,5,541,caught,525.0
 1473502,2,19,3,454,bowled,
 1473502,2,19,6,662,bowled,
@@ -13852,7 +13852,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1527676,1,10,3,708,lbw,
 1527676,1,12,5,631,caught,616.0
 1527676,1,15,3,709,caught and bowled,
-1527676,1,19,4,681,run out,
+1527676,1,19,4,681,run out,616.0
 1527676,2,6,2,688,caught,402.0
 1527676,2,8,3,616,bowled,
 1527677,1,3,4,579,caught,394.0
@@ -13893,7 +13893,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1527679,2,1,3,707,caught and bowled,
 1527679,2,4,6,86,caught,778.0
 1527679,2,5,6,612,run out,778.0
-1527679,2,10,6,651,run out,
+1527679,2,10,6,651,run out,713.0
 1527679,2,11,2,596,caught and bowled,
 1527679,2,13,4,464,caught,347.0
 1527679,2,14,3,316,caught,674.0
@@ -13906,7 +13906,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1527680,1,13,4,708,lbw,
 1527680,1,16,4,402,caught,613.0
 1527680,2,4,2,679,bowled,
-1527680,2,8,5,514,run out,
+1527680,2,8,5,514,run out,522.0
 1527680,2,11,5,710,caught,709.0
 1527680,2,16,6,394,caught,447.0
 1527680,2,17,1,613,caught,631.0
@@ -13932,7 +13932,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1527682,2,12,3,456,caught,35.0
 1527682,2,13,1,408,caught,368.0
 1527682,2,14,3,391,caught,616.0
-1527682,2,14,5,541,run out,
+1527682,2,14,5,541,run out,616.0
 1527682,2,19,5,446,caught,477.0
 1527683,1,0,6,488,caught,770.0
 1527683,1,2,1,418,caught,552.0
@@ -14013,7 +14013,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1527690,1,8,1,418,caught,686.0
 1527690,1,8,3,488,caught,529.0
 1527690,1,13,6,411,caught,538.0
-1527690,1,16,4,674,run out,
+1527690,1,16,4,674,run out,514.0
 1527690,1,18,5,704,caught,686.0
 1527690,1,19,4,475,caught,710.0
 1527690,2,6,2,679,caught,653.0
@@ -14058,7 +14058,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1529264,1,13,2,411,caught and bowled,
 1529264,1,15,5,475,caught,505.0
 1529264,1,18,3,653,caught,616.0
-1529264,1,19,5,674,run out,
+1529264,1,19,5,674,run out,616.0
 1529264,2,0,2,688,caught,704.0
 1529264,2,0,4,616,bowled,
 1529264,2,0,6,718,caught,653.0
@@ -14092,7 +14092,7 @@ match_id,innings,over,ball,player_out_id,wicket_kind,fielder_id
 1529266,1,19,2,711,bowled,
 1529266,1,19,6,500,bowled,
 1529266,2,1,4,624,bowled,
-1529266,2,7,2,517,caught,799.0
+1529266,2,7,2,517,caught,
 1529266,2,10,1,8,caught,496.0
 1529266,2,12,2,539,caught,692.0
 1529266,2,12,4,574,caught,711.0

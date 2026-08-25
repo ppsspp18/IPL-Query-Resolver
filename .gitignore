@@ -1,1 +1,2 @@
-IPL.csv
+*.csv
+.venv
