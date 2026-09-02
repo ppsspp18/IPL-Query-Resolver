@@ -16,26 +16,74 @@
                     <p>18 years of cricket data at your fingertips</p>
                 </div>
             </div>
-            <input id="querySearch" class="search" type="text" placeholder="Search queries...">
-            <ul id="queryList" class="query-list"></ul>
+
+            <nav class="tabs">
+                <button class="tab active" data-view="queries">Queries</button>
+                <button class="tab" data-view="chat">AI Chat</button>
+                <button class="tab" data-view="benchmark">Benchmark</button>
+            </nav>
+
+            <div id="queriesPane">
+                <input id="querySearch" class="search" type="text" placeholder="Search queries...">
+                <ul id="queryList" class="query-list"></ul>
+            </div>
         </aside>
 
         <main class="content">
-            <div class="panel">
-                <div id="queryTitle" class="query-title">Select a query from the left</div>
-                <div id="queryDesc" class="query-desc"></div>
-                <form id="inputForm" class="input-form"></form>
-            </div>
-
-            <div id="resultPanel" class="panel result-panel hidden">
-                <div class="result-header">
-                    <h2 id="resultTitle"></h2>
-                    <button id="copyBtn" class="btn small" title="Copy result as CSV">Copy CSV</button>
+            <div id="view-queries">
+                <div class="panel">
+                    <div id="queryTitle" class="query-title">Select a query from the left</div>
+                    <div id="queryDesc" class="query-desc"></div>
+                    <form id="inputForm" class="input-form"></form>
                 </div>
-                <div id="resultBody"></div>
+
+                <div id="resultPanel" class="panel result-panel hidden">
+                    <div class="result-header">
+                        <h2 id="resultTitle"></h2>
+                        <button id="copyBtn" class="btn small" title="Copy result as CSV">Copy CSV</button>
+                    </div>
+                    <div id="resultBody"></div>
+                </div>
+
+                <div id="errorPanel" class="panel error-panel hidden"></div>
             </div>
 
-            <div id="errorPanel" class="panel error-panel hidden"></div>
+            <div id="view-chat" class="hidden">
+                <div class="chat-wrap">
+                    <div class="chat-head">
+                        <h2>Text-to-SQL Assistant</h2>
+                        <span class="chat-sub">Schema-aware &middot; read-only SQL &middot; streamed via WebSocket</span>
+                    </div>
+                    <div id="chatLog" class="chat-log"></div>
+                    <div class="chat-hint">
+                        Try: <button class="chip" data-q="Who won the 2016 IPL final?">Who won the 2016 IPL final?</button>
+                        <button class="chip" data-q="Head to head Chennai Super Kings vs Mumbai Indians">CSK vs MI head to head</button>
+                        <button class="chip" data-q="How many sixes did Virat Kohli hit against Mumbai Indians?">Kohli sixes vs MI</button>
+                        <button class="chip" data-q="Who has hit the most sixes of all time?">Most sixes all time</button>
+                        <button class="chip" data-q="What is the average first innings score at Wankhede Stadium?">Wankhede first innings avg</button>
+                    </div>
+                    <form id="chatForm" class="chat-form">
+                        <input id="chatInput" type="text" autocomplete="off"
+                               placeholder="Ask anything about IPL data in plain English...">
+                        <button type="submit" class="btn">Ask</button>
+                    </form>
+                </div>
+            </div>
+
+            <div id="view-benchmark" class="hidden">
+                <div class="panel">
+                    <div class="bench-head">
+                        <div>
+                            <h2>Text-to-SQL Benchmark</h2>
+                            <p class="query-desc">Runs 33 complex natural-language queries and compares each generated
+                            result against a hand-written canonical SQL answer.</p>
+                        </div>
+                        <button id="benchRun" class="btn">Run benchmark</button>
+                    </div>
+                    <div id="benchSummary"></div>
+                    <div id="benchBody"></div>
+                </div>
+            </div>
         </main>
     </div>
 

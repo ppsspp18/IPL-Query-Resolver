@@ -20,7 +20,8 @@ CREATE TABLE ipl_raw (
 -- 4. Load the data
 --    CSV has an unnamed index column as field 1; column order differs from raw table.
 --    We use @dummy to skip the index and map remaining CSV columns to the correct table columns.
-LOAD DATA LOCAL INFILE '/home/ppsspp18/projects/IPL-Query-Resolver/IPL.csv'
+--    Adjust the file path to wherever IPL.csv lives on your machine.
+LOAD DATA LOCAL INFILE './IPL.csv'
 INTO TABLE ipl_raw
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'

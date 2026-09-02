@@ -3,12 +3,16 @@ const state = {
     current: null,
     options: {},
     running: false,
+    benchmarkLoaded: false,
 };
 
 const $ = (sel) => document.querySelector(sel);
 
-async function api(path) {
-    const res = await fetch(path);
+// --------------------------------------------------------------------------
+// Helpers
+// --------------------------------------------------------------------------
+async function api(path, opts) {
+    const res = await fetch(path, opts);
     if (!res.ok) {
         const body = await res.json().catch(() => ({}));
         throw new Error(body.detail || `Request failed (${res.status})`);
@@ -16,6 +20,69 @@ async function api(path) {
     return res.json();
 }
 
+function escapeHtml(str) {
+    return String(str).replace(/[&<>"']/g, (c) => ({
+        "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
+    }[c]));
+}
+
+function formatCell(value) {
+    if (value === null || value === undefined) return "";
+    return String(value);
+}
+
+function renderTableSection(columns, rows) {
+    const wrap = document.createElement("div");
+    const tableWrap = document.createElement("div");
+    tableWrap.className = "table-wrap";
+    const table = document.createElement("table");
+    const thead = document.createElement("thead");
+    const headRow = document.createElement("tr");
+    columns.forEach((col) => {
+        const th = document.createElement("th");
+        th.textContent = col;
+        headRow.appendChild(th);
+    });
+    thead.appendChild(headRow);
+    const tbody = document.createElement("tbody");
+    rows.forEach((row) => {
+        const tr = document.createElement("tr");
+        columns.forEach((col) => {
+            const td = document.createElement("td");
+            const val = formatCell(row[col]);
+            td.textContent = val;
+            td.title = val;
+            tr.appendChild(td);
+        });
+        tbody.appendChild(tr);
+    });
+    table.appendChild(thead);
+    table.appendChild(tbody);
+    tableWrap.appendChild(table);
+    wrap.appendChild(tableWrap);
+    const count = document.createElement("div");
+    count.className = "row-count";
+    count.textContent = `${rows.length} row${rows.length === 1 ? "" : "s"}`;
+    wrap.appendChild(count);
+    return wrap;
+}
+
+// --------------------------------------------------------------------------
+// View switching
+// --------------------------------------------------------------------------
+function switchView(view) {
+    document.querySelectorAll(".tab").forEach((t) => {
+        t.classList.toggle("active", t.dataset.view === view);
+    });
+    ["queries", "chat", "benchmark"].forEach((v) => {
+        $(`#view-${v}`).classList.toggle("hidden", v !== view);
+    });
+    if (view === "benchmark" && !state.benchmarkLoaded) runBenchmark();
+}
+
+// --------------------------------------------------------------------------
+// Queries tab
+// --------------------------------------------------------------------------
 async function loadOptionSource(source) {
     if (state.options[source]) return state.options[source];
     const data = await api(`/api/options?source=${encodeURIComponent(source)}`);
@@ -28,6 +95,10 @@ async function init() {
     state.queries = data.queries;
     renderQueryList(state.queries);
 
+    document.querySelectorAll(".tab").forEach((t) => {
+        t.addEventListener("click", () => switchView(t.dataset.view));
+    });
+
     $("#querySearch").addEventListener("input", (e) => {
         const q = e.target.value.toLowerCase();
         const filtered = state.queries.filter(
@@ -38,6 +109,7 @@ async function init() {
 
     $("#inputForm").addEventListener("submit", runQuery);
     $("#copyBtn").addEventListener("click", copyResults);
+    initChat();
 }
 
 function renderQueryList(queries) {
@@ -69,8 +141,7 @@ async function renderInputs(inputs) {
     const form = $("#inputForm");
     form.innerHTML = "";
     if (!inputs.length) {
-        const btn = makeRunButton();
-        form.appendChild(btn);
+        form.appendChild(makeRunButton());
         return;
     }
     for (const input of inputs) {
@@ -223,40 +294,9 @@ function renderTable(section) {
     const title = document.createElement("div");
     title.className = "section-title";
     title.textContent = section.title || "Results";
-    const tableWrap = document.createElement("div");
-    tableWrap.className = "table-wrap";
-
-    const table = document.createElement("table");
-    const thead = document.createElement("thead");
-    const headRow = document.createElement("tr");
-    section.columns.forEach((col) => {
-        const th = document.createElement("th");
-        th.textContent = col;
-        headRow.appendChild(th);
-    });
-    thead.appendChild(headRow);
-    const tbody = document.createElement("tbody");
-    section.rows.forEach((row) => {
-        const tr = document.createElement("tr");
-        section.columns.forEach((col) => {
-            const td = document.createElement("td");
-            td.textContent = formatCell(row[col]);
-            td.title = formatCell(row[col]);
-            tr.appendChild(td);
-        });
-        tbody.appendChild(tr);
-    });
-    table.appendChild(thead);
-    table.appendChild(tbody);
-    tableWrap.appendChild(table);
-
-    const count = document.createElement("div");
-    count.className = "row-count";
-    count.textContent = `${section.rows.length} row${section.rows.length === 1 ? "" : "s"}`;
-
+    const tableWrap = renderTableSection(section.columns, section.rows);
     wrap.appendChild(title);
     wrap.appendChild(tableWrap);
-    wrap.appendChild(count);
     return wrap;
 }
 
@@ -289,11 +329,6 @@ function renderCards(section) {
     wrap.appendChild(title);
     wrap.appendChild(grid);
     return wrap;
-}
-
-function formatCell(value) {
-    if (value === null || value === undefined) return "";
-    return String(value);
 }
 
 function showError(msg) {
@@ -329,10 +364,292 @@ function copyResults() {
     });
 }
 
-function escapeHtml(str) {
-    return String(str).replace(/[&<>"']/g, (c) => ({
-        "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
-    }[c]));
+// --------------------------------------------------------------------------
+// Chat tab — WebSocket streaming of the request lifecycle
+// --------------------------------------------------------------------------
+let chatSocket = null;
+let chatPending = [];
+let chatActive = false;
+
+function initChat() {
+    $("#chatForm").addEventListener("submit", (e) => {
+        e.preventDefault();
+        const input = $("#chatInput");
+        const question = input.value.trim();
+        if (!question) return;
+        input.value = "";
+        enqueueChat(question);
+    });
+    $("#chatLog").addEventListener("click", (e) => {
+        const chip = e.target.closest(".chip");
+        if (chip) {
+            $("#chatInput").value = chip.dataset.q;
+            $("#chatForm").dispatchEvent(new Event("submit"));
+        }
+    });
+}
+
+function enqueueChat(question) {
+    addChatMessage("user", question);
+    if (chatActive) {
+        // Queue for after the current question resolves (server is serial).
+        chatPending.push(question);
+        return;
+    }
+    sendChat(question);
+}
+
+function addChatMessage(role, text) {
+    const msg = document.createElement("div");
+    msg.className = `chat-msg ${role}`;
+    msg.textContent = text;
+    $("#chatLog").appendChild(msg);
+    scrollChat();
+    return msg;
+}
+
+function addChatBubble(role) {
+    const bubble = document.createElement("div");
+    bubble.className = `chat-msg ${role} chat-rich`;
+    $("#chatLog").appendChild(bubble);
+    scrollChat();
+    return bubble;
+}
+
+function scrollChat() {
+    $("#chatLog").scrollTop = $("#chatLog").scrollHeight;
+}
+
+function stageRow(bubble, label) {
+    const row = document.createElement("div");
+    row.className = "stage-row";
+    row.innerHTML = `<span class="spinner"></span> ${escapeHtml(label)}...`;
+    bubble.appendChild(row);
+    scrollChat();
+    return row;
+}
+
+function stageDone(row, detail, ok = true) {
+    const status = ok ? "ok" : "err";
+    const mark = ok ? "&#10003;" : "&#10007;";
+    const text = row.textContent.replace(/\.\.\.$/, "");
+    row.innerHTML = `<span class="stage-dot ${status}">${mark}</span> ${text} ${detail ? `<span class="stage-detail">${escapeHtml(detail)}</span>` : ""}`;
+    row.classList.add("done");
+    scrollChat();
+}
+
+function renderSqlBlock(container, sql, source) {
+    const wrap = document.createElement("div");
+    wrap.className = "sql-block";
+    const head = document.createElement("div");
+    head.className = "sql-head";
+    head.textContent = `Generated SQL ${source ? `(via ${source} engine)` : ""}`;
+    const pre = document.createElement("pre");
+    pre.textContent = sql;
+    wrap.appendChild(head);
+    wrap.appendChild(pre);
+    container.appendChild(wrap);
+    scrollChat();
+}
+
+function renderChatResult(bubble, result) {
+    if (result.truncated) {
+        const note = document.createElement("div");
+        note.className = "note";
+        note.textContent = `Showing first ${result.rows.length} of ${result.row_count} rows.`;
+        bubble.appendChild(note);
+    }
+    if (result.rows && result.rows.length) {
+        bubble.appendChild(renderTableSection(result.columns, result.rows));
+    } else {
+        const note = document.createElement("div");
+        note.className = "note";
+        note.textContent = "No rows returned.";
+        bubble.appendChild(note);
+    }
+    scrollChat();
+}
+
+function sendChat(question) {
+    chatActive = true;
+    const sendBtn = $("#chatForm button");
+    sendBtn.disabled = true;
+
+    const bubble = addChatBubble("assistant");
+    let pending = stageRow(bubble, "Connecting to WebSocket");
+    let validationRow = null;
+    let genRow = null;
+    let execRow = null;
+    let gotResult = false;
+
+    const finish = () => {
+        chatActive = false;
+        sendBtn.disabled = false;
+        if (chatPending.length) sendChat(chatPending.shift());
+    };
+
+    const onMessage = (ev) => {
+        switch (ev.type) {
+            case "validation":
+                if (!validationRow) {
+                    validationRow = pending;
+                    stageDone(validationRow, "");
+                    pending = null;
+                }
+                break;
+            case "sql_generation":
+                if (!genRow) {
+                    genRow = stageRow(bubble, "Detecting intent & generating schema-aware SQL");
+                    stageDone(genRow, ev.data ? `intent: ${ev.data.intent}` : "");
+                    if (ev.data && ev.data.sql) renderSqlBlock(bubble, ev.data.sql, ev.data.sql_source);
+                }
+                break;
+            case "query_execution":
+                if (!execRow) {
+                    execRow = stageRow(bubble, "Executing read-only query on MySQL");
+                    stageDone(execRow, ev.data ? `${ev.data.row_count} rows in ${ev.data.elapsed_ms} ms` : "");
+                }
+                break;
+            case "result":
+                gotResult = true;
+                if (pending) { stageDone(pending, ""); pending = null; }
+                renderChatResult(bubble, ev.data);
+                break;
+            case "error":
+                gotResult = true;
+                const err = document.createElement("div");
+                err.className = "chat-error";
+                err.textContent = `\u26A0 ${ev.message || "Something went wrong"}`;
+                bubble.appendChild(err);
+                scrollChat();
+                break;
+        }
+        if (gotResult) finish();
+    };
+
+    const open = () => {
+        if (chatSocket && chatSocket.readyState === WebSocket.OPEN) {
+            chatSocket.onmessage = (e) => { let m; try { m = JSON.parse(e.data); } catch { return; } onMessage(m); };
+            pending.innerHTML = `<span class="stage-dot ok">&#10003;</span> Stream connected`;
+            chatSocket.send(JSON.stringify({ question }));
+        } else {
+            const proto = location.protocol === "https:" ? "wss" : "ws";
+            chatSocket = new WebSocket(`${proto}://${location.host}/ws/chat`);
+            chatSocket.onopen = () => open();
+            chatSocket.onerror = () => {
+                if (pending) { pending.innerHTML = `<span class="stage-dot err">&#10007;</span> WebSocket error`; pending = null; }
+                finish();
+            };
+            chatSocket.onmessage = (e) => { let m; try { m = JSON.parse(e.data); } catch { return; } onMessage(m); };
+            chatSocket.onclose = () => {
+                chatSocket = null;
+                if (!gotResult && pending) {
+                    pending.classList.add("err");
+                    pending.innerHTML = `<span class="stage-dot err">&#10007;</span> Connection closed before a response was received.`;
+                    pending = null;
+                }
+                finish();
+            };
+        }
+    };
+    open();
+}
+
+// --------------------------------------------------------------------------
+// Benchmark tab
+// --------------------------------------------------------------------------
+let benchmarkRunning = false;
+
+async function runBenchmark() {
+    if (benchmarkRunning) return;
+    benchmarkRunning = true;
+    const btn = $("#benchRun");
+    btn.disabled = true;
+    btn.innerHTML = '<span class="spinner"></span> Running 33 queries...';
+    $("#benchSummary").innerHTML = "";
+    $("#benchBody").innerHTML = "";
+
+    try {
+        const report = await api("/api/benchmark");
+        state.benchmarkLoaded = true;
+        renderBenchmark(report);
+    } catch (err) {
+        $("#benchBody").innerHTML = `<div class="note">Failed to run benchmark: ${escapeHtml(err.message)}</div>`;
+    } finally {
+        benchmarkRunning = false;
+        btn.disabled = false;
+        btn.textContent = "Run benchmark";
+    }
+}
+
+function renderBenchmark(report) {
+    const summary = $("#benchSummary");
+    const cards = [
+        ["Accuracy", `${report.accuracy}%`, `${report.passed}/${report.total} correct`],
+        ["Passed", report.passed, "correct answers"],
+        ["Wrong", report.wrong, "result mismatch"],
+        ["Failed", report.failed, "could not answer"],
+        ["Avg query time", `${report.avg_query_ms} ms`, "per question"],
+    ];
+    const grid = document.createElement("div");
+    grid.className = "cards-grid";
+    cards.forEach(([label, value, detail]) => {
+        const div = document.createElement("div");
+        div.className = "card";
+        const l = document.createElement("div");
+        l.className = "card-label";
+        l.textContent = label;
+        const v = document.createElement("div");
+        v.className = "card-value";
+        v.textContent = value;
+        div.appendChild(l);
+        div.appendChild(v);
+        if (detail) {
+            const d = document.createElement("div");
+            d.className = "card-detail";
+            d.textContent = detail;
+            div.appendChild(d);
+        }
+        grid.appendChild(div);
+    });
+    summary.appendChild(grid);
+
+    const body = $("#benchBody");
+    const title = document.createElement("div");
+    title.className = "section-title";
+    title.textContent = "Per-case results (33 complex queries)";
+    body.appendChild(title);
+
+    const tableWrap = document.createElement("div");
+    tableWrap.className = "table-wrap";
+    const table = document.createElement("table");
+    table.className = "bench-table";
+    const thead = document.createElement("thead");
+    thead.innerHTML = "<tr><th>ID</th><th>Status</th><th>Category</th><th>Intent</th><th>SQL match</th><th>Time (ms)</th><th>Question</th></tr>";
+    table.appendChild(thead);
+    const tbody = document.createElement("tbody");
+    report.cases.forEach((c) => {
+        const tr = document.createElement("tr");
+        const status = c.status === "passed" ? "PASS" : c.status === "wrong" ? "WRONG" : "FAIL";
+        const cls = `badge ${c.status}`;
+        const detail = c.status === "failed" && c.error ? ` title="${escapeHtml(c.error)}"` : "";
+        tr.innerHTML = `
+            <td>${c.id}</td>
+            <td><span class="${cls}"${detail}>${status}</span></td>
+            <td>${escapeHtml(c.category)}</td>
+            <td>${escapeHtml(c.intent)}</td>
+            <td>${c.sql_match ? "yes" : "-"}</td>
+            <td>${c.elapsed_ms || 0}</td>
+            <td>${escapeHtml(c.question)}</td>`;
+        tbody.appendChild(tr);
+    });
+    table.appendChild(tbody);
+    tableWrap.appendChild(table);
+    body.appendChild(tableWrap);
+    const count = document.createElement("div");
+    count.className = "row-count";
+    count.textContent = `${report.total} queries`;
+    body.appendChild(count);
 }
 
 init().catch((err) => showError("Failed to load: " + err.message));
